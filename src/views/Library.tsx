@@ -1,3 +1,4 @@
+import { STR } from '../content/ui-strings'
 import { CardPlate } from '../components/CardPlate'
 import { CARDS, SUIT_LABEL, SUITS } from '../engine/content'
 import type { Card } from '../engine/types'
@@ -24,9 +25,9 @@ export function Library() {
   return (
     <article className="view view-library">
       <header className="view-head">
-        <h1 className="view-title">Library</h1>
+        <h1 className="view-title">{STR.library.title}</h1>
       </header>
-      <Group title="Major Arcana" cards={CARDS.filter((c) => c.arcana === 'major')} />
+      <Group title={STR.library.majors} cards={CARDS.filter((c) => c.arcana === 'major')} />
       {SUITS.map((suit) => (
         <Group key={suit} title={SUIT_LABEL[suit]} cards={CARDS.filter((c) => c.suit === suit)} />
       ))}

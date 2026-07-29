@@ -1,4 +1,5 @@
 import { useApp } from '../AppContext'
+import { STR } from '../content/ui-strings'
 import { CardPlate } from '../components/CardPlate'
 import { EntryEditor } from '../components/EntryEditor'
 import { cardById } from '../engine/content'
@@ -14,7 +15,7 @@ export function EntryView({ id }: { id: string }) {
     return (
       <article className="view">
         <p className="empty-state">
-          No entry here. <a href="#/journal">Back to the journal.</a>
+          {STR.entry.notFound} <a href="#/journal">{STR.entry.notFoundLink}</a>
         </p>
       </article>
     )
@@ -27,7 +28,7 @@ export function EntryView({ id }: { id: string }) {
   }
 
   async function remove() {
-    if (!window.confirm('Delete this entry? There is no undo.')) return
+    if (!window.confirm(STR.entry.deleteConfirm)) return
     await deleteEntry(entry!.id)
     await refreshEntries()
     window.location.hash = '#/journal'
@@ -37,7 +38,7 @@ export function EntryView({ id }: { id: string }) {
     <article className="view view-entry">
       <header className="view-head">
         <p className="view-kicker">
-          <a href="#/journal">← Journal</a>
+          <a href="#/journal">{STR.entry.backToJournal}</a>
         </p>
         <h1 className="view-title">{formatFull(entry.isoDate)}</h1>
       </header>
@@ -58,7 +59,7 @@ export function EntryView({ id }: { id: string }) {
 
       <p className="entry-actions">
         <button type="button" className="button button--quiet" onClick={() => void remove()}>
-          Delete entry
+          {STR.entry.delete}
         </button>
       </p>
     </article>

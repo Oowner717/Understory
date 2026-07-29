@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useApp } from '../AppContext'
+import { STR } from '../content/ui-strings'
 import { CardFlip } from '../components/CardFlip'
 import { EntryEditor } from '../components/EntryEditor'
 import { composeReading } from '../engine/composer'
@@ -7,7 +8,7 @@ import { drawSpread, localDateString } from '../engine/draw'
 import { appendDraws, saveEntry } from '../engine/storage'
 import type { Card } from '../engine/types'
 
-const POSITIONS = ['Situation', 'Knot', 'Direction'] as const
+const POSITIONS = STR.spread.positions
 
 /**
  * One three-card spread: Situation · Knot · Direction. Random without
@@ -51,14 +52,14 @@ export function Spread() {
   return (
     <article className="view view-spread">
       <header className="view-head">
-        <h1 className="view-title">A small spread</h1>
-        <p className="view-sub">Situation · Knot · Direction. Three cards, one look at the week.</p>
+        <h1 className="view-title">{STR.spread.title}</h1>
+        <p className="view-sub">{STR.spread.subtitle}</p>
       </header>
 
       {!cards && (
         <div className="spread-start">
           <button type="button" className="button" onClick={() => void draw()}>
-            Draw three cards
+            {STR.spread.draw}
           </button>
         </div>
       )}
@@ -79,7 +80,7 @@ export function Spread() {
                       return next
                     })
                   }
-                  label={`Turn the ${POSITIONS[i]} card`}
+                  label={STR.spread.flipLabel(POSITIONS[i] ?? '')}
                 />
               </div>
             ))}
@@ -93,7 +94,7 @@ export function Spread() {
                 key={entryId}
                 initialText={existing?.text ?? ''}
                 onSave={save}
-                placeholder="Anything worth keeping from this one?"
+                placeholder={STR.spread.editorPlaceholder}
               />
             </div>
           )}

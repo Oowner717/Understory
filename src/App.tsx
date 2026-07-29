@@ -1,5 +1,6 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, lazy, Suspense } from 'react'
 import { AppProvider } from './AppContext'
+import { STR } from './content/ui-strings'
 import { CardDetail } from './views/CardDetail'
 import { EntryView } from './views/EntryView'
 import { Journal } from './views/Journal'
@@ -30,14 +31,25 @@ function useHashRoute(): Route {
 }
 
 const NAV = [
-  { hash: '#/today', label: 'Today', match: ['today'] },
-  { hash: '#/journal', label: 'Journal', match: ['journal', 'entry'] },
-  { hash: '#/library', label: 'Library', match: ['library', 'card'] },
-  { hash: '#/spread', label: 'Spread', match: ['spread'] },
-  { hash: '#/settings', label: 'Settings', match: ['settings'] },
+  { hash: '#/today', label: STR.nav.today, match: ['today'] },
+  { hash: '#/journal', label: STR.nav.journal, match: ['journal', 'entry'] },
+  { hash: '#/library', label: STR.nav.library, match: ['library', 'card'] },
+  { hash: '#/spread', label: STR.nav.spread, match: ['spread'] },
+  { hash: '#/settings', label: STR.nav.settings, match: ['settings'] },
 ]
 
+// Dev-only writing dashboard. import.meta.env.DEV is false in production
+// builds, so the dynamic import (and the whole dashboard chunk) is dropped.
+const Writing = import.meta.env.DEV ? lazy(() => import('./views/Writing')) : null
+
 function View({ route }: { route: Route }) {
+  if (route.view === 'writing' && Writing) {
+    return (
+      <Suspense fallback={null}>
+        <Writing />
+      </Suspense>
+    )
+  }
   switch (route.view) {
     case 'journal':
       return <Journal />
@@ -62,17 +74,20 @@ export default function App() {
   return (
     <AppProvider>
       <a className="skip-link" href="#main">
-        Skip to content
+        {STR.app.skipLink}
       </a>
       <header className="masthead">
         <a href="#/today" className="wordmark">
-          Understory
+          {STR.app.wordmark}
         </a>
       </header>
-      <main id="main" className={`main${route.view === 'library' ? ' main--wide' : ''}`}>
+      <main
+        id="main"
+        className={`main${route.view === 'library' || route.view === 'writing' ? ' main--wide' : ''}`}
+      >
         <View route={route} />
       </main>
-      <nav className="tabbar" aria-label="Main">
+      <nav className="tabbar" aria-label={STR.nav.ariaLabel}>
         {NAV.map((item) => (
           <a
             key={item.hash}

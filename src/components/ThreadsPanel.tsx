@@ -1,4 +1,5 @@
 import { useApp } from '../AppContext'
+import { STR } from '../content/ui-strings'
 import { cardById, SUIT_ACCENT } from '../engine/content'
 import { localDateString } from '../engine/draw'
 import { MIN_DRAWS, summarizeThreads, WINDOW_DAYS } from '../engine/threads'
@@ -24,13 +25,9 @@ export function ThreadsPanel() {
     return (
       <section className="threads" aria-labelledby="threads-h">
         <h2 id="threads-h" className="section-title">
-          Threads
+          {STR.threads.title}
         </h2>
-        <p className="threads-preview">
-          Threads is still sprouting. After five draws it starts noticing what keeps coming up —
-          which cards return, and how the four suits balance across your month. Draw a card a day
-          and watch this space fill in.
-        </p>
+        <p className="threads-preview">{STR.threads.preview}</p>
       </section>
     )
   }
@@ -40,7 +37,7 @@ export function ThreadsPanel() {
   return (
     <section className="threads" aria-labelledby="threads-h">
       <h2 id="threads-h" className="section-title">
-        Threads · last {WINDOW_DAYS} days
+        {STR.threads.titleWindowed(WINDOW_DAYS)}
       </h2>
       <ol className="threads-top">
         {summary.topCards.map(({ cardId, count }) => {
@@ -68,7 +65,7 @@ export function ThreadsPanel() {
           <div
             className="suit-bar"
             role="img"
-            aria-label={`Suit balance: ${SUITS.map((s) => `${SUIT_SHORT[s]} ${summary.suitCounts[s]}`).join(', ')}`}
+            aria-label={`${STR.threads.suitBalanceLabel}: ${SUITS.map((s) => `${SUIT_SHORT[s]} ${summary.suitCounts[s]}`).join(', ')}`}
           >
             {SUITS.map((s) =>
               summary.suitCounts[s] > 0 ? (

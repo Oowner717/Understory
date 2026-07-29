@@ -1,4 +1,5 @@
 import { useApp } from '../AppContext'
+import { STR } from '../content/ui-strings'
 import { ThreadsPanel } from '../components/ThreadsPanel'
 import { cardById, SUIT_ACCENT } from '../engine/content'
 import { formatRelative } from '../engine/dates'
@@ -20,15 +21,14 @@ export function Journal() {
   return (
     <article className="view view-journal">
       <header className="view-head">
-        <h1 className="view-title">Journal</h1>
+        <h1 className="view-title">{STR.journal.title}</h1>
       </header>
 
       <ThreadsPanel />
 
       {sorted.length === 0 ? (
         <p className="empty-state">
-          Nothing here yet. The first entry doesn't need to be wise — it just needs to be true.{' '}
-          <a href="#/today">Today's card is waiting.</a>
+          {STR.journal.emptyLead} <a href="#/today">{STR.journal.emptyLink}</a>
         </p>
       ) : (
         <ul className="entry-list">

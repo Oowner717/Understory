@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import { STR } from '../content/ui-strings'
 
 interface Props {
   initialText: string
@@ -35,21 +36,19 @@ export function EntryEditor({ initialText, onSave, placeholder, autoFocus }: Pro
   return (
     <div className="editor">
       <label className="visually-hidden" htmlFor="entry-text">
-        Journal entry
+        {STR.editor.label}
       </label>
       <textarea
         id="entry-text"
         className="editor-textarea"
         value={text}
         onChange={(e) => handleChange(e.target.value)}
-        placeholder={
-          placeholder ?? "Nothing here yet. The first entry doesn't need to be wise — it just needs to be true."
-        }
+        placeholder={placeholder ?? STR.editor.placeholder}
         rows={6}
         autoFocus={autoFocus}
       />
       <p className="editor-status" role="status" aria-live="polite">
-        {state === 'saved' ? 'Saved.' : state === 'dirty' ? '…' : ' '}
+        {state === 'saved' ? STR.editor.saved : state === 'dirty' ? STR.editor.typing : ' '}
       </p>
     </div>
   )

@@ -1,3 +1,4 @@
+import { STR } from '../content/ui-strings'
 import { formatRelative } from '../engine/dates'
 import { localDateString } from '../engine/draw'
 import type { Entry } from '../engine/types'
@@ -22,11 +23,13 @@ function excerpt(text: string): string {
  */
 export function EchoPanel({ echo }: Props) {
   return (
-    <aside className="echo fade-up" aria-label="Echo — your earlier entry with this card">
-      <p className="echo-title">Last time you drew this card — {formatRelative(echo.isoDate, localDateString())}</p>
+    <aside className="echo fade-up" aria-label={STR.echo.ariaLabel}>
+      <p className="echo-title">
+        {STR.echo.titlePrefix} — {formatRelative(echo.isoDate, localDateString())}
+      </p>
       <blockquote className="echo-excerpt">{excerpt(echo.text)}</blockquote>
       <a className="echo-link" href={`#/entry/${encodeURIComponent(echo.id)}`}>
-        Read entry
+        {STR.echo.readEntry}
       </a>
     </aside>
   )
