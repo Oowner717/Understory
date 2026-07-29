@@ -87,3 +87,67 @@ The Tower: "Sudden upheaval is coming into your life, but don't worry — everyt
 
 Eight of Pentacles: "Your hard work and dedication will soon pay off. Keep putting positive energy into your craft and abundance will flow to you. Stay focused on your goals and trust your journey."
   Q: How does your work make you feel?
+
+---
+
+# ROUND 2 (after first verdicts)
+
+Verdicts received: Card 1 → A (rework sentence 2 without "edge of the
+plate"; cut "the near table goes unlogged"). Card 2 → none; rewrite in a
+different voice. Card 3 → A and D. More references requested.
+
+## 1 · Four of Bellflower — Voice A revised
+
+A-r1 (edits applied)
+  Three cups in reach, all full, none touched. A fourth arriving, easy to miss. The subject faces away. Recorded behavior: wanting, aimed past the available. You've been surveying the middle distance for a while now.
+  Q: What within arm's reach has not been counted lately?
+
+A-r2 (alternate notation)
+  Four cups in the record: three standing full, one incoming. None drunk. The subject's attention: elsewhere, unspecified. Appetite intact — it's the aim that wandered. You've spent the week wanting in a direction nothing is coming from.
+  Q: Which direction is the wanting pointed, and is anything actually there?
+
+## 2 · The Tower — five new voices
+
+F — Witness
+  Something you built came down this week. It went fast at the end, after being slow for a long time, the way these things go. You're allowed to just stand here for a minute. The card stands with you. The ground under both of you held.
+  Q: What do you want to say about it, plainly, before the retellings start?
+
+G — Long lens
+  Trees fall in an afternoon after growing for forty years; the afternoon gets all the attention. The strike is real. It is also one event in a longer stand — planting, drought, strike, clearing. Only the clearing is visible from where you stand today, and it is honestly wide.
+  Q: Seen at the scale of years, what did this afternoon actually change?
+
+H — The first hour
+  First the noise, then the strange quiet after — which is where you are now. Nothing in this hour asks for a decision. The damage holds still while you look at it, and looking is not agreeing. The count of what's still standing runs higher than it feels.
+  Q: Standing in the quiet hour after, what does the count show?
+
+I — A+D blend
+  One tree, struck. The tallest thing in the stand, and the driest — the bolt used a path that was there for years. Limb down. Trunk shorn. Ground line intact, the same line you're standing on. The event took four seconds. It was the only fast part.
+  Q: What was slow about this, and for how long?
+
+J — Bare address
+  You built it, you maintained it, and this week you watched it come down. All three of those are true at once, and none of them cancels the others. What you knew and couldn't say is now visible from the road. That part, at least, is over.
+  Q: Now that it's visible from the road, what no longer costs you anything to admit?
+
+## 3 · Eight of Lunaria — A+D blend
+
+Blend-1
+  Eight pods, one stem. Third cleaner than the first. Eighth cleaner than the third. No single specimen worth framing; the series is the specimen. You've done the thing again this week. That was the work. There isn't another kind.
+  Q: Cleaner than the first attempt, or not yet?
+
+Blend-2
+  A record of repetitions: eight, near-identical, dated. Differences visible only in series — seam by seam, slightly truer. Nobody watched any of them. The card logs what you'd skip: attempt eight existed. It was better. Not good; better. Better compounds.
+  Q: What did attempt eight have that attempt one lacked?
+
+## 4 · A+D range test
+
+Nine of Gladiolus (dread)
+  Nine blades on the plate, none touching you. Hour: late. Inventory of injuries: zero sustained, dozens rehearsed. The mind runs drills in the dark and files them as history. Morning audits the file and keeps almost none of it. You've been awake inside the drill.
+  Q: Which of tonight's rehearsals would survive being written down?
+
+Queen of Bellflower (warmth)
+  One bloom open above the bell. The bell hangs face-down: takes the rain, sheds the rain, still rings. Skill, not luck. Somebody in your week holds other people's weather like this. The record shows nobody has asked how the holder is. The record could change.
+  Q: Who holds the room you stand in, and who asks after them?
+
+Ace of Hawthorn (spark)
+  First bud on the branch, out before the leaves. No plan attached; buds don't file plans. The urge you've been discounting is on the record now — small, green, unreasonably early. Early is what first looks like. Nothing else about it is information yet.
+  Q: What's budding early that you keep calling premature?
