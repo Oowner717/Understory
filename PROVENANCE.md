@@ -40,12 +40,12 @@ marked for full rewrite — it never ships.
 | wands-01 | Ace of Hawthorn | claude (build placeholder) | — | 1 | placeholder |
 | wands-02 | Two of Hawthorn | claude (build placeholder) | — | 1 | placeholder |
 | wands-03 | Three of Hawthorn | claude (build placeholder) | — | 1 | placeholder |
-| wands-04 | Four of Hawthorn | claude (build placeholder) | — | 1 | placeholder |
-| wands-05 | Five of Hawthorn | claude (build placeholder) | — | 1 | placeholder |
-| wands-06 | Six of Hawthorn | claude (build placeholder) | — | 1 | placeholder |
-| wands-07 | Seven of Hawthorn | claude (build placeholder) | — | 1 | placeholder |
-| wands-08 | Eight of Hawthorn | claude (build placeholder) | — | 1 | placeholder |
-| wands-09 | Nine of Hawthorn | claude (build placeholder) | — | 1 | placeholder |
+| wands-04 | Four of Hawthorn | claude (build placeholder + batch 1 draft + editorial revision) | author, accepted 2026-07-29 | 3 | authored |
+| wands-05 | Five of Hawthorn | claude (build placeholder + batch 1 draft + editorial revision) | author, accepted 2026-07-29 | 3 | authored |
+| wands-06 | Six of Hawthorn | claude (build placeholder + batch 1 draft + editorial revision) | author, accepted 2026-07-29 | 3 | authored |
+| wands-07 | Seven of Hawthorn | claude (build placeholder + batch 2 draft + clipping pass) | pending | 2 | drafted |
+| wands-08 | Eight of Hawthorn | claude (build placeholder + batch 2 draft + clipping pass) | pending | 2 | drafted |
+| wands-09 | Nine of Hawthorn | claude (build placeholder + batch 2 draft + clipping pass) | pending | 2 | drafted |
 | wands-10 | Ten of Hawthorn | claude (build placeholder + calibration draft ×2/field) | — | 2 | drafted (in /drafts; meanings.json still placeholder) |
 | wands-page | Page of Hawthorn | claude (build placeholder) | — | 1 | placeholder |
 | wands-knight | Knight of Hawthorn | claude (build placeholder) | — | 1 | placeholder |
@@ -53,13 +53,13 @@ marked for full rewrite — it never ships.
 | wands-king | King of Hawthorn | claude (build placeholder) | — | 1 | placeholder |
 | cups-01 | Ace of Bellflower | claude (build placeholder) | — | 1 | placeholder |
 | cups-02 | Two of Bellflower | claude (build placeholder) | — | 1 | placeholder |
-| cups-03 | Three of Bellflower | claude (build placeholder) | — | 1 | placeholder |
-| cups-04 | Four of Bellflower | claude (build placeholder) | — | 1 | placeholder |
-| cups-05 | Five of Bellflower | claude (build placeholder) | — | 1 | placeholder |
-| cups-06 | Six of Bellflower | claude (build placeholder) | — | 1 | placeholder |
-| cups-07 | Seven of Bellflower | claude (build placeholder) | — | 1 | placeholder |
-| cups-08 | Eight of Bellflower | claude (build placeholder) | — | 1 | placeholder |
-| cups-09 | Nine of Bellflower | claude (build placeholder) | — | 1 | placeholder |
+| cups-03 | Three of Bellflower | claude (build placeholder + batch 2 draft + clipping pass) | pending | 2 | drafted |
+| cups-04 | Four of Bellflower | claude (build placeholder + batch 1 draft + editorial revision) | author, accepted 2026-07-29 | 3 | authored |
+| cups-05 | Five of Bellflower | claude (build placeholder + batch 1 draft + editorial revision) | author, accepted 2026-07-29 | 3 | authored |
+| cups-06 | Six of Bellflower | claude (build placeholder + batch 1 draft + editorial revision) | author, accepted 2026-07-29 | 3 | authored |
+| cups-07 | Seven of Bellflower | claude (build placeholder + batch 1 draft + editorial revision) | author, accepted 2026-07-29 | 3 | authored |
+| cups-08 | Eight of Bellflower | claude (build placeholder + batch 2 draft + clipping pass) | pending | 2 | drafted |
+| cups-09 | Nine of Bellflower | claude (build placeholder + batch 2 draft + clipping pass) | pending | 2 | drafted |
 | cups-10 | Ten of Bellflower | claude (build placeholder) | — | 1 | placeholder |
 | cups-page | Page of Bellflower | claude (build placeholder) | — | 1 | placeholder |
 | cups-knight | Knight of Bellflower | claude (build placeholder) | — | 1 | placeholder |
@@ -67,13 +67,13 @@ marked for full rewrite — it never ships.
 | cups-king | King of Bellflower | claude (build placeholder) | — | 1 | placeholder |
 | swords-01 | Ace of Gladiolus | claude (build placeholder) | — | 1 | placeholder |
 | swords-02 | Two of Gladiolus | claude (build placeholder) | — | 1 | placeholder |
-| swords-03 | Three of Gladiolus | claude (build placeholder + calibration draft ×2/field) | — | 2 | drafted (in /drafts; meanings.json still placeholder) |
-| swords-04 | Four of Gladiolus | claude (build placeholder) | — | 1 | placeholder |
-| swords-05 | Five of Gladiolus | claude (build placeholder) | — | 1 | placeholder |
-| swords-06 | Six of Gladiolus | claude (build placeholder) | — | 1 | placeholder |
-| swords-07 | Seven of Gladiolus | claude (build placeholder) | — | 1 | placeholder |
-| swords-08 | Eight of Gladiolus | claude (build placeholder) | — | 1 | placeholder |
-| swords-09 | Nine of Gladiolus | claude (build placeholder) | — | 1 | placeholder |
+| swords-03 | Three of Gladiolus | claude (build placeholder + batch 2 draft + clipping pass) | pending | 2 | drafted |
+| swords-04 | Four of Gladiolus | claude (build placeholder + batch 1 draft + editorial revision) | author, accepted 2026-07-29 | 3 | authored |
+| swords-05 | Five of Gladiolus | claude (build placeholder + batch 1 draft + editorial revision) | author, accepted 2026-07-29 | 3 | authored |
+| swords-06 | Six of Gladiolus | claude (build placeholder + batch 1 draft + editorial revision) | author, accepted 2026-07-29 | 3 | authored |
+| swords-07 | Seven of Gladiolus | claude (build placeholder + batch 2 draft + clipping pass) | pending | 2 | drafted |
+| swords-08 | Eight of Gladiolus | claude (build placeholder + batch 2 draft + clipping pass) | pending | 2 | drafted |
+| swords-09 | Nine of Gladiolus | claude (build placeholder + batch 2 draft + clipping pass) | pending | 2 | drafted |
 | swords-10 | Ten of Gladiolus | claude (build placeholder) | — | 1 | placeholder |
 | swords-page | Page of Gladiolus | claude (build placeholder) | — | 1 | placeholder |
 | swords-knight | Knight of Gladiolus | claude (build placeholder) | — | 1 | placeholder |
@@ -82,14 +82,28 @@ marked for full rewrite — it never ships.
 | pentacles-01 | Ace of Lunaria | claude (build placeholder + calibration draft ×2/field) | — | 2 | drafted (in /drafts; meanings.json still placeholder) |
 | pentacles-02 | Two of Lunaria | claude (build placeholder) | — | 1 | placeholder |
 | pentacles-03 | Three of Lunaria | claude (build placeholder) | — | 1 | placeholder |
-| pentacles-04 | Four of Lunaria | claude (build placeholder) | — | 1 | placeholder |
-| pentacles-05 | Five of Lunaria | claude (build placeholder) | — | 1 | placeholder |
-| pentacles-06 | Six of Lunaria | claude (build placeholder) | — | 1 | placeholder |
-| pentacles-07 | Seven of Lunaria | claude (build placeholder) | — | 1 | placeholder |
-| pentacles-08 | Eight of Lunaria | claude (build placeholder) | — | 1 | placeholder |
-| pentacles-09 | Nine of Lunaria | claude (build placeholder) | — | 1 | placeholder |
+| pentacles-04 | Four of Lunaria | claude (build placeholder + batch 1 draft + editorial revision) | author, accepted 2026-07-29 | 3 | authored |
+| pentacles-05 | Five of Lunaria | claude (build placeholder + batch 1 draft + editorial revision) | author, accepted 2026-07-29 | 3 | authored |
+| pentacles-06 | Six of Lunaria | claude (build placeholder + batch 1 draft + editorial revision) | author, accepted 2026-07-29 | 3 | authored |
+| pentacles-07 | Seven of Lunaria | claude (build placeholder + batch 2 draft + clipping pass) | pending | 2 | drafted |
+| pentacles-08 | Eight of Lunaria | claude (build placeholder + batch 2 draft + clipping pass) | pending | 2 | drafted |
+| pentacles-09 | Nine of Lunaria | claude (build placeholder + batch 2 draft + clipping pass) | pending | 2 | drafted |
 | pentacles-10 | Ten of Lunaria | claude (build placeholder) | — | 1 | placeholder |
 | pentacles-page | Page of Lunaria | claude (build placeholder) | — | 1 | placeholder |
 | pentacles-knight | Knight of Lunaria | claude (build placeholder) | — | 1 | placeholder |
 | pentacles-queen | Queen of Lunaria | claude (build placeholder) | — | 1 | placeholder |
 | pentacles-king | King of Lunaria | claude (build placeholder) | — | 1 | placeholder |
+
+## Rounds
+
+- **2026-07-29, batch 1.** Drafted by Claude, 13 cards at variant depth.
+  Editorial revision pass drafted by Claude against author review notes.
+  Author accepted all 13 and approved the pass. Status `authored`. Final
+  requires the end-state checks, which need all 78 cards to exist.
+- **2026-07-29, batch 2.** Drafted by Claude, 13 cards. Self-review
+  gauntlet and a drift-triggered clipping pass applied before review.
+  Awaiting author accept, edit, or recast.
+- Author decisions recorded so far: voice chosen at the Gate 1 bake-off,
+  all 78 conceits approved, no colons or semicolons, no em or en dashes,
+  store listing silent on AI-assisted text, two heavy-card questions
+  lowered in temperature, batch 1 accepted entire.

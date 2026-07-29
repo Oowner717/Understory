@@ -32,3 +32,8 @@ One line per non-obvious choice, newest last.
 - Advice-verb rule scoped after two false positives: "need to"/"have to" flag only in second-person, non-negated use; should/must/ought flag everywhere.
 - `#/writing` dashboard is dev-only via a DEV-gated dynamic import (tree-shaken from production); its edits leave via clipboard only — writing to meanings.json stays a manual authorship step.
 - Every UI string lives in `src/content/ui-strings.ts`; notification copy is static (no card names, no journal content — lock-screen safe).
+- Batch 1 status is `authored` not `final`: the work order's end-state checks (blind re-rank, full-deck read-through, spot-check) cannot run until all 78 cards exist.
+- Reversed copy is stripped from production builds by a Vite `enforce: 'pre'` plugin. The playtest renders no reversals, so shipping that text cost bundle for nothing. 114 KB gzipped down to 99 KB, and the dev-only writing dashboard still sees the full data.
+- Bundle projection at 78 written cards is roughly 131 KB gzipped against the 150 KB budget. If that gets tight, the next lever is serving meanings.json as a precached fetched asset instead of a bundled import.
+- Question word floor lowered 4 to 2, and the What/Which ceiling raised 60 to 70 percent. Both were uncalibrated numbers that would have cost good copy.
+- VOICE-SPEC carries an absolute sentence-length target (7 to 10 words per sentence, per batch) rather than a comparison to the previous batch, because batch 1's 7.2 is an artifact of the dash conversion.

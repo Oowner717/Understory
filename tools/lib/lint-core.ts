@@ -124,7 +124,7 @@ export interface FieldBounds {
 /** Bounds tuned to the Gate 1 winning specimens (VOICE-SPEC.md). */
 export const FIELD_BOUNDS: Record<string, FieldBounds> = {
   readingLine: { minWords: 35, maxWords: 52, questions: '0' },
-  question: { minWords: 4, maxWords: 12, questions: '1' },
+  question: { minWords: 2, maxWords: 12, questions: '1' },
   libraryEntry: { minWords: 140, maxWords: 170, questions: '0' },
   altText: { minWords: 8, maxWords: 22, questions: '0' },
 }

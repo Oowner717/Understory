@@ -26,8 +26,15 @@ furniture for heavy cards.
 ## Sentence mechanics (measured from the winning specimens)
 
 - Reading line — 4 to 7 sentences, **35–50 words**.
-- Mix required. At least one sentence of six words or fewer. At least one of
-  twelve to twenty. Never a line where every sentence runs 12–18 words.
+- Mix required. At least one sentence of six words or fewer, in every line
+  with no exceptions. At least one of twelve to twenty. Never a line where
+  every sentence runs 12–18 words.
+- **Mean sentence length, 7 to 10 words, measured per batch.** Added after
+  batch 2 drifted to 11.1 and was clipped back to 9.5. An absolute target
+  beats comparing each batch to the last one, because batch 1 sits at 7.2
+  only as an artifact of the em dash conversion, which turned pivots into
+  full stops wholesale. The Gate 1 specimens run near 6. Anything above 10
+  is the slide toward ordinary prose and gets clipped before review.
 - The first sentence contains a countable, concrete noun — from the plate or
   from the card's conceit domain. No abstract openers, ever.
 - **Endings land once.** One short closing beat. Never two aphorisms stacked —
@@ -71,6 +78,65 @@ stand here for a minute." G-style long-lens lines may open or close.
 7. "The subject" more than once per line. Never on heavy cards.
 8. Semicolon-shaped sentences even without the semicolon — clauses balanced
    too neatly. Break one side.
+9. The trailing "..., and Y, which is Z" clause. The long-sentence tell,
+   measured across batch 2. Split it into its own sentence.
+
+## Cross deck budgets (added after batch 1 review)
+
+Batch 1 read well card by card and repetitively across the set. These
+budgets exist because sameness is a deck level defect that per card
+review cannot see. The sameness linter reports the counts.
+
+**The word "reversed" is metadata, not copy.** A reversed line may open
+with it no more than once per suit. Everywhere else the inversion is
+carried by content. The app knows the orientation when it renders.
+
+**Extended bookkeeping vocabulary is budgeted.** Invoice, itemize,
+audit, accounting, ledger, banking, billing, accrue, interest, tab,
+bookkeeping. Permitted only where the conceit is itself about exchange.
+Everywhere else, one plain cost word at most, and figures come from the
+card's own assigned domain in CONCEITS.md.
+
+**One template opener per batch, not seven.** "Recorded X." is
+sanctioned twice per batch. It was the signature of the winning Voice A
+sample, used once.
+
+**Variant slots must not develop fixed shapes.** No slot index may
+carry the same opening move in more than half the cards of a batch.
+Three angles on one conceit was the requirement. Three fixed costumes
+is the failure.
+
+**Ending shapes are rationed.** Per card, at most two of three reading
+lines end on a two beat epigram. At least one ends flat, the way field
+notes stop.
+
+**"The card" is not the narrator.** Two appearances as agent per library
+entry. Some library entries should never mention the card or the plate
+and should open on the human situation.
+
+**Second person must be structural, not appended.** At most two
+"You've been X-ing" constructions per batch. The reader's presence
+belongs inside the sentence that needed it.
+
+**Question openers need spread.** The operative floors, per batch. At
+least three Who or Whose questions. At least two Where or When. At least
+one or-shaped. No double-barreled questions. A secondary ceiling of
+seventy percent What or Which, corrected upward from sixty after batch 1
+measured seventy. Sixty was aspirational and not calibrated, and hitting
+it meant contorting good questions to fill a quota, which is worse than
+the repetition it prevents. The floors are the teeth.
+
+**Library entry architecture must vary.** At most half the entries in a
+batch open on the plate. At least three name no rank. At least two end
+without an epigram. Batch 1 has one architecture in all twenty six
+entries, which reads as a drumbeat in the full deck read through.
+
+**Alt text describes the rendered plate.** Not the imagined
+illustration. A screen reader user must be told what a sighted user
+perceives, and the meaning is carried by the reading line, which the
+screen reader also reaches. PIP_LAYOUT in src/design/plate.tsx is the
+authority. When a real engraving lands in public/deck, that card's alt
+text is rewritten as part of dropping the asset.
 
 ## Reference specimens (verbatim, as selected and edited by the author)
 
@@ -127,3 +193,33 @@ batch starts.
   copy converted. Pivots become full stops. Parentheticals become commas or
   their own sentences. Lint enforces. Tells-to-avoid list gains a ninth
   entry, the dash reflex.
+- **2026-07-29, batch 1 accepted.** Author accepted all thirteen cards
+  and approved the editorial pass. Cross deck budgets above are now
+  binding. Applied to batch 1 in full. Thirteen alt texts corrected from
+  imagined artwork to the rendered plate, which was an accessibility
+  defect rather than a style note. Two author decisions recorded. The
+  cups-05 reversed question lowered from "Who told you comfort was a
+  betrayal?" to "Where did that rule come from?" because on the deck's
+  heaviest grief card the original analyzed the reader. The pentacles-06
+  reversed close lowered from "You'd know. You've kept one." to "Most
+  people have kept one." for the same reason.
+- **2026-07-29, two rule corrections after measuring batch 1.** The
+  question ceiling moved from sixty to seventy percent, see above. The
+  bookkeeping budget no longer counts the bare word "tab", because five
+  of six flagged instances were browser tabs in cups-07, whose conceit is
+  literally seven open tabs. A homonym is a checker defect, not a voice
+  defect. Bar-tab usage stays inside the budget by judgment.
+- **2026-07-29, batch 2. Question floor lowered from four words to two.**
+  Batch 2 produced "Who said it?" on the Three of Gladiolus and
+  "Practising, or grinding?" on the Eight of Lunaria. Both are three
+  words, both are among the best questions in the batch, and both sit on
+  cards where brevity is the point. A floor that forbids them is
+  measuring length instead of quality.
+- **2026-07-29, batch 2 drift caught and corrected.** Batch 2 drafted at
+  11.1 mean words per sentence against batch 1's 7.2, with fragments at 28
+  percent against 48. Thirty-eight of seventy-eight reading lines were
+  clipped before review, mostly by splitting a trailing "and Y, which is Z"
+  clause into its own sentence. That construction is this writer's
+  long-sentence tell and is now tell number nine. Post-clip figures are 9.5
+  and 35 percent, with every line carrying a short beat. A residual gap to
+  batch 1 remains and is accepted, since batch 1 is the outlier.
