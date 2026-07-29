@@ -325,3 +325,109 @@ dropped out of the top six.
 
 Corpus at 48 of 78. Next: the eight senior courts, then the
 twenty-two Majors in two passes of eleven.
+
+## Batch 5 — the senior courts (8 cards)
+
+Cards: the four Queens and the four Kings. No heavy cards, the second
+batch running without one. Status: drafted.
+
+Batch 4 accepted entire by the author and moved to `authored`.
+
+### The problem this batch had
+
+Batch 4's difficulty was eight cards drawn from two ideas. Batch 5's is
+narrower and worse. Every one of these eight is a competent adult who
+looks after other people, which is one idea, and the generic version of
+each of them is a compliment. That is the failure mode the whole voice
+exists to avoid, and it is nearest the surface here than anywhere in the
+deck so far.
+
+The conceits carried it, and all eight are objects rather than virtues.
+A kitchen people gravitate to. One fire lit instead of four. Water kept
+level over an unsounded floor. Three seconds counted before standing. The
+true thing said once at a table with the potatoes still going round. A
+spirit level laid on your own shelf. A spare jumper produced as the wind
+turns. A full barn with the door unlocked. Every reading line in the
+batch is anchored to its object, which is what keeps eight portraits of
+competence from reading as eight compliments.
+
+The three-state reversed library entry, adopted for the courts in batch
+4, holds here. The eight openers were varied deliberately so the
+convention does not announce itself twice in a row.
+
+### Gauntlet report
+
+| Test | Failures | Notes |
+| --- | --- | --- |
+| 1 Screenshot | 2 rewrites | endings on wands-king slot 0, where two short beats had stacked into a matched pair, and pentacles-king slot 0 |
+| 2 Horoscope | 3 cuts | the whole batch's risk. Every card here can degrade into praise, so three lines that named a virtue rather than an object were rebuilt onto the object |
+| 3 Swap | 2 rewrites | pentacles-queen against cups-queen was the real one. Both closed on outward-only flow and both opened "Everyone", so the pentacles reversal was rebuilt onto a worn groove and the cups one left on self-concealment. Also wands-queen against cups-queen, both carrying other people's comfort, held apart by room against water |
+| 4 Bad-day | 1 rewrite | cups-queen reversed slot 2 attributed a motive to the reader. Lowered from "a way of never being sounded" to "one way of staying unsounded", the same correction the author made twice in batch 1 |
+| 5 Baseline | 2 written+deleted | pentacles-king and swords-king, the two nearest to "you are stable and generous" and "you are fair and rational" |
+
+Linter first pass, **0 errors** and 13 warnings, of which 12 were
+second-person gaps and one a library entry under the floor. Third
+consecutive batch with no banned vocabulary, and the warning tail is down
+from 42 to 13. All fixed structurally, several by putting the reader
+inside a sentence that had been written about a third party.
+
+### Drift, and a clipping pass in the other direction
+
+| Metric | B1 | B2 | B3 | B4 | B5 |
+| --- | --- | --- | --- | --- | --- |
+| Words per line | 38.6 | 39.0 | 37.9 | 38.9 | 39.9 |
+| Mean sentence length | 7.2 | 9.5 | 9.3 | 9.3 | 7.8 |
+| Fragments | 48% | 35% | 42% | 42% | 39% |
+| Lines with a short beat | 68/78 | 78/78 | 84/84 | 48/48 | 48/48 |
+| Library words per entry | 162 | 150 | 145 | 145 | 146 |
+
+Batch 5 drafted at 8.7 mean words per sentence with fragments at 32
+percent, which is inside the target band but ten points down on
+fragments and two words up on line length. That is more than modest
+movement on the metric that carries the voice's audible signature, so the
+batch was clipped, and this time the clip cut in the opposite direction
+from batch 2's. Nineteen compound sentences were split into a beat plus
+its remainder, which is the same operation batch 2 needed and applied to
+sentences balanced too neatly across an "and" rather than to trailing
+clauses. Five filler trims followed. Post-clip figures are 7.8 and 39
+percent.
+
+Line length at 39.9 sits a word above the other four batches and is
+accepted. These are the deck's longest-lived figures and the reading
+lines carry an object, a behaviour and a cost rather than an object and a
+turn.
+
+### Budgets, all met
+
+Reversed openers 0. Recorded openers 0. "You have been X-ing" 0.
+Bookkeeping off-budget 0, which the barn conceit on pentacles-king was
+written around rather than exempted. "The card" as agent 0 in every
+entry. Plate-openers 1 of 16 against a cap of 8. Questions: What or Which
+33 percent, the lowest of any batch, Who or Whose 14, Where or When 13,
+or-shaped 3. Sameness, no pair above the 0.10 threshold. Fuzzer, 0 errors
+across 500 composed readings.
+
+### The watch-item that turned out to be a vocabulary change
+
+Batch 3 flagged impersonal constructions and batch 4 carried them
+forward, "nobody" at 13 and "something" at 12. This batch measures
+nobody 0 and somebody 0, which looks like a fix and is not one. "No one"
+appears 7 times, "anyone" 5 and "someone" 3, so the construction survived
+at fifteen uses and only the spelling changed. The habit is avoiding the
+named agent, not the word, and counting the word was measuring the wrong
+thing. Carried into the Majors as a construction check rather than a word
+list.
+
+### Watch-list for batch 6
+
+"above" at 20 and "crown" and "bloom" at 10 each are court plate
+description and not a signal, the same artifact batch 4 recorded. "three"
+at 14 is partly the crown of three seed heads and partly the three-state
+reversed entries, and it is worth watching only if it survives into the
+Majors, which have neither. Bundle at 113 KB gzipped with 56 cards
+written, projecting near 123 KB at 78, comfortably inside the budget.
+
+Corpus at 56 of 78, and every court and every pip now written. Next: the
+twenty-two Majors, in two passes of eleven, hardest first. The four
+heavy Majors are M13, M15, M16 and M18, and M16 already exists as the
+Gate 1 specimen.

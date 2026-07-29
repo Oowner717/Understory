@@ -901,7 +901,7 @@
         "libraryEntry": "Three ways young interest ends and only one of them is a loss. The first is the honest dead end. You followed it, it went nowhere useful, and that was always the arrangement rather than a failure of the following. A fortnight spent on something with no outcome is not a fortnight anybody took from you. The second is expiry. Curiosity keeps for a while and not indefinitely, and a book renewed three times has usually already been read as much as it ever gets read. Some interests have a season and the season closes quietly. The third is the crowded shelf. Twelve things open, all of them pleasant, none of them past the sprout, because the sprouting is the enjoyable part and the growing asks for a duller kind of attention. Nobody has to choose. It is worth knowing which stage you like."
       },
       "altText": "A small sprout sigil above one budded hawthorn sprig, ochre mark above.",
-      "status": "drafted"
+      "status": "authored"
     },
     {
       "cardId": "wands-knight",
@@ -935,55 +935,75 @@
         "libraryEntry": "Three states, and the middle one is where most of the learning is. The good one is a single hour of delay. Same message, same nerve, sent later, minus the one line that would have needed apologising for, and the whole technique fits in that hour. The second is the wall. Something went fast that needed to go carefully, and the recovery costs more than the caution would have, which is obvious afterwards and genuinely invisible beforehand, because velocity feels like competence right up to the corner. The third is the overcorrection. One bruise, and then a fortnight of a parked horse and messages drafted three times, and you, who used to be the only one moving, are now the slowest thing in the thread. Caution learned from a single event overcorrects reliably, and it wears off if nobody makes a policy out of it."
       },
       "altText": "A double chevron above one budded hawthorn sprig, ochre mark above.",
-      "status": "drafted"
+      "status": "authored"
     },
     {
       "cardId": "wands-queen",
       "keywords": [
-        "warmth",
-        "confidence",
-        "hearth-fire"
+        "warmth as craft",
+        "hosting",
+        "the room people choose"
       ],
       "readingLines": [
-        "Warmth that other people warm themselves at. Confidence worn like a garden — cultivated, not claimed."
+        "Everyone ends up in the kitchen. Not the room with the good chairs. A bloom above one sprig. Warmth like yours is a made thing. Kept up over years. People read it as a temperament. You built the room they choose.",
+        "Six petals open above a budded branch. You did the work of being easy to be around this week. None of it looked like work. Hospitality is a craft. Its tools never show. That is why it gets taken for a mood.",
+        "You keep the good chairs in the other room. Everyone sits in here anyway. A bloom above one sprig. Warmth done well looks like luck. Yours took a decade. The people warming their hands at it have no idea it was built."
       ],
       "questions": [
-        "Who gets the warmest version of you, and why them?"
+        "Who ends up in your kitchen?",
+        "What did that cost you this week?",
+        "Where did you learn to do that?"
       ],
-      "libraryEntry": "",
+      "libraryEntry": "Everyone ends up in the kitchen. There are better chairs two rooms away and they stay empty, and the reason is not the room. It is whoever is standing in it. That person has been standing in it for years, getting good at something that does not look like a skill from outside. Warmth of this grade is cultivated. It gets decided on at some point and then maintained, and the maintenance is mostly remembering things about people and asking the second question. Hawthorn flowers hard and early and gets called a weed for the trouble. What goes unsaid is that this is work, unpaid and largely unremarked. The people warming their hands at it read it as a temperament rather than a practice, which is the compliment and the problem in one. Yours has a start date. You could probably name the year.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": "",
-        "readingLines": [],
-        "questions": []
+        "readingLines": [
+          "The kitchen filled again on Saturday and you enjoyed it. Genuinely. Being the warm one costs something only when it runs one way. This week it did not. One of them washed up without being asked. That is the whole report.",
+          "The pot is on and you are tired of the pot. Hosting has become the thing you are for. Warmth that cannot take a night off has turned into a job description. You never announced it. The guests are the last to know.",
+          "A room can be worked. You know how. Warmth on demand is a real skill and a strange thing to own. The difference between hosting and charm is whether you like anyone in the kitchen."
+        ],
+        "questions": [
+          "Who returned it this week?",
+          "When was your last night off?",
+          "Hosting, or performing?"
+        ],
+        "libraryEntry": "Three states of the warm room. In the first it runs both ways. The kitchen fills, you enjoy it, and one of them washes up without being asked, and that single act is the whole difference between hosting and service. In the second the warmth has become a job. It cannot take a night off, because the role was assigned by repetition rather than agreement, and the guests are always the last to know the host is tired. That state answers to one cancelled Saturday and very little else. In the third the technique has outrun the affection. Warmth on demand is a real accomplishment and a strange thing to own, because a room can be worked by someone who does not much like the people in it, and from inside the room it feels identical. Only the host can tell those apart."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "An open bloom of six petals above one budded hawthorn sprig, ochre mark above.",
+      "status": "drafted"
     },
     {
       "cardId": "wands-king",
       "keywords": [
-        "vision",
-        "direction",
+        "aim",
+        "subtraction",
         "seasoned drive"
       ],
       "readingLines": [
-        "The long view, with the sleeves still rolled up. Seasoned drive knows what to skip."
+        "Three seed heads on a crown. One fire lit instead of four. You declined two things this week that the younger version of you would have taken. Drive that has learned subtraction is the rarer kind. Better aim, not less appetite.",
+        "A crown of three seed heads above one budded sprig. You skipped the meeting. The work happened anyway. Twenty years ago you would have gone and taken notes. Useful, and nothing changed. Knowing which rooms matter takes exactly that long.",
+        "You have four fires you could light and the fuel for two. That used to feel like defeat. A crown above one sprig, three heads and no more. Vision at this age is largely a list of things you stopped doing."
       ],
       "questions": [
-        "What does the ten-year version of you keep, of all this?"
+        "What did you decline this week?",
+        "Which room did you not need?",
+        "Where is your fuel actually going?"
       ],
-      "libraryEntry": "",
+      "libraryEntry": "A crown of three seed heads above one budded sprig, and no fourth head anywhere on the plate. The seasoned form of this suit is not more drive. It is drive that learned subtraction. Four things could be lit and there is fuel for two, and the younger version of the same person lit all four and tended them in rotation for a decade. That felt like ambition and functioned as maintenance. What changes with time is not appetite. It is the willingness to let a good idea stay unlit, which is much harder than declining a bad one, because a bad idea declines itself. Hawthorn does not flower on every branch and the branches it skips are not failures. The meetings you no longer attend are the visible part of this. The list of things you stopped doing is the actual instrument.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": "",
-        "readingLines": [],
-        "questions": []
+        "readingLines": [
+          "You lit two and let the other two go out, on purpose. The two you lit are further along than four would have been. Choosing costs something real. The unlit ones stay interesting. They are also still unlit. That is the price of the aim.",
+          "The fire went out. You called it wisdom. There is a version of this card where nothing gets lit. It gets called discipline. Restraint and depletion look identical from outside. From inside, one of them is restful.",
+          "Four fires, all lit. You tending them in rotation. Appetite without subtraction is how a builder ends up maintaining instead of building. Every one of the four was a good idea. That is what makes this hard to see from the middle."
+        ],
+        "questions": [
+          "Which two did you let go out?",
+          "Resting, or stalled?",
+          "How many fires are you tending?"
+        ],
+        "libraryEntry": "There are three states here, and only one of them is aim. The first is the deliberate two. Two lit, two allowed to go out, and the pair you lit sits further along than four would have, while the unlit pair stays interesting for years at no cost. The second is restraint that is actually depletion. The fire went out on its own and the word wisdom got applied afterwards, and from outside the two states are the same picture, which is why no one else ever settles the question. Rest and stall feel different from inside. The third is the full four. All lit, all tended in rotation, none of them a mistake, and that is precisely the difficulty, because a person can spend fifteen years maintaining four good ideas and building none of them. Subtraction is the last thing this suit learns."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "A crown of three seed heads above one budded hawthorn sprig, ochre mark above.",
+      "status": "drafted"
     },
     {
       "cardId": "cups-01",
@@ -1357,7 +1377,7 @@
         "libraryEntry": "Three ways the indirect route goes. The first works, and works well. Something small and odd gets sent, it lands, both people understand it, and nobody has to acknowledge what was actually transmitted. That exit is a feature and not a cowardice. The second is the unsent draft. Written, examined, judged too much or not enough, and put down, and the specific loss is unmeasurable because a message that never went cannot report on what it would have done. Most people have a small archive of these. The third is the costume that stopped coming off. When every sincere thing has to arrive dressed as a joke, the joke stops being a route and becomes the only address, and your sincerity gets harder to perform each year it goes unpractised. That one responds to a plain sentence said badly rather than to better jokes."
       },
       "altText": "A small sprout sigil above one hanging bellflower, slate mark above.",
-      "status": "drafted"
+      "status": "authored"
     },
     {
       "cardId": "cups-knight",
@@ -1391,55 +1411,75 @@
         "libraryEntry": "Three ways the carrying goes. In the first it simply completes. The thing gets carried the whole way and handed over, and the answer becomes a separate matter, genuinely separate, because what you did was the carrying, and that is finished whichever way the answer falls. That distinction is worth more than it sounds. The second is the retroactive joke. An offer leaves sincere and arrives in quotation marks, which protects the sender exactly as much as it cancels the offer, and the person on the other end can nearly always tell and nearly always lets it pass. The third is the gesture that never lands on purpose. Offers made repeatedly, warmly, to nobody in particular, because the offering is the enjoyable part and a real answer would close a pleasant open state. All three are ordinary. Only one of them is an approach."
       },
       "altText": "A double chevron above one hanging bellflower, slate mark above.",
-      "status": "drafted"
+      "status": "authored"
     },
     {
       "cardId": "cups-queen",
       "keywords": [
-        "empathy",
-        "depth",
-        "holding others"
+        "level water",
+        "holding others",
+        "an unsounded floor"
       ],
       "readingLines": [
-        "Deep water, held calmly. You're carrying feelings today that aren't all yours."
+        "Four people called you first this month. A bloom above one hanging bell. You hold level. They talk until they find out what they think. That is a service. Your own floor has never been sounded.",
+        "A full open bloom above a hanging bellflower. Depth like this is a service other people use without measuring it. You held steady on a phone call. The other person worked out what they felt. They remember the room as calm.",
+        "You are good at this and it is not free. A bloom above a bell. Being the level one means the other person leaves lighter than they came. Every time. Where that weight goes is a question no one thinks to ask."
       ],
       "questions": [
-        "Whose weather are you carrying?"
+        "Who calls you first?",
+        "What did you hold steady through?",
+        "Where does the weight go?"
       ],
-      "libraryEntry": "",
+      "libraryEntry": "Everyone calls you first. That is a fact about your month rather than a compliment, and it has a plain explanation. You hold level while the other person finds out what they think. The water does not move. They talk, the surface stays flat, they leave lighter than they arrived, and the whole exchange gets remembered by them as a calm room rather than as a thing you did. Bellflower hangs and holds its shape in wind. Depth of this kind is genuinely useful and genuinely load-bearing for the people who lean on it. What goes unmeasured is the floor. No one sounds it, partly because the surface gives no reading and partly because being the deep one is a workable way of never being asked. The callers are not withholding. They have simply never been given the impression there was anything to ask about.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": "",
-        "readingLines": [],
-        "questions": []
+        "readingLines": [
+          "You held level and it cost you almost nothing. That call went both ways. Depth is only a burden when it runs one way. One of them asked you a real question back on Thursday. Rare enough to write down.",
+          "The water is not level this week. You are still taking calls. Holding steady is a skill that hides its own limit. A bloom above a bell. No gauge anywhere on the plate. The floor is further down than the callers think.",
+          "Everyone brings you theirs and none of them has yours. That arrangement is comfortable. You built it. Being the deep one is one way of staying unsounded. The bell hangs and does not ring for itself."
+        ],
+        "questions": [
+          "Who asked you something back?",
+          "When were you last the one calling?",
+          "Who has yours?"
+        ],
+        "libraryEntry": "Deep water runs three ways. In the first it runs in both directions. A call happens, you hold level, and at some point the other person asks you a real question and waits for the answer, and that single reversal is what separates a friendship from a service. In the second the water is not level and the calls keep coming. Holding steady is a skill that conceals its own limit, and the people who rely on it have no gauge and no reason to suspect one is wanted. That state ends when the level one says so, and rarely otherwise. In the third the depth has become the arrangement. Everyone brings theirs, none of them has yours, and this is comfortable, because never being sounded is safer than being sounded and found ordinary. The bell hangs and does not ring for itself."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "An open bloom of six petals above one hanging bellflower, slate mark above.",
+      "status": "drafted"
     },
     {
       "cardId": "cups-king",
       "keywords": [
         "composure",
-        "steady feeling",
-        "harbor"
+        "the count of three",
+        "feeling held"
       ],
       "readingLines": [
-        "Feeling, banked and steady — a harbor with room in it. Composure isn't the absence of tide; it's practice with it."
+        "You heard the crash and counted to three before standing. Nothing about that is indifference. Composure is a delay you install on purpose. It fills two seconds. The useful version of you is not available in them.",
+        "A crown of three seed heads above one hanging bell. The steady one in a family is not the one who feels least. Three seconds is a long time inside your own chest. Outside, nothing appears to happen.",
+        "Three seed heads on a crown, evenly weighted. You arrived at the doorway calm. The room organised itself around that. Feeling was not absent from the count. It was held for three seconds. That is all composure has ever been."
       ],
       "questions": [
-        "What lets you stay steady without going distant?"
+        "What happens in your three seconds?",
+        "Who taught you the three seconds?",
+        "Where do you do the holding?"
       ],
-      "libraryEntry": "",
+      "libraryEntry": "Something breaks in the next room and there is a gap before anyone stands. In the gap, a person who has done this before counts to three. The count is not composure. The count is the machinery composure runs on, and its purpose is to get past the two seconds during which the available version of you is loud, fast and no use to a crying child or a startled adult. What the room sees afterwards is a calm arrival. What actually happened was a decision taken in the dark, by someone who felt the same jolt as everybody else and declined to arrive at the same speed as it. Bellflower holds its shape in wind. Composure with no feeling under it reads as cold and does different work in a house. The three seconds are not distance. They are the opposite of it.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": "",
-        "readingLines": [],
-        "questions": []
+        "readingLines": [
+          "You counted to three and then went in warm. The crash turned out to be a bowl. Composure that is not coldness is the rarest instrument in the suit. You had it available on a Tuesday. It went unremarked.",
+          "The three seconds became thirty and then became a policy. Composure kept past its purpose stops being composure. A crown above a bell. The steady one in your house has become the unreachable one. Level is not the same as present.",
+          "You stood up on the first sound. It came out loud. The count is not always available. A family where it usually is can absorb a Tuesday where it was not. One raised voice does not undo a decade of the count."
+        ],
+        "questions": [
+          "What did the calm make possible?",
+          "Whose calm is it serving now?",
+          "When did the count last fail?"
+        ],
+        "libraryEntry": "The count goes three ways. The good one is mundane and nearly invisible. Three seconds, then a warm arrival, and the crash turns out to be a bowl, and the whole event leaves no trace except a household that trusts whoever stands in the doorway. Usually you. The second is the count that outgrew its job. Three seconds becomes thirty and then becomes a standing policy, and level is not the same as present, and a family can end up with a steady figure it can no longer reach. That state is easy to defend and hard to see, because it looks exactly like the virtue it started as. The third is the count that failed. First sound, straight up, loud, and a decade of the other thing is not undone by one Tuesday. Composure is a practice, and practices have an error rate."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "A crown of three seed heads above one hanging bellflower, slate mark above.",
+      "status": "drafted"
     },
     {
       "cardId": "swords-01",
@@ -1813,7 +1853,7 @@
         "libraryEntry": "Three things happen to the questioner and two of them are worth the trouble. The first is the good version. A question gets asked that nobody in the room had thought to ask, it costs eleven words, and an afternoon reorganises itself around the answer. That is the entire value of not yet knowing things. The second is displacement. Reading, asking, circling and researching are all genuinely informative and can absorb a year, and a very well-lit room is still a room you have not left. The third is breakage. Questions have no sense of what is load-bearing, and one asked honestly in the wrong company at the wrong hour takes something down that was holding weight. That is inexperience rather than malice, nobody gets to skip it, and the repair afterwards is usually shorter than the dread about it."
       },
       "altText": "A small sprout sigil above one narrow blade leaf, oxblood mark above.",
-      "status": "drafted"
+      "status": "authored"
     },
     {
       "cardId": "swords-knight",
@@ -1847,55 +1887,75 @@
         "libraryEntry": "Three weathers. The first is the honest squall, arriving fast, doing damage and work in the same ten minutes, and mended the same week, because the speed that took the fence down is the identical speed that puts it back. Almost no trace remains, and the whole event reads afterwards as a bad afternoon rather than a change in the climate. The second is the single gear. A charge worked once, decisively, and became the only available approach, and a person who arrives at volume in every room, which may be you lately, stops being answered and starts being waited out, which is cheaper for everyone else and invisible to them. The third is the charge held at the gate. Case ready, nerve ready, three weeks of Thursdays, and held charges sour in storage. They come out eventually at the wrong volume, about the wrong thing, at somebody who was not the target."
       },
       "altText": "A double chevron above one narrow blade leaf, oxblood mark above.",
-      "status": "drafted"
+      "status": "authored"
     },
     {
       "cardId": "swords-queen",
       "keywords": [
-        "candor",
-        "discernment",
-        "dry wit"
+        "candor once",
+        "kindness with an edge",
+        "restraint"
       ],
       "readingLines": [
-        "Candor with good posture. The dry eye sees clearly and still chooses its words."
+        "You said the true thing once and then passed the potatoes. Once is the whole technique. Candor that repeats itself has stopped being candor and started being pressure. Everyone at the table hears the difference.",
+        "A bloom above one blade leaf, both plainly drawn. The truest sentence in the room got said at your end of the table. Then the subject moved on. No one had to answer it. That restraint is the rare part, not the honesty.",
+        "Six petals open above a narrow blade. Kindness and accuracy are not in tension here. That is what makes this the hardest card in the suit to imitate. You managed both this week, in one sentence. Then you let it go."
       ],
       "questions": [
-        "What truth could you say plainly, and kindly, today?"
+        "What did you say once?",
+        "Who did not have to answer?",
+        "Where did you stop?"
       ],
-      "libraryEntry": "",
+      "libraryEntry": "The true thing gets said once, kindly, at a table where the potatoes are still going round. Then the subject changes. That is the entire method, and hardly anyone can do the second half. Saying the accurate thing is not rare, since most families contain at least one person willing to. Saying it a single time and leaving the room intact is rare, because being right is exciting and the temptation is to press. Pressed twice, a true sentence becomes an argument, and the person it was aimed at spends the evening defending rather than thinking. Gladiolus cuts clean when it cuts once. Yours cut once this week, at a table, and then the potatoes went round again. What gets measured here is not honesty. It is the restraint bolted onto the honesty, and the restraint is the part that took thirty years to fit.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": "",
-        "readingLines": [],
-        "questions": []
+        "readingLines": [
+          "You said it once, kindly, and it landed. One serving. The person went home and thought about it. That only happens when a thing gets said a single time. Second helpings of a true sentence get eaten as an argument.",
+          "You said the true thing three times. By the third, a weapon. Accuracy is not a permit. The bloom sits above the blade and the blade is still a blade. The difference between candor and cruelty is often just the count.",
+          "The potatoes went round and the true thing stayed unsaid. Not from cowardice, from your own fair estimate of the cost. The estimate was probably right. Kindness that never risks anything is manners. Manners are useful and they are a different instrument."
+        ],
+        "questions": [
+          "Whose evening did that improve?",
+          "How many times did you say it?",
+          "What stayed unsaid at the table?"
+        ],
+        "libraryEntry": "Three states, and the middle one is the common failure. In the first the sentence gets said once, lands, and gets thought about later at home, which is the only place a true sentence ever does its work. In the second the sentence gets said three times. By the third repetition it has become a weapon regardless of how accurate it is, because being right is not a permit, and the person on the other end has stopped considering it and started defending. Candor and cruelty are frequently separated by the count and by little else. In the third the sentence never leaves the room. You have one or two of those. That is usually a fair estimate of the cost rather than cowardice, and the estimate is often correct, and the thing worth knowing is that kindness which risks nothing is manners. Manners are useful. They are a different instrument."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "An open bloom of six petals above one narrow blade leaf, oxblood mark above.",
+      "status": "drafted"
     },
     {
       "cardId": "swords-king",
       "keywords": [
-        "judgment",
+        "the level turned inward",
         "principle",
-        "a cool head"
+        "judgment"
       ],
       "readingLines": [
-        "Principle, seated. A cool head is a tool; cold is just a temperature."
+        "Three seed heads on a crown, evenly spaced. You applied your own standard to your own work this week. It came up short in one place. The standard is common. Turning it around on yourself is not.",
+        "A spirit level laid on the shelf you built. A crown above one blade. Judgment is only worth anything when it points both ways. It costs the most on the day it points at you. It pointed at you this week.",
+        "You hold a line and you have held it against yourself. Twice, at least, in public. Principle applied inward is the only version that carries weight. It is also the version other people can feel from across a room."
       ],
       "questions": [
-        "Where does your fairness end and your distance begin?"
+        "Where did your own work come up short?",
+        "Which shelf did you check last?",
+        "Who has seen you do that?"
       ],
-      "libraryEntry": "",
+      "libraryEntry": "A spirit level laid on a shelf, and then laid on the shelf the same person built. That second placement is the whole card. Standards are cheap and widely held, and almost everyone carrying one applies it outward with real accuracy and exempts their own work, usually without ever deciding to. The exemption does not get announced. It is also visible from every other seat in the room, and that is why judgment which has never turned inward reads as preference no matter how well it is argued. Gladiolus is a suit of edges and this is the one that measures rather than cuts. What it costs is the day the reading comes back false on your own work and you say so out loud, to the person affected, before being asked. That day is rare. It changes how everything you say afterwards gets heard.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": "",
-        "readingLines": [],
-        "questions": []
+        "readingLines": [
+          "You laid the level on your own shelf. It read false. Then you said so out loud, to the person affected. That sequence is rare enough to change how every judgment you make afterwards gets heard.",
+          "The level goes on every shelf except one. Yours. The exemption never gets announced. It is visible from every other seat in the room. Judgment without the inward pass is preference wearing a tool belt.",
+          "Every shelf checked, including yours, including twice. Principle turned all the way up stops being judgment. It becomes an inspection that never closes. A house measured that often is not a house anyone lives in. You live there too."
+        ],
+        "questions": [
+          "When did you last say so?",
+          "Which shelf never gets checked?",
+          "Judging, or inspecting?"
+        ],
+        "libraryEntry": "The level gets used three ways and only one of them is judgment. The first is the inward reading taken and reported. It comes back false on your own shelf, you say so out loud to whoever it affects, and that one sequence changes how every later verdict of yours is received, at a cost most people decline to pay. The second is the standing exemption. The tool goes on every surface except the one you made, the exemption is never stated, and it is legible from every other seat in the room. That state feels like rigour from inside it. The third is inspection with no off switch. Every shelf, continually, including yours and including twice, and a house measured that often is not a house anyone lives in. Principle turned all the way up is no longer a judgment. It is a climate."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "A crown of three seed heads above one narrow blade leaf, oxblood mark above.",
+      "status": "drafted"
     },
     {
       "cardId": "pentacles-01",
@@ -2269,7 +2329,7 @@
         "libraryEntry": "Three failures of the daily habit, and the first is not a failure at all. A streak breaks on a Thursday and gets restarted on the Friday, and the restarting is the skill rather than the streak, because nobody who has kept anything for years has an unbroken record of it. The people who look consistent are the people who resumed quickly. The second is the calendar mark becoming the requirement. Eleven weeks of pages that no longer contain anything, kept because the row of ticks now has to be defended, and the ten minutes your habit existed to protect have quietly been evicted by the habit. The third is study as a substitute. A page a day about the work, faithfully, and no version of the work. Preparation is pleasant, visible, and available in unlimited quantities to anyone avoiding a first attempt."
       },
       "altText": "A small sprout sigil above one round Lunaria pod, moss mark above.",
-      "status": "drafted"
+      "status": "authored"
     },
     {
       "cardId": "pentacles-knight",
@@ -2303,55 +2363,75 @@
         "libraryEntry": "Three ways thoroughness plays out. The first is the unremarked finish. A row gets completed, nobody mentions it, and that is the standard result rather than a slight, because finished rows are silent by nature and the only reliable witness is the person who hoed. The second is the two-thirds stop, which happens in the middle and not from laziness, and it leaves the work closer to done than the abandoning made it feel. Picking up where it stopped is generally a smaller job than starting anything. The third is the harder one. Thoroughness carries no opinion about direction, so it hoes whatever row it is pointed at, including a field planted by mistake, and it does that beautifully for an entire season. Diligence is a wonderful engine and a poor navigator, and it very rarely asks you whether the row was the right one."
       },
       "altText": "A double chevron above one round Lunaria pod, moss mark above.",
-      "status": "drafted"
+      "status": "authored"
     },
     {
       "cardId": "pentacles-queen",
       "keywords": [
-        "practical care",
         "provision",
-        "warm ground"
+        "the spare jumper",
+        "care planned ahead"
       ],
       "readingLines": [
-        "Provision, warm and practical — the kind that arrives before it's asked for. Care, in this suit, looks like handled logistics."
+        "A spare jumper comes out of your bag the minute the wind turns. You packed it four hours ago for someone who had not asked. A bloom above one pod. Care like this happens hours before the moment that makes it look obvious.",
+        "Six petals open above a seed pod. The provisioning happened on Tuesday. The gratitude happened on Saturday, if it came at all. You thought ahead about a body that was not yours. That is the least theoretical form of love available.",
+        "You carry the bag with the extra things in it. Plasters, a jumper, the second bottle of water. A bloom above one pod. None of it dramatic. Practical care is the form that gets thanked least and missed most."
       ],
       "questions": [
-        "Who do you take care of by handling things, and do they know?"
+        "What did you pack for someone else?",
+        "Whose comfort did you plan for?",
+        "What is in your bag today?"
       ],
-      "libraryEntry": "",
+      "libraryEntry": "The wind turns on the platform and a jumper comes out of a bag, and the timing looks like intuition. It was Tuesday. You stood in a hallway four hours earlier and thought about a body that was not yours, and put a spare in a bag for a person who had not asked and would not think to. That is the entire mechanism, and it is duller and better than intuition. Lunaria makes its pods slowly and holds seed through a whole winter. Practical care is the least theoretical version of the thing, and it gets thanked at a rate of roughly one time in six, because a need met before it arrives does not feel like a rescue. It feels like weather that happened to be mild. The bag is heavy for a reason. Most people carrying one have never mentioned it.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": "",
-        "readingLines": [],
-        "questions": []
+        "readingLines": [
+          "Your jumper came out. They took it. The exchange lasted four seconds. Care that lands does not have to be noticed to have worked. Warm arms on a cold platform. That was the whole transaction.",
+          "Your bag weighs nine kilos. Most of it is for other people. Anticipating every wind means carrying every jumper. A person can spend a decade being prepared on behalf of adults who own coats. Provision has a limit and yours is behind you.",
+          "The bag holds one of everything. All of it for other people. Your own hands are cold on the platform. Provisioning outward is a groove worn deep enough that reversing it feels like a stunt. There is room in the bag for a second jumper."
+        ],
+        "questions": [
+          "Who took it without comment?",
+          "Who already owns a coat?",
+          "Where is your jumper?"
+        ],
+        "libraryEntry": "The heavy bag has three states. In the first it simply works. The jumper comes out, it gets taken, the exchange lasts four seconds, and care that lands does not require acknowledgement in order to have been care. That version is common and almost never recorded anywhere. In the second the provisioning has outrun the need. Nine kilos, one of everything, carried on behalf of adults who own coats and can buy water, and the habit has stopped being generous and become a way of being necessary. That one is hard to hear and worth hearing. In the third the direction has never once reversed. Everyone on the platform is warm and the person with the bag has cold hands, not from martyrdom but because provisioning outward is a groove and no one has thought to run it the other way in a decade. There is room in your bag for a second jumper."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "An open bloom of six petals above one round Lunaria pod, moss mark above.",
+      "status": "drafted"
     },
     {
       "cardId": "pentacles-king",
       "keywords": [
         "stewardship",
-        "harvest",
-        "security"
+        "enough",
+        "doors left open"
       ],
       "readingLines": [
-        "Harvest in the barn, stewardship in the posture. Security kept in trust rather than in a fist."
+        "The barn is full and the door is not locked. Both facts at once. Security that stays open is a decision taken after the harvest is in. It is also the only kind worth the name. You have enough, and your door is open.",
+        "A crown of three seed heads above one round pod. Full stores. Gleaners in the field, with permission. You gave something away this month without arranging to be seen doing it. Stewardship is ownership with the fear taken out.",
+        "You have more than you need. The arithmetic of it stopped frightening you years ago. A crown above one pod, doors drawn open. Enough is a state, not an amount. Holding it loosely took more nerve than getting it did."
       ],
       "questions": [
-        "What resource of yours does the most good when shared?"
+        "Who else eats from your barn?",
+        "What did you give away unseen?",
+        "When did the fear go?"
       ],
-      "libraryEntry": "",
+      "libraryEntry": "The harvest is in the barn and the barn door is not locked. Those two facts sit together, and most people manage only the first. Getting enough is a long piece of work with a clear finish. Holding it without bolting the door is a separate piece of work with no finish at all, because the fear that arrived during the shortage does not leave when the shortage does. You dismiss it on purpose, repeatedly, checking the store, finding it full, and deciding again to leave the door as it is. Lunaria holds seed all winter and then drops it in the wind. Gleaners in a field with permission are not a charity arrangement. They are the mark of a keeper who has done the arithmetic and found it survivable. Enough is a state rather than a number, and it is held loosely or not held at all.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": "",
-        "readingLines": [],
-        "questions": []
+        "readingLines": [
+          "Doors open, barn full. Three people took what they needed without discussing it. You lost nothing you can name or measure. Trust of that shape comes back on a schedule no one publishes. It comes back.",
+          "Your barn is full and the door is bolted. Enough arrived and the fear stayed. The fear was never about the amount. A locked store is still a full store. It is lonelier to sit in.",
+          "The doors are open. The barn is emptier than you have admitted. Generosity with no floor under it is a slow transfer rather than stewardship. The gleaners cannot see the level. They are not being careless. Only the keeper reads the level."
+        ],
+        "questions": [
+          "What came back that you never chased?",
+          "What is the bolt for?",
+          "Where is the floor?"
+        ],
+        "libraryEntry": "A full barn goes three ways. In the first the doors stay open, three people take what they need without any conversation about it, the keeper loses nothing that can be named, and trust of that shape comes back on a schedule no one publishes. The second is the bolt. Enough arrived and the fear stayed, because it was never about the amount, and a locked store is a full store that is lonelier to sit in. That state is entirely defensible and it mostly costs the keeper. The third is the open door with no floor under it. Generosity beyond capacity is a slow transfer rather than stewardship, and the gleaners in the field cannot see the level and are not being careless in failing to. Only the keeper can read the level. Reading it is part of your job rather than a retreat from it."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "A crown of three seed heads above one round Lunaria pod, moss mark above.",
+      "status": "drafted"
     }
   ]
 }

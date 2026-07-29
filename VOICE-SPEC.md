@@ -248,3 +248,28 @@ batch starts.
   event, and a person has failure modes rather than one opposite. "Three
   ways young interest ends and only one of them is a loss." This applies
   to all sixteen courts and not to the pips.
+- **2026-07-29, batch 5. The impersonal-agent check is a construction
+  check, not a word list.** Batches 3 and 4 tracked "nobody" and
+  "somebody" as crutch words. Batch 5 measures both at zero and reads as
+  fixed, and is not, because "no one" appears seven times, "anyone" five
+  and "someone" three. The habit is declining to name the agent. Counting
+  two spellings of it measured the wrong thing. This is the same class of
+  error as the plate-opener regex, which is to say a check cruder than the
+  prose it judges, and it is the second one found by reading rather than by
+  tooling.
+- **2026-07-29, batch 5. Clipping cuts both ways.** Batch 2 drifted long
+  and was clipped down. Batch 5 drifted the other way, landing inside the
+  sentence-length band while dropping ten points of fragment share and
+  gaining two words per line, and the same operation corrected it.
+  Nineteen sentences balanced too neatly across an "and", tell number
+  eight, were split into a beat plus its remainder. The band is not the
+  whole target. Fragment share is what the voice is actually heard as, and
+  it belongs in the drift table alongside the mean.
+- **2026-07-29, batch 5. Conceits for cards about competence must be
+  objects, not virtues.** All eight senior courts are adults who look
+  after other people, and the generic version of each is a compliment.
+  Every reading line is anchored to a physical thing, a kitchen, a spirit
+  level, a spare jumper, an unlocked barn door. That anchoring is what
+  keeps eight portraits from reading as eight compliments, and the same
+  discipline applies to the Majors that name a quality, M08, M11 and M14
+  in particular.
