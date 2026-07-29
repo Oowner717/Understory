@@ -22,3 +22,13 @@ One line per non-obvious choice, newest last.
 - Vite `base` is `/Understory/` unconditionally (dev, preview, build) — one URL shape everywhere; `UNDERSTORY_BASE` env overrides.
 - App icons rasterized once via Playwright + the preinstalled Chromium (`scripts/make-icons.mjs`) — no image libs in the repo.
 - Deploy workflow triggers on the working branch as well as `main`: the first pushed branch of an empty repo becomes its default.
+- Deploy switched to gh-pages branch publishing: the Actions token cannot create a Pages site, and a gh-pages branch on a public repo auto-enables one.
+- Meaning schema layered (readingLine/question/libraryEntry/reversed/altText + status); old `general` migrated to readingLine, all 78 marked `placeholder`.
+- CardDetail renders `libraryEntry || readingLine`; empty new fields degrade gracefully during the campaign.
+- `reversed` copy exists in schema and drafts only — the playtest UI never renders reversals (out-of-scope line holds).
+- `meanings.json` keywords are the editorial working set; `cards.json` keywords stay canonical for plates/draw UI until ship.
+- Barnum phrase-shapes live in a fenced `barnum-patterns` block inside VOICE.md; the linter parses that block, so rulebook and enforcement can't drift apart.
+- Linters skip `status: placeholder` entries by default (`--all` includes them) — a permanently red linter teaches people to ignore it.
+- Advice-verb rule scoped after two false positives: "need to"/"have to" flag only in second-person, non-negated use; should/must/ought flag everywhere.
+- `#/writing` dashboard is dev-only via a DEV-gated dynamic import (tree-shaken from production); its edits leave via clipboard only — writing to meanings.json stays a manual authorship step.
+- Every UI string lives in `src/content/ui-strings.ts`; notification copy is static (no card names, no journal content — lock-screen safe).

@@ -30,6 +30,22 @@ Keep these clean above all else; everything else is disposable scaffolding.
 /public/icons  PWA icons (regenerate with scripts/make-icons.mjs)
 ```
 
+## Writing campaign (see the work order; these rules are standing)
+
+- **VOICE.md is the single source of truth** for every string; the summary
+  below is the short form. The Barnum pattern list the linter enforces lives
+  in a fenced block inside VOICE.md.
+- **Authorship boundary:** Claude never writes text into `meanings.json`.
+  Drafts go to `src/content/drafts/` only, two variants per field, linted
+  clean before review. Moving text into `meanings.json` is a step the author
+  performs by hand. `PROVENANCE.md` records who drafted/authored each card.
+- Tools: `npm run lint:voice` · `npm run lint:sameness` · `npm run
+  fuzz:readings`. Writing dashboard at `#/writing` (dev server only).
+- UI copy lives in `src/content/ui-strings.ts` — nothing hardcoded in
+  components.
+- Ship gate: nothing ships while any card's `status` is `placeholder` or
+  `drafted`.
+
 ## Voice rules (binding for all copy)
 
 - Notices, never predicts. Banned: will/won't, fortune, destiny, "the universe",
