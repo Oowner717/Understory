@@ -151,3 +151,15 @@ Queen of Bellflower (warmth)
 Ace of Hawthorn (spark)
   First bud on the branch, out before the leaves. No plan attached; buds don't file plans. The urge you've been discounting is on the record now — small, green, unreasonably early. Early is what first looks like. Nothing else about it is information yet.
   Q: What's budding early that you keep calling premature?
+
+---
+
+# FINAL VERDICT (Gate 1 closed)
+
+- Four of Bellflower — A-r1, question replaced ("What have you stopped seeing?").
+- The Tower — J primary (question simplified to "What can you admit now?"),
+  F body approved (question rejected), G first and last lines approved.
+- Eight of Lunaria — Blend-1 minus its last sentence.
+- Global punctuation law — no colons, no semicolons, anywhere. Lint-enforced.
+
+Winning specimens live verbatim in VOICE-SPEC.md, which is now the anchor.

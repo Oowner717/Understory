@@ -121,9 +121,10 @@ export interface FieldBounds {
   questions?: '0' | '1'
 }
 
+/** Bounds tuned to the Gate 1 winning specimens (VOICE-SPEC.md). */
 export const FIELD_BOUNDS: Record<string, FieldBounds> = {
-  readingLine: { minWords: 40, maxWords: 55, questions: '0' },
-  question: { minWords: 6, maxWords: 24, questions: '1' },
+  readingLine: { minWords: 35, maxWords: 52, questions: '0' },
+  question: { minWords: 4, maxWords: 12, questions: '1' },
   libraryEntry: { minWords: 140, maxWords: 170, questions: '0' },
   altText: { minWords: 8, maxWords: 22, questions: '0' },
 }
@@ -173,6 +174,9 @@ export function lintField(cardId: string, field: string, text: string, opts: Lin
     .replace(/^[A-Z]/, (c) => c.toLowerCase())
   const bounds = FIELD_BOUNDS[base]
   const qCount = (text.match(/\?/g) ?? []).length
+
+  if (/[:;]/.test(text))
+    push('punctuation', 'error', 'colon or semicolon — the voice uses periods and em dashes (VOICE-SPEC)')
 
   if (bounds?.questions === '0' && qCount > 0)
     push('question-marks', 'error', `${qCount} question mark(s); this field carries none — the question field carries the question`)
