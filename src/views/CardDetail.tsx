@@ -36,8 +36,8 @@ export function CardDetail({ id }: { id: string }) {
       <h1 className="card-name">{card.name}</h1>
       {hasDualName(card) && <p className="card-classic">{card.classicName}</p>}
       <p className="card-keywords">{card.keywords.join(' · ')}</p>
-      <p className="card-meaning">{meaning.libraryEntry || meaning.readingLine}</p>
-      <p className="card-question">{meaning.question}</p>
+      <p className="card-meaning">{meaning.libraryEntry || meaning.readingLines[0] || ''}</p>
+      <p className="card-question">{meaning.questions[0] ?? ''}</p>
       <p className="card-count">
         {count === 0 ? STR.card.drawnNever : count === 1 ? STR.card.drawnOnce : STR.card.drawnTimes(count)}
       </p>

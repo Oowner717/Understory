@@ -167,11 +167,12 @@ export function lintField(cardId: string, field: string, text: string, opts: Lin
 
   if (opts.vocabOnly) return out
 
-  // "reversedReadingLine[1]" → base field "readingLine"
+  // "reversedReadingLines[1]" → base field "readingLine"
   const base = field
     .replace(/\[\d+\]$/, '')
     .replace(/^reversed/, '')
     .replace(/^[A-Z]/, (c) => c.toLowerCase())
+    .replace(/^(readingLine|question)s$/, '$1')
   const bounds = FIELD_BOUNDS[base]
   const qCount = (text.match(/\?/g) ?? []).length
 

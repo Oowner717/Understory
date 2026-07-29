@@ -1,5 +1,5 @@
 {
-  "_note": "PLACEHOLDER COPY — rewrite before any public release. status tracks the writing campaign: placeholder → drafted → authored → final. Nothing ships while any card is placeholder or drafted. Claude never writes to this file's text fields; see VOICE.md §10 and PROVENANCE.md.",
+  "_note": "PLACEHOLDER/DRAFT COPY — variant-depth schema (Work Order v3): readingLines[3] + questions[3], upright and reversed, paired by index. status: placeholder → drafted → final (author accepts via #/writing review). Nothing ships below final. See VOICE-SPEC.md, CONCEITS.md, PROVENANCE.md.",
   "meanings": [
     {
       "cardId": "M00",
@@ -8,13 +8,19 @@
         "lightness",
         "not-knowing"
       ],
-      "readingLine": "A step off the map, taken lightly. You don't know how this goes, and just now that's the most honest thing about it.",
-      "question": "What would you try if being a beginner were allowed?",
+      "readingLines": [
+        "A step off the map, taken lightly. You don't know how this goes, and just now that's the most honest thing about it."
+      ],
+      "questions": [
+        "What would you try if being a beginner were allowed?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -26,13 +32,19 @@
         "focus",
         "making"
       ],
-      "readingLine": "Everything required is already on the table — attention, a few plain tools, a clear morning. The trick isn't magic; it's starting.",
-      "question": "Which tool in front of you is going unused?",
+      "readingLines": [
+        "Everything required is already on the table — attention, a few plain tools, a clear morning. The trick isn't magic; it's starting."
+      ],
+      "questions": [
+        "Which tool in front of you is going unused?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -44,13 +56,19 @@
         "the unsaid",
         "inner sense"
       ],
-      "readingLine": "Not everything asks to be said out loud. Something in you already knows the shape of this and is waiting for you to stop talking over it.",
-      "question": "What do you already know that you haven't admitted to knowing?",
+      "readingLines": [
+        "Not everything asks to be said out loud. Something in you already knows the shape of this and is waiting for you to stop talking over it."
+      ],
+      "questions": [
+        "What do you already know that you haven't admitted to knowing?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -62,13 +80,19 @@
         "tending",
         "plenty"
       ],
-      "readingLine": "Things grow when tended, and mostly on their own schedule. This is a card of soil, meals, and other unglamorous plenty.",
-      "question": "What in your life is asking to be tended rather than fixed?",
+      "readingLines": [
+        "Things grow when tended, and mostly on their own schedule. This is a card of soil, meals, and other unglamorous plenty."
+      ],
+      "questions": [
+        "What in your life is asking to be tended rather than fixed?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -80,13 +104,19 @@
         "boundaries",
         "steadiness"
       ],
-      "readingLine": "Four walls, a fence line, a plan that holds. Structure gets a bad name until you notice how much can grow inside it.",
-      "question": "Where would a firmer edge make things kinder?",
+      "readingLines": [
+        "Four walls, a fence line, a plan that holds. Structure gets a bad name until you notice how much can grow inside it."
+      ],
+      "questions": [
+        "Where would a firmer edge make things kinder?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -98,13 +128,19 @@
         "teaching",
         "inherited forms"
       ],
-      "readingLine": "The old ways got old by working, at least for someone. You're handling something inherited — a habit, a rule, a way of doing Sundays.",
-      "question": "Which inherited rule still fits you, and which is just familiar?",
+      "readingLines": [
+        "The old ways got old by working, at least for someone. You're handling something inherited — a habit, a rule, a way of doing Sundays."
+      ],
+      "questions": [
+        "Which inherited rule still fits you, and which is just familiar?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -116,13 +152,19 @@
         "closeness",
         "alignment"
       ],
-      "readingLine": "A real choice, the kind that changes the chooser. Closeness has terms, and they're rarely written down.",
-      "question": "What are you actually choosing between?",
+      "readingLines": [
+        "A real choice, the kind that changes the chooser. Closeness has terms, and they're rarely written down."
+      ],
+      "questions": [
+        "What are you actually choosing between?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -134,13 +176,19 @@
         "steering",
         "resolve"
       ],
-      "readingLine": "Motion, with your hands on the reins. Momentum is only useful when the direction is yours.",
-      "question": "Where is this speed taking you, and did you pick it?",
+      "readingLines": [
+        "Motion, with your hands on the reins. Momentum is only useful when the direction is yours."
+      ],
+      "questions": [
+        "Where is this speed taking you, and did you pick it?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -152,13 +200,19 @@
         "patience",
         "self-command"
       ],
-      "readingLine": "Not the loud kind of strong. The kind that waits out a snarl, keeps its voice level, opens its hand first.",
-      "question": "What responds to patience today that never responds to force?",
+      "readingLines": [
+        "Not the loud kind of strong. The kind that waits out a snarl, keeps its voice level, opens its hand first."
+      ],
+      "questions": [
+        "What responds to patience today that never responds to force?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -170,13 +224,19 @@
         "one small light",
         "looking inward"
       ],
-      "readingLine": "A deliberate step back, one small lantern, enough. Some questions only answer in a quiet room.",
-      "question": "What might you hear if you took an evening off from everyone?",
+      "readingLines": [
+        "A deliberate step back, one small lantern, enough. Some questions only answer in a quiet room."
+      ],
+      "questions": [
+        "What might you hear if you took an evening off from everyone?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -188,13 +248,19 @@
         "cycles",
         "timing"
       ],
-      "readingLine": "The wheel turns whether or not you push it. Some of this week is weather, not verdict.",
-      "question": "What part of this is simply the season it's in?",
+      "readingLines": [
+        "The wheel turns whether or not you push it. Some of this week is weather, not verdict."
+      ],
+      "questions": [
+        "What part of this is simply the season it's in?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -206,13 +272,19 @@
         "consequence",
         "clear sight"
       ],
-      "readingLine": "Scales, held steady. Actions and their weights, seen plainly, without a thumb on the pan.",
-      "question": "What would an even-handed account of this look like?",
+      "readingLines": [
+        "Scales, held steady. Actions and their weights, seen plainly, without a thumb on the pan."
+      ],
+      "questions": [
+        "What would an even-handed account of this look like?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -224,13 +296,19 @@
         "another angle",
         "letting be"
       ],
-      "readingLine": "Hanging upside down is uncomfortable and very clarifying. The view has changed; you haven't moved.",
-      "question": "What looks different about this from the other way up?",
+      "readingLines": [
+        "Hanging upside down is uncomfortable and very clarifying. The view has changed; you haven't moved."
+      ],
+      "questions": [
+        "What looks different about this from the other way up?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -242,13 +320,19 @@
         "clearing",
         "what falls away"
       ],
-      "readingLine": "Something is over, and the tidy word for that is compost. Endings feed what comes next, though rarely on request.",
-      "question": "What are you still watering that's already done?",
+      "readingLines": [
+        "Something is over, and the tidy word for that is compost. Endings feed what comes next, though rarely on request."
+      ],
+      "questions": [
+        "What are you still watering that's already done?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -260,13 +344,19 @@
         "measure",
         "patience"
       ],
-      "readingLine": "Two vessels, one stream, poured slowly. Most good mixtures are boring to watch being made.",
-      "question": "What proportions are off by just a little?",
+      "readingLines": [
+        "Two vessels, one stream, poured slowly. Most good mixtures are boring to watch being made."
+      ],
+      "questions": [
+        "What proportions are off by just a little?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -278,13 +368,19 @@
         "habit",
         "what binds"
       ],
-      "readingLine": "A bramble knot: nobody plants one, everybody grows one. Whatever binds here mostly binds because it's familiar.",
-      "question": "Which tangle do you keep because it's yours?",
+      "readingLines": [
+        "A bramble knot: nobody plants one, everybody grows one. Whatever binds here mostly binds because it's familiar."
+      ],
+      "questions": [
+        "Which tangle do you keep because it's yours?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -296,13 +392,19 @@
         "exposure",
         "cleared air"
       ],
-      "readingLine": "Lightning is fast, and it mostly finds what was already tallest and driest. Something built has come down; the air is clearer than it's been.",
-      "question": "What has this collapse saved you from maintaining?",
+      "readingLines": [
+        "Lightning is fast, and it mostly finds what was already tallest and driest. Something built has come down; the air is clearer than it's been."
+      ],
+      "questions": [
+        "What has this collapse saved you from maintaining?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -314,13 +416,19 @@
         "replenishment",
         "mending"
       ],
-      "readingLine": "After the storm, a thin bright constancy. Hope, in this deck, is a practice of small refills.",
-      "question": "What refills you a little, reliably?",
+      "readingLines": [
+        "After the storm, a thin bright constancy. Hope, in this deck, is a practice of small refills."
+      ],
+      "questions": [
+        "What refills you a little, reliably?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -332,13 +440,19 @@
         "imagination",
         "unease"
       ],
-      "readingLine": "Half-light makes strange shapes out of ordinary fenceposts. Not everything you feel tonight is information.",
-      "question": "Which of these worries survives daylight?",
+      "readingLines": [
+        "Half-light makes strange shapes out of ordinary fenceposts. Not everything you feel tonight is information."
+      ],
+      "questions": [
+        "Which of these worries survives daylight?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -350,13 +464,19 @@
         "warmth",
         "being seen"
       ],
-      "readingLine": "Plain warmth, nothing clever. A good thing is allowed to be exactly what it looks like.",
-      "question": "What's going well that you haven't said out loud?",
+      "readingLines": [
+        "Plain warmth, nothing clever. A good thing is allowed to be exactly what it looks like."
+      ],
+      "questions": [
+        "What's going well that you haven't said out loud?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -368,13 +488,19 @@
         "waking",
         "second look"
       ],
-      "readingLine": "An old thing surfaces, asking to be re-read rather than re-lived. You've grown since you filed it.",
-      "question": "What deserves a second look from who you are now?",
+      "readingLines": [
+        "An old thing surfaces, asking to be re-read rather than re-lived. You've grown since you filed it."
+      ],
+      "questions": [
+        "What deserves a second look from who you are now?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -386,13 +512,19 @@
         "wholeness",
         "arrival"
       ],
-      "readingLine": "A circle closes. Between this and the next thing there's a short interval called finished — easy to miss.",
-      "question": "What have you completed without pausing to notice?",
+      "readingLines": [
+        "A circle closes. Between this and the next thing there's a short interval called finished — easy to miss."
+      ],
+      "questions": [
+        "What have you completed without pausing to notice?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -404,13 +536,19 @@
         "urge",
         "first green"
       ],
-      "readingLine": "First green on the branch. An urge this fresh doesn't have a plan yet, and doesn't have to.",
-      "question": "What's the smallest first move?",
+      "readingLines": [
+        "First green on the branch. An urge this fresh doesn't have a plan yet, and doesn't have to."
+      ],
+      "questions": [
+        "What's the smallest first move?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -422,13 +560,19 @@
         "weighing",
         "reach"
       ],
-      "readingLine": "The gate is open and the map is in your hand. Wanting two horizons is normal; walking takes one.",
-      "question": "Which prospect keeps returning when you stop planning?",
+      "readingLines": [
+        "The gate is open and the map is in your hand. Wanting two horizons is normal; walking takes one."
+      ],
+      "questions": [
+        "Which prospect keeps returning when you stop planning?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -440,13 +584,19 @@
         "early returns",
         "patience at the gate"
       ],
-      "readingLine": "You've done the sending; now comes the watching. Early returns say something, just not everything.",
-      "question": "What's actually in your hands while you wait?",
+      "readingLines": [
+        "You've done the sending; now comes the watching. Early returns say something, just not everything."
+      ],
+      "questions": [
+        "What's actually in your hands while you wait?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -458,16 +608,32 @@
         "threshold",
         "homecoming"
       ],
-      "readingLine": "A threshold worth marking — flowers over the door. Small celebrations turn out to be load-bearing.",
-      "question": "What's worth marking this week, even briefly?",
-      "libraryEntry": "",
+      "readingLines": [
+        "Boxes in the hall, a banner over the door. The house is not ready and the party is happening anyway. That order is correct. Thresholds get marked when crossed, not when perfected — you've crossed one, mid-mess, and it counts.",
+        "Nothing is finished. The kettle works, the floor is clear in one room, and that was enough for you to put a date on. Some milestones wait for permission that never comes — this one got invited people instead. Small ceremony, real threshold.",
+        "The subject stands in a doorway with company arriving. Renovation unfinished — recorded anyway as a homecoming. You keep filing the good days under provisional, still. The file is wrong about at least one of them."
+      ],
+      "questions": [
+        "What have you crossed without marking?",
+        "What's worth a small ceremony this week?",
+        "Which good day got filed under provisional?"
+      ],
+      "libraryEntry": "Hawthorn was hung over doorways once — a branch, flowering, above whoever crossed beneath. The four keeps that habit. Boxes still in the hall, one lamp working, and a date put on the calendar anyway, because a threshold was crossed and thresholds get marked. Waiting for the finished version is the common mistake. Finished keeps moving. The room gets painted, then the shelves want doing, then the garden, and the party scheduled to follow completion follows nothing, ever, because completion is a horizon and not a place. The four takes the other route — mark it now, mid-mess, with the people who helped carry. Ceremony this small looks skippable. It isn't. Marked days become load-bearing later, the ones memory reaches for when a season needs proving. You have at least one crossing behind you this month that got no banner. The card is the banner, offered late — and late banners still hold.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": ""
+        "readingLines": [
+          "The banner stays in its packet until the house deserves it. Reversed, the four is the party postponed so often it stopped being planned. The boxes became furniture. The waiting became the address. You live somewhere you haven't arrived yet.",
+          "A finished room, a milestone passed at speed, no mark left. Reversed, the crossing happened — the ceremony didn't. Unmarked days blur into the pile. Somewhere back there is an arrival you never stood in. It kept, but barely.",
+          "Guests postponed, again — the house one project short of ready, as it was last spring. The subject's threshold is crossed daily and never once observed. You know the pending list by heart. Perfection makes a poor host — it has never actually thrown the party."
+        ],
+        "questions": [
+          "What are you waiting to deserve?",
+          "Which arrival did you walk past?",
+          "What would you host if ready stopped being required?"
+        ],
+        "libraryEntry": "Reversed, the hawthorn stays unhung. The four's failure mode is not sadness — it's deferral with good taste. The house is nearly there. The role is nearly earned. The season is nearly right, and the celebration keeps its place in the queue behind one more improvement, patient as furniture. Years can run on this arrangement. The tell is the tour — visitors shown what's planned rather than what's here, the apology for the hallway, the fluent list of pending. Meanwhile crossings pile up unmarked. The new job started, the hard year ended, the friendship survived the move, and none of it got so much as a raised glass, because the calendar was holding out for the finished version of a life that is, structurally, never finished. The reversed four doesn't demand a party. It notes what unmarked days do — they compound into the feeling of having gotten nowhere, in a house you have, in fact, arrived in."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "Four budded hawthorn sprigs in two pairs, evenly set, ochre stamp above.",
+      "status": "drafted"
     },
     {
       "cardId": "wands-05",
@@ -476,16 +642,32 @@
         "contest",
         "crossed purposes"
       ],
-      "readingLine": "Sticks crossed, voices raised, nobody quite fighting. Friction like this usually means everyone cares and no one has said about what.",
-      "question": "What is this contest actually about?",
-      "libraryEntry": "",
+      "readingLines": [
+        "Five people in one kitchen, all helping. Elbows, counter space, three opinions on the onions — nobody fighting, everybody firm. You've been in that kitchen this week, one way or another. Friction like this means care with no agreed shape. The meal is still on schedule.",
+        "The argument sounds like method — chop this way, stack that way. It's rarely about method. Five sets of hands want the same dinner to go well, and none of them said so out loud. You're one of the hands. Saying so shortens it.",
+        "Recorded scene — one pan, five spoons. Heat rising, nothing burning yet. Contests like this pick small stakes because the big one is embarrassing to name. Underneath the seasoning debate sits the actual question, unstirred — your week has its version."
+      ],
+      "questions": [
+        "What is everyone actually trying to protect?",
+        "What has nobody said out loud yet?",
+        "What is this contest standing in for?"
+      ],
+      "libraryEntry": "Five hawthorn sprigs crowd the plate the way five people crowd a kitchen — all pointed at the same dinner, all in each other's way. The five is the suit's friction card, and the friction is a specific kind. Not enemies. Colleagues, family, friends, co-founders — your people, usually, all caring about the outcome without ever agreeing on the shape of caring. So the contest lands on proxies. Whose method, whose timing, whose spatula. The stakes stay small on purpose, because the true stake — wanting it to go well, wanting to matter to how it goes — is embarrassing to say across a counter. The card reads noise level honestly. This much heat means the stakes are real. Kitchens with one cook are efficient and calmer and make one person's dinner. What the five asks is only that somebody name the shared want before the proxies escalate — because once it's named, the elbows turn out to fit, and the argument reveals itself as five drafts of the same sentence.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": ""
+        "readingLines": [
+          "One cook now, and you four rooms away. Reversed, the contest ended by evacuation — smoother, calmer, smaller. Dinner arrives on time and tastes like one person. Efficiency won what the argument was guarding. Nobody voted on that trade.",
+          "The counter clears. Reversed, someone — maybe you — finally said the true sentence — we all want this to go well — and the methods stopped mattering within minutes. Leftover heat, no leftover argument. What remains is dinner, and the odd shyness after honesty.",
+          "Reversed, the friction went underground. No more debates — just tighter jaws and immaculate politeness over the chopping. The contest didn't resolve. It privatized. Cold kitchens cook too — you've eaten those dinners. The silence costs more per week than the noise did."
+        ],
+        "questions": [
+          "What got smoother that used to be shared?",
+          "What true sentence would end this one?",
+          "What's politer this week, and colder?"
+        ],
+        "libraryEntry": "Reversed, the five loses its noise one of two ways. In the better ending, somebody names the stake — we all want this to go well, that's the whole fight — and the proxies collapse on the spot. Methods get comically negotiable once the want is on the table. The counter fits everyone it fit badly an hour ago, and the strange shyness that follows honesty is the only leftover. In the other ending, the kitchen empties instead. One cook, headphones in, four helpers reassigned to the sofa, and a dinner that arrives efficient, punctual, and thin. Or the contest privatizes — the debate stops, the jaws tighten, and disagreement continues by immaculate politeness, which cooks colder than any shouting. The card's ledger is unsentimental about all three. Friction was never the cost. It was the evidence — of five people still reaching for the same pan. Its absence is what deserves the audit, and the audit starts with who left the kitchen, and whether it was you."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "Five hawthorn sprigs crowded toward the plate's center, stems crossing at angles.",
+      "status": "drafted"
     },
     {
       "cardId": "wands-06",
@@ -494,16 +676,32 @@
         "pride",
         "a good day"
       ],
-      "readingLine": "A good day, publicly good. Taking credit gracefully is a skill, same as earning it.",
-      "question": "What praise are you deflecting instead of banking?",
-      "libraryEntry": "",
+      "readingLines": [
+        "You batted the compliment away in the meeting and replayed it four times on the drive home. Both reflexes are honest. The six files it as earned — praise is data, not decoration, and deflection doesn't unearn it.",
+        "A good day, publicly good — witnessed, named, on the record. Your instinct is to shrink it before someone else does. Nobody else was reaching for it. The room meant it — and rooms mean it less often than you'd guess, which is exactly why it's worth banking.",
+        "Recorded — one branch raised, five in support. Recognition landed on you this week and slid off, by design. The design is old. The valve that sheds praise was fitted years ago, long before this job existed."
+      ],
+      "questions": [
+        "What compliment are you still deflecting?",
+        "What would change if you believed the room?",
+        "What does deflecting actually protect?"
+      ],
+      "libraryEntry": "Six sprigs, one lifted above the others — the plate's version of a good day made public. The six is recognition, and recognition is harder to hold than the deck's sadder cards ever are. Watch what happens in the meeting. Praise lands, and within a second the hands are up — luck, team effort, anyone would have. Some of that is manners. The rest is a valve, fitted long ago, that sheds credit before credit can be tested. The six runs a different protocol. Earned recognition is information about reality — what worked, what's repeatable, what the room can see that you can't — and deflecting information doesn't make it false, only unusable. Banked, it compounds into something sturdier than confidence, a private ledger of evidence that holds on the bad weeks. Nothing here asks for a speech or a lap of honor. Receiving well is mostly one sentence — thank you, it went well — said without a discount attached. The drive home goes differently after that. Shorter, for one thing.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": ""
+        "readingLines": [
+          "Your work is wearing someone else's name this week. Reversed, the six knows the taste — the nod went upstream, the deck got shuffled in the retelling. Records correct better in writing than in scenes, and better this month than next.",
+          "Applause arrived for the wrong thing again — the flashy piece, not the load-bearing one. Reversed, the six notes the gap between what rooms cheer and what you rate. Both lists are real. Only one of them is yours to keep.",
+          "Reversed, the ledger went external. The week is only as good as its reviews, and the reviews run late, or thin, or to the wrong address. Applause is weather. You've been farming it like a climate. The private ledger reopens anytime."
+        ],
+        "questions": [
+          "Where does the record need your name?",
+          "What do you rate that rooms miss?",
+          "What would this week rate without witnesses?"
+        ],
+        "libraryEntry": "Reversed, the six covers the three ways recognition goes wrong. Credit migrates — your work surfaces upstream wearing another name, and the correction feels pettier to make than the theft felt to commit, which is how records stay wrong. They correct better in writing than in scenes, and better this month than next. Applause misfires — rooms reliably cheer the visible piece over the load-bearing one, and a career steered by cheering drifts toward flash the way plants lean at windows. And the ledger outsources — the week becomes only as good as its reviews, the reviews run thin or late, and a person who once knew what they'd done well starts checking the mentions to find out. The card's holding is the same across all three. Public recognition is weather, real and consequential and not yours to schedule. The private ledger — what worked, what held, what you'd stand behind — is the climate. Kept honestly, it makes the weather survivable in both directions."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "Six hawthorn sprigs, one raised at center above five in loose escort.",
+      "status": "drafted"
     },
     {
       "cardId": "wands-07",
@@ -512,13 +710,19 @@
         "persistence",
         "high ground"
       ],
-      "readingLine": "The high ground, and you're holding it. Worth checking, now and then, that it's ground worth holding.",
-      "question": "What are you defending, and is it still yours?",
+      "readingLines": [
+        "The high ground, and you're holding it. Worth checking, now and then, that it's ground worth holding."
+      ],
+      "questions": [
+        "What are you defending, and is it still yours?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -530,13 +734,19 @@
         "news",
         "things in motion"
       ],
-      "readingLine": "Everything in the air at once, all of it moving. Speed feels like progress; sometimes it even is.",
-      "question": "What's moving fast that deserves a slower look?",
+      "readingLines": [
+        "Everything in the air at once, all of it moving. Speed feels like progress; sometimes it even is."
+      ],
+      "questions": [
+        "What's moving fast that deserves a slower look?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -548,13 +758,19 @@
         "stamina",
         "almost there"
       ],
-      "readingLine": "Bruised, guarded, nearly through. The last stretch has a way of looking like the whole road.",
-      "question": "What would let you finish without going numb?",
+      "readingLines": [
+        "Bruised, guarded, nearly through. The last stretch has a way of looking like the whole road."
+      ],
+      "questions": [
+        "What would let you finish without going numb?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -566,13 +782,19 @@
         "duty",
         "carrying it all"
       ],
-      "readingLine": "Ten sticks, one back. Some of this load is yours; some you picked up because you happened to be passing.",
-      "question": "Which of these could be set down without anything breaking?",
+      "readingLines": [
+        "Ten sticks, one back. Some of this load is yours; some you picked up because you happened to be passing."
+      ],
+      "questions": [
+        "Which of these could be set down without anything breaking?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -584,13 +806,19 @@
         "eagerness",
         "a green shoot"
       ],
-      "readingLine": "A green shoot with opinions. Enthusiasm this young mostly wants permission and a little room.",
-      "question": "What are you curious about that you've been calling unproductive?",
+      "readingLines": [
+        "A green shoot with opinions. Enthusiasm this young mostly wants permission and a little room."
+      ],
+      "questions": [
+        "What are you curious about that you've been calling unproductive?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -602,13 +830,19 @@
         "appetite",
         "boldness"
       ],
-      "readingLine": "Off at a gallop, hat gone, grinning. Boldness covers distance; it's less good at corners.",
-      "question": "Where does the dash serve you, and where does it just feel good?",
+      "readingLines": [
+        "Off at a gallop, hat gone, grinning. Boldness covers distance; it's less good at corners."
+      ],
+      "questions": [
+        "Where does the dash serve you, and where does it just feel good?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -620,13 +854,19 @@
         "confidence",
         "hearth-fire"
       ],
-      "readingLine": "Warmth that other people warm themselves at. Confidence worn like a garden — cultivated, not claimed.",
-      "question": "Who gets the warmest version of you, and why them?",
+      "readingLines": [
+        "Warmth that other people warm themselves at. Confidence worn like a garden — cultivated, not claimed."
+      ],
+      "questions": [
+        "Who gets the warmest version of you, and why them?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -638,13 +878,19 @@
         "direction",
         "seasoned drive"
       ],
-      "readingLine": "The long view, with the sleeves still rolled up. Seasoned drive knows what to skip.",
-      "question": "What does the ten-year version of you keep, of all this?",
+      "readingLines": [
+        "The long view, with the sleeves still rolled up. Seasoned drive knows what to skip."
+      ],
+      "questions": [
+        "What does the ten-year version of you keep, of all this?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -656,13 +902,19 @@
         "new feeling",
         "welling up"
       ],
-      "readingLine": "Something new is welling up, unasked. Feelings arrive before their explanations; that's the usual order.",
-      "question": "What are you feeling first and naming later?",
+      "readingLines": [
+        "Something new is welling up, unasked. Feelings arrive before their explanations; that's the usual order."
+      ],
+      "questions": [
+        "What are you feeling first and naming later?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -674,13 +926,19 @@
         "meeting",
         "exchange"
       ],
-      "readingLine": "Two cups, level. An exchange this even is rare enough to notice while it's happening.",
-      "question": "Where in your life are the give and the take actually balanced?",
+      "readingLines": [
+        "Two cups, level. An exchange this even is rare enough to notice while it's happening."
+      ],
+      "questions": [
+        "Where in your life are the give and the take actually balanced?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -692,13 +950,19 @@
         "gathering",
         "a shared table"
       ],
-      "readingLine": "A shared table, everyone talking at once. Company turns out to be a staple, not a garnish.",
-      "question": "Who haven't you sat with lately, for no real reason?",
+      "readingLines": [
+        "A shared table, everyone talking at once. Company turns out to be a staple, not a garnish."
+      ],
+      "questions": [
+        "Who haven't you sat with lately, for no real reason?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -710,16 +974,32 @@
         "looking past",
         "the unoffered cup"
       ],
-      "readingLine": "Three cups in reach and your eyes on the middle distance. Restlessness is information, just unsorted.",
-      "question": "What's being offered right now that you're looking past?",
-      "libraryEntry": "",
+      "readingLines": [
+        "Three cups in reach, all full, none touched. A fourth arriving, easy to miss. The subject faces away. Recorded behavior — wanting, aimed past the available. You've been surveying the middle distance for a while now.",
+        "Appetite intact, aim elsewhere. Three cups poured and going flat while the window gets the attention. Boredom is real — it's also a bad surveyor, condemning full rooms sight unseen. The fourth cup is en route from your blind side.",
+        "A full table can be the least visible thing in a room. You've inventoried everything except what's in reach — the far options catalogued, the near ones dust. Wanting works like light. It falls where aimed, and it's aimed away."
+      ],
+      "questions": [
+        "What have you stopped seeing?",
+        "Where does the boredom point, exactly?",
+        "What's near enough that you skipped it?"
+      ],
+      "libraryEntry": "The plate gives this card three bells standing full and a fourth arriving — and the strange fact of the four is that nobody in it is drinking. Nothing is wrong with the cups. That's the point, and the discomfort. Restlessness prefers a grievance, and when none is available it manufactures distance instead, surveying the middle distance while the near table goes unattended. The state has a weather of its own — not sadness, not want, a kind of flat glare in which everything close reads as already known and everything far as possibly the answer. The bellflower hangs face-down here as everywhere, open, offered, easy to miss from a chair angled at the window. The card doesn't argue you into gratitude. It runs a colder audit — attention is a resource with an aim, the aim has drifted, and drift is correctable in a way that emptiness would not be. The fourth cup is still arriving. Offers pick moments like this.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": ""
+        "readingLines": [
+          "Your chair turns back toward the table. Reversed, the fourth cup got noticed — late, still in reach. Re-aimed attention makes old rooms new without moving a single wall. What was flat yesterday has detail again today. It had detail all along.",
+          "Cups get cleared eventually. Reversed, the card marks the offer that stopped waiting — the invitation lapsed, the friend stopped suggesting dates, the window closed politely. Not punishment. Logistics. Your attention elsewhere read, from outside, as no.",
+          "There's a boredom that's armor — wanting nothing nearby so nothing nearby can fail you. Reversed, the four sometimes shows the aim held off-target on purpose. The cups are full. Full is frightening in a way empty never is."
+        ],
+        "questions": [
+          "What regained its detail when you looked twice?",
+          "Which standing offer has quietly stopped standing?",
+          "What are you refusing so it can't disappoint?"
+        ],
+        "libraryEntry": "Reversed, the four resolves in one of two directions. In the first, the chair simply turns. Some mornings do this unprompted — the same table, the same three cups, suddenly carrying detail again, the way a word repeated too often comes back to meaning. Nothing changed but the aim. In the second, the room does the moving. Offers are patient, not permanent. The fourth cup gets set down somewhere else, the invitations thin, and what looked like a standing arrangement turns out to have been someone's ongoing effort, discontinued. Both endings teach the same accounting. Attention is not a private matter — it lands somewhere, and where it lands is legible to everyone at the table. The bellflower stays face-down through all of it, open toward whoever looks. The reversed card asks for no gratitude exercise, no list of blessings. One honest glance at your near field does the work, provided it happens while the near field is still set."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "Three hanging bellflowers in a column, a fourth entering from the upper corner.",
+      "status": "drafted"
     },
     {
       "cardId": "cups-05",
@@ -728,16 +1008,32 @@
         "spilt things",
         "what remains"
       ],
-      "readingLine": "Something spilled, and it mattered. The cups still standing are not a consolation prize; they're just also true.",
-      "question": "What remains, once the spill has been grieved?",
-      "libraryEntry": "",
+      "readingLines": [
+        "Something spilled, and it mattered. You don't have to look at the two cups still standing yet — they're also true, and they keep. Grief goes first here. The card isn't rushing you. Nobody sensible is.",
+        "The spill is real and the loss is the kind that counts. What the card holds for later — not now — is that the table still has two full cups on it. Both things are true at once. Today only one of them needs you.",
+        "Water finds the floor and stays found. You've been standing at the spill a while, taking its measure, which is the correct first job. There's no deadline on the second one. The two standing cups don't spoil while you grieve."
+      ],
+      "questions": [
+        "What spilled, in plain words?",
+        "What, exactly, got lost?",
+        "What remains, once you're ready to count?"
+      ],
+      "libraryEntry": "Three bells down, two standing — the plate refuses to simplify this into either loss or consolation, and so does the card. Something spilled. It mattered, it was yours, and no arrangement of the remaining cups undoes it. People in a hurry to help often point at the standing two, and the card asks them, gently, to wait. Grief has an order of operations. The spilled thing gets its full measure first — named, mourned, given its size — because losses half-grieved are the ones that leak for years. The standing cups are not a lesson or a silver lining. They're just also on the table, holding what they hold, and they keep without spoiling for as long as the first work takes. One day the counting hand comes back up on its own. That's how you know the order was respected. The five stays as long as it's needed, and no longer, and it does not once say the word instead.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": ""
+        "readingLines": [
+          "The counting hand comes back up. Reversed, the two standing cups get lifted, checked, found full. The loss is not repaired — it's placed. There's a difference, and you're standing in it. Placed losses stop leaking and start weighing only what they weigh.",
+          "Reversed, the spill stays current — revisited daily, kept wet. At some point mourning got a lease. The two standing cups have waited a long time now, patient as furniture, still full. They're not asking you to be finished. Only to visit.",
+          "There's a grief that refuses the standing cups on principle — as if counting them shortchanges what fell. Reversed, the card holds both without argument. Loyalty to the lost doesn't require poverty among the kept. It never did. That rule was self-imposed. You're allowed to retire it."
+        ],
+        "questions": [
+          "What's still full, now that you've checked?",
+          "What would one visit to the standing cups cost?",
+          "Who told you comfort was a betrayal?"
+        ],
+        "libraryEntry": "Reversed, the five is about the second job — the counting — and the ways it starts or stalls. Sometimes it simply begins. A morning arrives when the standing cups get lifted and checked, and the loss, without shrinking, takes its place among facts instead of atmospheres. Placed grief still weighs. It just stops billing daily. Other times the spill stays current for seasons — revisited, retold, kept wet — because attending to it has become the last form of contact, and finishing feels like abandoning. The card is careful here. It does not call that a mistake. It only notes that the two standing cups have been holding steadily the whole time, unspoiled, unresentful, and that loyalty to what fell was never a bill payable in refusing what didn't. Nobody grieves on schedule, and the reversed five sets none. It marks the door to the second job, notes that the door is unlocked, and waits with you at whatever distance you need."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "Five bellflowers, three fallen at the stem, two upright, drawn without shading.",
+      "status": "drafted"
     },
     {
       "cardId": "cups-06",
@@ -746,16 +1042,32 @@
         "sweetness",
         "looking back"
       ],
-      "readingLine": "Memory with the sugar left in. The past is a good place to visit and famously poor soil for planting.",
-      "question": "What does this sweetness say about what you miss now?",
-      "libraryEntry": "",
+      "readingLines": [
+        "A stairwell smell from a house you left at nine — the whole building arrives in it, intact, uninvited. Memory keeps addresses you can't visit. The sweetness is real, and it opens no doors — it just visits.",
+        "Six bells, drawn facing backward — the suit's only card that looks over its shoulder. Something old and kind surfaced in your week. The visit is worth taking. The card only flags the exchange rate — the past sells sweetness, and it only accepts today's hours.",
+        "The old house has better lighting every year. You know the trick and it works anyway — rooms grow warmer as they get further, staircases kinder. Nostalgia is an editor, not an archivist — its cuts flatter, and what it cut still happened."
+      ],
+      "questions": [
+        "What is the memory pointing at now?",
+        "What did today trade for the visit?",
+        "What got edited out of the warm version?"
+      ],
+      "libraryEntry": "Six bellflowers, and the engraver has them leaning back the way the mind leans — toward a stairwell, a garden gate, a kitchen radio, whichever fragment happens to hold the charge. The six is memory's sweetness card, and the sweetness is genuine. A smell can carry an entire building. A song can return a summer at full resolution. These visits cost nothing to receive and something to host — the past bills by the hour, in today's hours, and generous hosts can lose whole seasons to a guest who never technically arrived. The card reads the visits for information rather than refusing them. Sweetness is a pointer. What the memory holds — safety, smallness, a table with your place at it, being known without explaining — names something currently rationed. That's the actual message, and it's addressed to now. The stairwell can't be revisited. What it stood for can be rebuilt at today's address, in today's materials. The six visits to remind you of the blueprint, not the lease.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": ""
+        "readingLines": [
+          "Reversed, the visit moved in. The old address gets more upkeep than the current one — anniversaries observed, photos toured, the present treated as an annex. The past is a fine guest. As your tenant it pays in sweetness, and sweetness isn't rent.",
+          "You went back — literally or by long scroll — and the staircase was small. Reversed, the six measures the distance honestly. The place kept none of the size memory lent it. The size was yours all along, and it travels.",
+          "One day the song plays and it's just a song. Reversed, the charge has drained without notice — grief-adjacent, oddly light. Rooms stop glowing when what they held gets rebuilt elsewhere. Yours has been under construction for a while."
+        ],
+        "questions": [
+          "Which address gets your upkeep these days?",
+          "What did going back turn out to measure?",
+          "What no longer needs the old address?"
+        ],
+        "libraryEntry": "Reversed, the six settles one of memory's three accounts. Sometimes the visit has become tenancy — the old house better lit than the current one, anniversaries kept like appointments, and the present reduced to a corridor between commemorations. The card doesn't mock this. Old rooms held real things. It only posts the rent, payable in the one currency the past accepts, which is the hours of now. Sometimes there's a literal return — the childhood street walked, the profile scrolled to the bottom — and the measurement comes back strange. Everything smaller. The staircase ordinary, the garden a strip. What memory lent the place was scale, and scale, it turns out, belonged to the rememberer the whole time. And sometimes, least announced, the charge just drains. The song plays as merely a song, the smell as merely a smell, and the lightness that follows is its own small loss. All three endings agree on the finding. The glow was never in the rooms. It travels, and it's currently yours to install."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "Six bellflowers leaning toward the plate's left edge, as if looking back.",
+      "status": "drafted"
     },
     {
       "cardId": "cups-07",
@@ -764,16 +1076,32 @@
         "too many doors",
         "mirage"
       ],
-      "readingLine": "Seven doors, all ajar, none walked through. Options multiply when choosing feels expensive.",
-      "question": "Which of these possibilities are you actually prepared to feed?",
-      "libraryEntry": "",
+      "readingLines": [
+        "Seven tabs open at your midnight — the course, the flat, the city, the person, the plan. Each one stays possible as long as none gets chosen. The browsing feels like motion. It's the most comfortable stillness ever engineered.",
+        "Options multiply when choosing gets expensive — that's the seven's whole physics. Each open door discounts the others just enough to keep you in the hallway. One possible life, picked, beats seven maintained. The maintenance bill arrives nightly, around midnight.",
+        "Recorded — seven bells, all glittering, none rung. Your dream inventory is honestly lovely, and inventory is what it is. A wish becomes a plan through one demotion — surviving contact with a calendar. Most wishes decline the interview."
+      ],
+      "questions": [
+        "Which tab would you actually feed?",
+        "What is keeping every option open costing?",
+        "Which wish would survive a calendar?"
+      ],
+      "libraryEntry": "Seven bells drawn floating, unattached to any stem — the plate's one botanical impossibility, which is the point. The seven is the options card, and its habitat is the late browser. Possible cities, possible careers, possible selves, each tab of yours genuinely lovely, each kept viable by the same mechanism — none of them ever meets a calendar. The card is not against imagining. Imagination is where every actual life gets its first sketch. It watches the economics instead. Seven maintained possibilities cost real attention nightly, and their combined upkeep is usually greater than the single down payment any one of them would need to become real. Meanwhile the choosing gets dearer with delay, because every option added discounts the rest, and a hallway of discounted doors is a hard place to feel rich. The seven's move is a demotion ritual. One wish, interviewed against a calendar, either becomes a plan with a date or returns honestly to being a dream. Both outcomes beat the tab. The tab was never either.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": ""
+        "readingLines": [
+          "Reversed, one tab gets bookmarked and the rest closed — an evening's work, years postponed. Choosing costs exactly what you feared, six small funerals' worth. What it buys is momentum, which no open hallway ever produced. The picked life starts moving.",
+          "Tabs expire unattended. Reversed, the seven notes that not-choosing is also a chooser — slower, blunter, with no taste. The city option aged out. The course filled. Defaults are decisions running on your account without asking.",
+          "Reversed, the glitter sorts itself. Held to the light, some of your seven were decor — lives lovely to display, never wanted for wear. The honest inventory is shorter and stranger. What's left on it actually wants doing."
+        ],
+        "questions": [
+          "What would you close six tabs for?",
+          "What is deciding itself while you browse?",
+          "Which dream was only ever decor?"
+        ],
+        "libraryEntry": "Reversed, the hallway resolves. Best case, by choice — one tab bookmarked, six closed in a single sitting, and the strange double feeling that follows. Relief, because momentum starts immediately and feels better than browsing ever did. And a specific small grief, because closed possibilities were company, and six of them go at once. The card treats that grief as real and affordable. Worse case, the tabs expire on their own. Options age out, courses fill, cities price themselves away, people stop waiting — and not-choosing reveals itself as the bluntest chooser of all, deciding by deadline with no taste and no memo. Defaults run on your account whether or not you review them. And sometimes the reversal is gentler — an honest sort of the inventory, in good light, discovering that several of the seven were decor all along. Lives lovely to imagine, never wanted for wear. Struck from the list, they owe nothing. The remainder is shorter, stranger, and finally small enough to start."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "Seven bellflowers scattered mid-air across the plate, unattached to any stem.",
+      "status": "drafted"
     },
     {
       "cardId": "cups-08",
@@ -782,13 +1110,19 @@
         "the further hill",
         "leaving well"
       ],
-      "readingLine": "Leaving quietly, cups tidy behind you. Some departures aren't dramatic; they're just due.",
-      "question": "What have you outgrown that hasn't done anything wrong?",
+      "readingLines": [
+        "Leaving quietly, cups tidy behind you. Some departures aren't dramatic; they're just due."
+      ],
+      "questions": [
+        "What have you outgrown that hasn't done anything wrong?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -800,13 +1134,19 @@
         "plenty",
         "a full cup"
       ],
-      "readingLine": "A full cup and the sense to enjoy it. Contentment is allowed to be uncomplicated.",
-      "question": "What's enough, today, exactly as it is?",
+      "readingLines": [
+        "A full cup and the sense to enjoy it. Contentment is allowed to be uncomplicated."
+      ],
+      "questions": [
+        "What's enough, today, exactly as it is?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -818,13 +1158,19 @@
         "home",
         "fullness"
       ],
-      "readingLine": "Accord — the household kind, ordinary and unphotogenic. Fullness rarely announces itself; it hums.",
-      "question": "What ordinary arrangement of yours quietly works?",
+      "readingLines": [
+        "Accord — the household kind, ordinary and unphotogenic. Fullness rarely announces itself; it hums."
+      ],
+      "questions": [
+        "What ordinary arrangement of yours quietly works?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -836,13 +1182,19 @@
         "small messages",
         "softness"
       ],
-      "readingLine": "A small message in a soft envelope. Whimsy is how feeling introduces itself politely.",
-      "question": "What small odd impulse have you been dismissing?",
+      "readingLines": [
+        "A small message in a soft envelope. Whimsy is how feeling introduces itself politely."
+      ],
+      "questions": [
+        "What small odd impulse have you been dismissing?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -854,13 +1206,19 @@
         "courtship",
         "approach"
       ],
-      "readingLine": "An approach, an offer, a flower held slightly too formally. Romance of any kind runs on nerve.",
-      "question": "What invitation are you circling instead of answering?",
+      "readingLines": [
+        "An approach, an offer, a flower held slightly too formally. Romance of any kind runs on nerve."
+      ],
+      "questions": [
+        "What invitation are you circling instead of answering?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -872,13 +1230,19 @@
         "depth",
         "holding others"
       ],
-      "readingLine": "Deep water, held calmly. You're carrying feelings today that aren't all yours.",
-      "question": "Whose weather are you carrying?",
+      "readingLines": [
+        "Deep water, held calmly. You're carrying feelings today that aren't all yours."
+      ],
+      "questions": [
+        "Whose weather are you carrying?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -890,13 +1254,19 @@
         "steady feeling",
         "harbor"
       ],
-      "readingLine": "Feeling, banked and steady — a harbor with room in it. Composure isn't the absence of tide; it's practice with it.",
-      "question": "What lets you stay steady without going distant?",
+      "readingLines": [
+        "Feeling, banked and steady — a harbor with room in it. Composure isn't the absence of tide; it's practice with it."
+      ],
+      "questions": [
+        "What lets you stay steady without going distant?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -908,13 +1278,19 @@
         "a clean cut",
         "plain truth"
       ],
-      "readingLine": "One blade, new and exact. Clarity this sharp cuts both ways, so it rewards aim.",
-      "question": "What plain sentence have you been avoiding writing?",
+      "readingLines": [
+        "One blade, new and exact. Clarity this sharp cuts both ways, so it rewards aim."
+      ],
+      "questions": [
+        "What plain sentence have you been avoiding writing?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -926,13 +1302,19 @@
         "closed eyes",
         "held balance"
       ],
-      "readingLine": "Eyes closed, blades balanced, nobody moving. A stalemate is a decision too — the decision to hold still.",
-      "question": "What are you keeping undecided on purpose?",
+      "readingLines": [
+        "Eyes closed, blades balanced, nobody moving. A stalemate is a decision too — the decision to hold still."
+      ],
+      "questions": [
+        "What are you keeping undecided on purpose?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -944,13 +1326,19 @@
         "a sharp truth",
         "rain"
       ],
-      "readingLine": "Rain, and a truth that went in clean. Sharp things hurt in proportion to their accuracy.",
-      "question": "What did this hurt teach you that a kinder lesson couldn't?",
+      "readingLines": [
+        "Rain, and a truth that went in clean. Sharp things hurt in proportion to their accuracy."
+      ],
+      "questions": [
+        "What did this hurt teach you that a kinder lesson couldn't?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -962,16 +1350,32 @@
         "recovery",
         "stillness"
       ],
-      "readingLine": "Blades hung up, lights low. Rest is a task with its own completion state.",
-      "question": "What would count as actual rest, not just stopping?",
-      "libraryEntry": "",
+      "readingLines": [
+        "Blades hung on the wall in a row, none missing, none out. Lights low. This is rest as an act, not a lapse — entered on purpose, with a threshold. Stopping happens to you. Resting is something you do.",
+        "There's a difference between a paused fight and a closed armory. The four is the second one — equipment stored, door shut, watch ended for the night. You've been pausing lately, not resting. The body can tell the difference.",
+        "Recorded state — four blades racked, one figure horizontal — you, ideally — nothing pending that tonight can move. The list survives till morning either way, untouched. Sleep is not the reward for finishing. It's the maintenance finishing depends on."
+      ],
+      "questions": [
+        "What would count as actual rest today?",
+        "Paused, or actually stopped?",
+        "What genuinely can't move before morning?"
+      ],
+      "libraryEntry": "Four blade leaves on the plate, racked in parallel — the suit's only card where nothing is pointed at anything. Gladiolus thinks in edges, argues in edges, worries in edges, and here, briefly, it stops. The four is rest drawn as a discipline rather than a collapse. The difference matters. Collapse is stopping when stopping wins. Rest is a room entered on purpose, with the equipment racked and a door that shuts — a state with its own threshold and its own completion, not the absence between two efforts. Most tired people — you've been among them — are not short on pauses. They pause constantly, phone in hand, argument idling, blades within reach. What they lack is the closed armory, the hour in which nothing is halfway. The card tends to arrive when the distinction has blurred — when recovery has been getting scheduled like a task and performed like one too. Nothing here needs finishing first. The list holds till morning. It always did, and morning handles it better rested.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": ""
+        "readingLines": [
+          "Lights off, your eyes open. Reversed, the room is dark and the watch is still running — blades racked, grip rehearsed. The argument continues in the dark on its own budget. Rest that guards is guard duty. It rests nothing.",
+          "Horizontal, your screen lit. Reversed, the rest is staged — the body parked, the mind at the office with the lights on. Recovery isn't happening in the pause, only postponement. The chair and the bed have started agreeing. They were built to disagree.",
+          "The week eventually sits you down. Reversed, the four can be rest arriving without an invitation — the afternoon that cancels itself, the pace that stops negotiating. Ignored maintenance gets scheduled anyway. The calendar just stops asking first."
+        ],
+        "questions": [
+          "What's still on watch after hours?",
+          "Where does your rest still have lights on?",
+          "What maintenance is scheduling itself lately?"
+        ],
+        "libraryEntry": "Reversed, the armory stays open all night. This is the vigil version of the card — horizontal in form, on duty in fact, the argument rehearsing on its own budget while the ceiling gets studied. Or it's the staged version, rest performed with a lit screen, the body parked and the mind at the office, recovery deferred inside the very hours reserved for it. Either way the accounting is identical. Maintenance skipped does not cancel — it reschedules, and it reschedules with worsening manners. First the free evening goes flat and unrestful. Then the weekend does. Eventually the week itself sits you down, canceling on your behalf, and what looks like a lost stretch of days is really an invoice for every pause that guarded instead of rested. None of this is a verdict on effort. Gladiolus works hard by nature. The reversed four notes only where the racked blades actually are — still in your hands, in the dark, at cost."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "Four narrow blade leaves lying parallel, evenly spaced, at rest across the plate.",
+      "status": "drafted"
     },
     {
       "cardId": "swords-05",
@@ -980,16 +1384,32 @@
         "discord",
         "the cost of winning"
       ],
-      "readingLine": "Won, technically. The field is yours, and emptier than expected.",
-      "question": "What did this win cost, and who's counting?",
-      "libraryEntry": "",
+      "readingLines": [
+        "The argument is won. The table is quieter than victory usually sounds. Reversed glances, early goodnights, coats found quickly — the field is yours, and emptier for it. Some wins are invoices. This one is still itemizing.",
+        "Being right and being finished are different rooms. You're in the first one, alone with the trophy. The others took the conversation elsewhere. Rightness this expensive deserves a review — not of the argument, of the accounting.",
+        "Five blades on the plate and only one still held. Nobody disputes your case anymore — that's not the same as agreement, and the difference eats family dinners for weeks. Cases close fast. Tables take longer."
+      ],
+      "questions": [
+        "What did winning cost at that table?",
+        "Right about the point, wrong about what?",
+        "Which matters more here, the point or the table?"
+      ],
+      "libraryEntry": "Five blade leaves, four dropped, one raised — the plate shows the end of an argument, not the middle. The five is about winning at the wrong table. Some contests are real and worth taking, and the card doesn't pretend otherwise. What it examines is the aftermath arithmetic peculiar to families and their adjacent kitchens — the way a point can be carried decisively while everything the point was for files out of the room with the losers. Being right is a currency with local exchange rates. In courtrooms it converts fully. Across a dinner table it converts partially at best, and the remainder gets paid in glances, early goodnights, and conversations that now happen somewhere you aren't. None of this means surrendering true things to keep the peace — the card has no patience for that trade either. It means the win deserves an audit. What was defended, what was spent, and whether the argument was ever about its topic. At family tables, it usually wasn't.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": ""
+        "readingLines": [
+          "Reversed, someone lays a blade down first. Not surrender — sequencing. The point survives being unpressed for one dinner. What comes back when the case rests is usually the table itself, chairs refilling, topic changed. You could be the someone.",
+          "The argument's real topic surfaces late — it was never the inheritance, the holiday, the tone. Reversed, the five names its stake at last, and the stake is standing. Feeling counted at that table, yours included. Every skirmish was a proxy for it.",
+          "Reversed badly, the win gets defended after the war — the case re-argued to empty chairs, sharpened for returns nobody schedules. You've kept a blade oiled for a fight that dissolved. The upkeep costs evenings. The fight costs nothing now."
+        ],
+        "questions": [
+          "What happens if you rest the case tonight?",
+          "What was the fight actually for?",
+          "What are you keeping sharp, and for whom?"
+        ],
+        "libraryEntry": "Reversed, the five turns toward repair, and repair at family tables has a strange grammar. It rarely runs through the argument itself. Re-litigating settles nothing that another round of being right wouldn't re-break. What works is stranger — someone, plausibly you, lays their blade down without conceding the point, and the table notices, and chairs refill around a changed topic, and the point, unpressed, keeps whatever truth it had. Sequencing, not surrender. The card also names the stake that made every skirmish matter, because it was rarely the stated one. Holidays, money, tone — proxies, each of them, for the question of who counts at that table and how much. Named, the question turns out to be answerable in ordinary ways that no argument ever reaches. Unnamed, it schedules rematches indefinitely. And for the win still being defended to empty chairs — the card is dry but not unkind. The blade can stay sharp. The evenings it costs are gone either way."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "Five blade leaves, four flat at the base, one upright at center.",
+      "status": "drafted"
     },
     {
       "cardId": "swords-06",
@@ -998,16 +1418,32 @@
         "moving on",
         "calmer water"
       ],
-      "readingLine": "A crossing, low in the water, away from the noise. Moving on is quieter than it looks from shore.",
-      "question": "What are you ready to leave on the far bank?",
-      "libraryEntry": "",
+      "readingLines": [
+        "The ferry sits low — everything you're keeping is aboard. Departure without drama, wake without noise. Moving on rarely looks like the films. It looks like this, gray water and paperwork done, the far bank real enough to steer for.",
+        "Calmer than the leaving you rehearsed — no speech, no scene, a rope simply coiled. The six is passage, and passage is mostly logistics wearing a solemn coat. You're further from the old shore than yesterday. That's the entire mechanism, working.",
+        "Recorded heading — away, steady, low in the water. The cargo came along because it matters, not because you failed to travel light. Some weight is ballast. It keeps the crossing level. Arrival sorts what was worth carrying."
+      ],
+      "questions": [
+        "What stays on this bank?",
+        "What does one more day of distance change?",
+        "What aboard is actually ballast?"
+      ],
+      "libraryEntry": "Six blades laid flat as oars, and the plate riding low — the six is a crossing, drawn mid-passage, neither bank in frame. It corrects the cinema version of moving on. No one strides from the old life in a single cut. It goes like this instead — a loaded boat, gray water, steady strokes, and the old shore shrinking so gradually that the shrink is only visible weekly. The lowness matters. You travel heavy, and the card declines to scold that. What's aboard came aboard because it mattered — some of it cargo for the new bank, some of it ballast that keeps the whole crossing from capsizing, and the sorting between them is arrival's work, not the channel's. Mid-water has exactly one job, which is strokes. The card tends to surface when someone mid-crossing mistakes the absence of drama for the absence of progress. Distance is accruing. It accrues like interest, invisibly daily, undeniable quarterly. The far bank is closer than the wake makes it feel.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": ""
+        "readingLines": [
+          "Reversed, the boat circles. Return visits to the old bank — a message, a scroll, one more closure that reopens. Each trip re-crosses water already paid for. The distance you're spending took months to accrue. It re-spends in minutes.",
+          "Some crossings never land. Reversed, transit became the address — always between, cargo never unpacked, both banks kept at arm's length. The channel is safe the way waiting rooms are safe. Nothing docks there. Including you, lately.",
+          "Keel meets gravel. Reversed at its best, this is arrival — the crossing done, the cargo finally sorted on dry ground. Some boxes cross an ocean to be opened once and set down. You get to set things down now."
+        ],
+        "questions": [
+          "Which return trip keeps reopening the water?",
+          "What would landing actually require?",
+          "Now ashore, what gets set down first?"
+        ],
+        "libraryEntry": "Reversed, the six is about the ways crossings fail to complete. The commonest is circling — return trips to the departed bank, each one small, each one re-crossing water that took months to put behind. A message, an archive scrolled at midnight, a conversation reopened for closure that somehow never closes. The arithmetic is lopsided. Distance accrues slowly and re-spends fast, and the boat that circles is always busy without ever being anywhere. Rarer and stranger is the crossing that becomes a residence — permanent transit, both banks held off, your cargo never unpacked because unpacking would mean choosing a shore. Waiting rooms are safe precisely because nothing happens in them. And then there is the good reversal, the keel on gravel. Arrival makes less noise than departure did and asks different work — the sorting, at last, of what was cargo and what was ballast, what crossed in order to be used and what crossed only to be finally, deliberately set down."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "Six blade leaves laid horizontal like oars, waterline drawn low across the plate.",
+      "status": "drafted"
     },
     {
       "cardId": "swords-07",
@@ -1016,13 +1452,19 @@
         "half-truths",
         "the quiet route"
       ],
-      "readingLine": "The quiet route, a few blades carried off. Strategy and slipperiness share a wardrobe.",
-      "question": "Where are you being clever when you could be clear?",
+      "readingLines": [
+        "The quiet route, a few blades carried off. Strategy and slipperiness share a wardrobe."
+      ],
+      "questions": [
+        "Where are you being clever when you could be clear?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -1034,13 +1476,19 @@
         "self-binding",
         "a narrowed view"
       ],
-      "readingLine": "Fenced in by blades planted at arm's length — none of them touching you. Most of this enclosure is made of assumptions.",
-      "question": "Which of these limits have you tested lately?",
+      "readingLines": [
+        "Fenced in by blades planted at arm's length — none of them touching you. Most of this enclosure is made of assumptions."
+      ],
+      "questions": [
+        "Which of these limits have you tested lately?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -1052,13 +1500,19 @@
         "sleepless hours",
         "the 3 a.m. mind"
       ],
-      "readingLine": "The 3 a.m. mind, rehearsing scenes that mostly never get performed. Worry is imagination with the lights off.",
-      "question": "Which worry deserves paper instead of another lap of the ceiling?",
+      "readingLines": [
+        "The 3 a.m. mind, rehearsing scenes that mostly never get performed. Worry is imagination with the lights off."
+      ],
+      "questions": [
+        "Which worry deserves paper instead of another lap of the ceiling?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -1070,13 +1524,19 @@
         "flat ground",
         "done"
       ],
-      "readingLine": "Flat on the ground, thoroughly finished. There's a strange peace after an ending this complete: nothing left to defend.",
-      "question": "Now that it's done, what's no longer your job?",
+      "readingLines": [
+        "Flat on the ground, thoroughly finished. There's a strange peace after an ending this complete: nothing left to defend."
+      ],
+      "questions": [
+        "Now that it's done, what's no longer your job?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -1088,13 +1548,19 @@
         "questions",
         "quick wit"
       ],
-      "readingLine": "All questions, quick eyes, notebook out. Watchfulness is wit before it's had practice.",
-      "question": "What are you observing closely, and is the observing standing in for acting?",
+      "readingLines": [
+        "All questions, quick eyes, notebook out. Watchfulness is wit before it's had practice."
+      ],
+      "questions": [
+        "What are you observing closely, and is the observing standing in for acting?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -1106,13 +1572,19 @@
         "argument",
         "the charge"
       ],
-      "readingLine": "Full tilt into the argument, reins somewhere behind. Speed of thought isn't the same as depth of it.",
-      "question": "What case are you making faster than you're checking?",
+      "readingLines": [
+        "Full tilt into the argument, reins somewhere behind. Speed of thought isn't the same as depth of it."
+      ],
+      "questions": [
+        "What case are you making faster than you're checking?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -1124,13 +1596,19 @@
         "discernment",
         "dry wit"
       ],
-      "readingLine": "Candor with good posture. The dry eye sees clearly and still chooses its words.",
-      "question": "What truth could you say plainly, and kindly, today?",
+      "readingLines": [
+        "Candor with good posture. The dry eye sees clearly and still chooses its words."
+      ],
+      "questions": [
+        "What truth could you say plainly, and kindly, today?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -1142,13 +1620,19 @@
         "principle",
         "a cool head"
       ],
-      "readingLine": "Principle, seated. A cool head is a tool; cold is just a temperature.",
-      "question": "Where does your fairness end and your distance begin?",
+      "readingLines": [
+        "Principle, seated. A cool head is a tool; cold is just a temperature."
+      ],
+      "questions": [
+        "Where does your fairness end and your distance begin?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -1160,13 +1644,19 @@
         "solid ground",
         "small beginnings"
       ],
-      "readingLine": "One seed, actual soil. Small beginnings hold up better than grand ones; they have less to prove.",
-      "question": "What tiny concrete thing could you plant today?",
+      "readingLines": [
+        "One seed, actual soil. Small beginnings hold up better than grand ones; they have less to prove."
+      ],
+      "questions": [
+        "What tiny concrete thing could you plant today?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -1178,13 +1668,19 @@
         "give and take",
         "tides"
       ],
-      "readingLine": "Two coins in the air, tide coming in. Balance isn't a state; it's a verb, done continuously.",
-      "question": "What are you keeping aloft that could simply be put down?",
+      "readingLines": [
+        "Two coins in the air, tide coming in. Balance isn't a state; it's a verb, done continuously."
+      ],
+      "questions": [
+        "What are you keeping aloft that could simply be put down?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -1196,13 +1692,19 @@
         "working together",
         "good work noticed"
       ],
-      "readingLine": "Good work, seen by people who know what they're looking at. Craft grows in company.",
-      "question": "Whose eye do you trust on your work, and have you shown them?",
+      "readingLines": [
+        "Good work, seen by people who know what they're looking at. Craft grows in company."
+      ],
+      "questions": [
+        "Whose eye do you trust on your work, and have you shown them?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -1214,16 +1716,32 @@
         "thrift",
         "a tight grip"
       ],
-      "readingLine": "A firm grip on what's yours. Past a certain tightness, keeping turns into clenching.",
-      "question": "What are you holding so tightly it can't be used?",
-      "libraryEntry": "",
+      "readingLines": [
+        "The gift card expired with the balance intact. Guarded, unspent, gone. The four holds what it has so well that having stops working — kept past use is kept from use. Some of what you're protecting has a date on it.",
+        "A grip can be storage or a clench — same knuckles, different outcome. You've got something held so tight it can't be counted, spent, or enjoyed. The pod on the plate is sealed. Sealed pods don't mint anything.",
+        "Recorded assets — one coin, four corners pinned, nothing in circulation. The saving started sensible and kept going past sense. Your thrift was a tool. Somewhere it became the project. What it guards now mostly guards it back."
+      ],
+      "questions": [
+        "What are you saving that expires?",
+        "Held for later, or held from use?",
+        "When did the saving become the point?"
+      ],
+      "libraryEntry": "Lunaria mints see-through coins, which makes the four faintly comic — a fist closed around currency that everyone can count anyway. The card is about keeping gone slightly wrong. Not miserliness exactly. Something more sympathetic and more common — the gift card guarded until it expired, the good candles never lit, the one nice jacket saved for occasions that keep failing to qualify. The logic feels airtight from inside. Spending diminishes, holding preserves, and preserved things stay perfect. But the pod on the plate argues botany. Lunaria's coins exist to open — a sealed pod isn't wealth, it's a delay with a shelf life, and what the seed inside wants costs the pod its shape. Every kept thing runs the same clock. The card asks no grand loosening, no bonfire of the savings. It points at one held thing, the tightest one, and observes that your grip has been holding it away from the only use that would make the keeping worth it.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": ""
+        "readingLines": [
+          "Your good candles, lit on a Tuesday. Reversed, the grip opens for no occasion at all — and the kept thing finally does its job. Nothing was diminished. The room smelled like the shelf never managed. Use turns out to store better.",
+          "Moths found the jacket before the occasion did. Reversed, time collects on held goods — the saved thing spent by calendar instead of choice. Your vault was weather all along. What's left teaches cheaply what the hoard taught dearly.",
+          "Reversed, the coin circulates. Something you guarded gets handed on — lent, gifted, split — and comes back strange, as more. Keeping was one kind of safety. Turns out there's another, and it usually pays out in company."
+        ],
+        "questions": [
+          "What kept thing gets used this week?",
+          "What did waiting cost this time?",
+          "What might grow if you handed it on?"
+        ],
+        "libraryEntry": "Reversed, the pod opens — by choice or by calendar. The chosen version is small and almost embarrassing in its ease. The good plates come down for a weekday dinner, the saved bottle gets opened for no anniversary, and the kept thing performs, at last, the function all that keeping was supposedly for. Nothing diminishes. That's the finding that rearranges the ledger — use turns out to preserve meaning better than storage ever did. The calendar version is blunter. Moths, expiries, versions gone obsolete, tastes that moved on. Time spends whatever the fist declines to, at worse rates, with no say from the holder. Most people meet the reversed four somewhere between the two — you included — holding one specific thing — an amount, an heirloom, a capacity, an apology — that has been safe so long it's started to spoil. The card's arithmetic is patient and a little dry. Everything kept is kept from something. The question of what, and whether the trade still holds, is the only audit that matters here."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "Four Lunaria pods pinned at the plate's corners, sealed, moss stamp above.",
+      "status": "drafted"
     },
     {
       "cardId": "pentacles-05",
@@ -1232,16 +1750,32 @@
         "cold outside",
         "help nearby"
       ],
-      "readingLine": "Cold outside a lit window. Lean seasons narrow the eyes, and they also mislead them — help tends to sit closer than it looks.",
-      "question": "What ask have you been too proud to make?",
-      "libraryEntry": "",
+      "readingLines": [
+        "You walked past the lit window twice tonight. Inside is warmth that would be given if asked — that's the fact pride keeps re-routing. Lean seasons narrow the eyes first. The door is closer than the cold says it is.",
+        "Cold outside, lit inside, and you on the pavement between — the five finds people mid-walk-past. The season is genuinely thin. The window is genuinely lit. Both facts hold, and only one of them is weather.",
+        "Thin stretches teach a crooked lesson — that needing help disqualifies you from it. Reversed logic, learned honestly. The window tonight is lit by people who have also been out here. Most of them waited too long to knock as well."
+      ],
+      "questions": [
+        "What ask have you been routing around?",
+        "Which part of this is actually weather?",
+        "Who inside that window has stood out here?"
+      ],
+      "libraryEntry": "Five pods against a cold sky, and one lit window drawn small in the corner — the engraver's whole argument in one detail. The five is the lean-season card, and it refuses both of the easy readings. The thinness is real. Money, company, momentum, warmth — whatever ran short ran genuinely short, and no reframing pays that down. But the card watches something else too. The lit window gets walked past twice, three times, nightly, because lean seasons bend the eyes — your need starts to feel like a disqualification, asking like a confession, and the cold becomes strangely easier to bear than the knock. That bend is the card's true subject. Help, at most windows, is closer and more willing than the pavement version of the math allows. The people inside have mostly stood outside themselves — it's largely why they light lamps. Nothing here instructs. The five only maps the distance honestly. Most of it is weather. Some of it, the worst yards of it, is routing.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": ""
+        "readingLines": [
+          "The knock, finally. Reversed, the ask gets made — smaller in the doorway than it was on the pavement, as asks tend to be. What you routed around for weeks resolves in minutes. The cold was real. So was the door.",
+          "Help lands. Reversed, the hard part is receiving it without paying a shame tax on top — the season was thin, not deserved. You'd extend this exact hand without a second thought. The math only goes strict when it's pointed inward.",
+          "Reversed, you're inside the window this time. Someone in your week is doing the walk-past — visible if watched for, proud, circling, nearly ready. Lamps lit on purpose get found faster than open doors get guessed."
+        ],
+        "questions": [
+          "What shrank the moment you said it?",
+          "Would you judge anyone else for this?",
+          "Who might be circling your lit window?"
+        ],
+        "libraryEntry": "Reversed, the five crosses the pavement. Sometimes as the knock — the ask finally made, and made smaller by the doorway, because stated needs are nearly always more modest than circled ones. What took weeks of routing resolves in an evening, and the strangest part is the absence of the humiliation the pavement had promised. Receiving turns out to be a skill, and like most skills it improves embarrassingly fast once attempted. The tax was self-assessed all along. Other times the card reverses the geometry instead — you're the one inside, warm enough, lamp-adjacent, while somebody in your week does the walk-past. They're visible if watched for. Pride moves in circles and wears casualness badly. The reversed five doesn't hand out assignments, but it notes the asymmetry worth knowing — from the pavement, a lit lamp reads as possibly welcome, while an unlit one reads as certainly not. Between those two readings sit most of the cold walks anyone takes. Lamps are cheap, and light travels."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "Five sealed pods under hatched cold, one small lit window in the corner.",
+      "status": "drafted"
     },
     {
       "cardId": "pentacles-06",
@@ -1250,16 +1784,32 @@
         "measure",
         "open hands"
       ],
-      "readingLine": "Giving and getting, weighed out in the open. Generosity has bookkeeping, whether or not anyone admits it.",
-      "question": "In this exchange, which side of the scale are you on — and is that the usual side?",
-      "libraryEntry": "",
+      "readingLines": [
+        "It's your round, and you know it without counting — that's the interesting part. Generosity keeps books it swears it doesn't. The six reads the ledger kindly. Fairness among friends is a rhythm, and rhythms only work when everyone can hear them.",
+        "Coins pass across the plate in both directions — the six is exchange, not charity. Giving that never receives curdles into position. Receiving that never gives curdles faster. You're somewhere in that circuit this week. Worth locating where.",
+        "Recorded transfer — pods passed open-handed, seed counted by both parties. Openness is what keeps the exchange clean. Favors with hidden prices aren't favors, and everyone at the table can taste the difference. Your accounts are probably fine. Probably is the card's point."
+      ],
+      "questions": [
+        "Whose round is it, honestly?",
+        "Which way has the giving run lately?",
+        "What price is attached that goes unsaid?"
+      ],
+      "libraryEntry": "Lunaria's pods hide nothing, which makes them the right coin for the six — exchange with the seed count visible to both parties. The card is about giving and getting as a working circuit rather than a virtue contest. Round-buying looks casual and runs on precise instruments. Everyone at your table knows, without counting, whose turn it approximately is, who always arrives at the till slowly, who covers gaps without being asked and who banks the covering. The six doesn't sneer at this bookkeeping — it says the books are fine, and lying about keeping them is the actual rot. Clean exchange needs visible terms. A favor with a hidden price is a loan misfiled as a gift, and misfiled loans are how tables curdle. The card audits both directions with the same eye. Chronic givers acquire altitude, chronic receivers acquire debts nobody names, and the repair for both is the same — reciprocity done in the open, rounds taken in turn, received as easily as offered.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": ""
+        "readingLines": [
+          "The favor you accepted came with a clause, disclosed later. Reversed, the six flags gifts that were filed as loans by one party only. Nothing sours a table faster than surprise interest. Terms exist either way. The clean version says them aloud.",
+          "Reversed, someone gives from altitude — always the buyer, never the bought-for, generosity with a view. It reads as kindness and functions as rank. You've sat on both sides of that round. One side gets thanked. The other gets managed.",
+          "The tab is being counted somewhere — silently, to the penny, with grievance accruing. Reversed, the six shows scorekeeping gone underground. Fairness was the aim once. Now the ledger runs the relationship, and ledgers make cold hosts. You'd know — you've kept one."
+        ],
+        "questions": [
+          "What terms were attached after the fact?",
+          "What does the constant giving buy?",
+          "What's on the tab you're keeping?"
+        ],
+        "libraryEntry": "Reversed, the exchange keeps its motions and loses its openness, and the card catalogues the three usual leaks. Terms surface late — the favor turns out to have had a price, payable in loyalty or agreement or attendance, and the receiver — you, this time or last — learns they'd signed something. Nothing sours faster than surprise interest, and nothing prevents it more cheaply than terms said aloud at the start. Or the giving acquires altitude — one party always buys, always hosts, always covers, and what looks like warmth begins to function as rank. Perpetual generosity can be a way of making sure nobody is ever in a position to give back, which keeps the books permanently, comfortably one-sided. Or the tab goes underground — counted silently, to the penny, grievance compounding on a schedule the other party was never shown. The reversed six asks for the ledger to be brought back into daylight, whatever it says. Visible books can be settled. It's the hidden ones that get paid in tables."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "Six open Lunaria pods in two facing columns, seeds visible in each.",
+      "status": "drafted"
     },
     {
       "cardId": "pentacles-07",
@@ -1268,13 +1818,19 @@
         "taking stock",
         "the long wait"
       ],
-      "readingLine": "Leaning on the hoe, counting pods. Slow growth looks exactly like nothing happening, from up close.",
-      "question": "What's genuinely growing that you keep re-measuring instead of trusting?",
+      "readingLines": [
+        "Leaning on the hoe, counting pods. Slow growth looks exactly like nothing happening, from up close."
+      ],
+      "questions": [
+        "What's genuinely growing that you keep re-measuring instead of trusting?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -1286,13 +1842,19 @@
         "repetition",
         "apprenticeship"
       ],
-      "readingLine": "The same small thing, again, slightly better. Repetition is how hands learn what heads already know.",
-      "question": "What are you practicing, whether you mean to or not?",
+      "readingLines": [
+        "The same small thing, again, slightly better. Repetition is how hands learn what heads already know."
+      ],
+      "questions": [
+        "What are you practicing, whether you mean to or not?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -1304,13 +1866,19 @@
         "a tended garden",
         "earned ease"
       ],
-      "readingLine": "A tended garden with a gate that latches. From outside, ease reads as luck; the notebook says otherwise.",
-      "question": "What comfort have you earned and not yet enjoyed?",
+      "readingLines": [
+        "A tended garden with a gate that latches. From outside, ease reads as luck; the notebook says otherwise."
+      ],
+      "questions": [
+        "What comfort have you earned and not yet enjoyed?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -1322,13 +1890,19 @@
         "inheritance",
         "the long house"
       ],
-      "readingLine": "The long house: roots, records, other people's plantings still bearing. Some wealth is measured in continuity.",
-      "question": "What are you building that outlasts your interest in it?",
+      "readingLines": [
+        "The long house: roots, records, other people's plantings still bearing. Some wealth is measured in continuity."
+      ],
+      "questions": [
+        "What are you building that outlasts your interest in it?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -1340,13 +1914,19 @@
         "diligence",
         "small savings"
       ],
-      "readingLine": "Head down over the books, one seed pod saved as a specimen. Diligence is curiosity that shows up on schedule.",
-      "question": "What are you learning slowly and honestly?",
+      "readingLines": [
+        "Head down over the books, one seed pod saved as a specimen. Diligence is curiosity that shows up on schedule."
+      ],
+      "questions": [
+        "What are you learning slowly and honestly?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -1358,13 +1938,19 @@
         "thoroughness",
         "the long row"
       ],
-      "readingLine": "The long row, hoed to the end. Thoroughness is unglamorous right up until it's the whole difference.",
-      "question": "What gets finished if today holds only ordinary effort?",
+      "readingLines": [
+        "The long row, hoed to the end. Thoroughness is unglamorous right up until it's the whole difference."
+      ],
+      "questions": [
+        "What gets finished if today holds only ordinary effort?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -1376,13 +1962,19 @@
         "provision",
         "warm ground"
       ],
-      "readingLine": "Provision, warm and practical — the kind that arrives before it's asked for. Care, in this suit, looks like handled logistics.",
-      "question": "Who do you take care of by handling things, and do they know?",
+      "readingLines": [
+        "Provision, warm and practical — the kind that arrives before it's asked for. Care, in this suit, looks like handled logistics."
+      ],
+      "questions": [
+        "Who do you take care of by handling things, and do they know?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"
@@ -1394,13 +1986,19 @@
         "harvest",
         "security"
       ],
-      "readingLine": "Harvest in the barn, stewardship in the posture. Security kept in trust rather than in a fist.",
-      "question": "What resource of yours does the most good when shared?",
+      "readingLines": [
+        "Harvest in the barn, stewardship in the posture. Security kept in trust rather than in a fist."
+      ],
+      "questions": [
+        "What resource of yours does the most good when shared?"
+      ],
       "libraryEntry": "",
       "reversed": {
         "readingLine": "",
         "question": "",
-        "libraryEntry": ""
+        "libraryEntry": "",
+        "readingLines": [],
+        "questions": []
       },
       "altText": "",
       "status": "placeholder"

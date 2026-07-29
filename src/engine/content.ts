@@ -17,10 +17,10 @@ const meaningById = new Map<string, Meaning>(MEANINGS.map((m) => [m.cardId, m]))
 
 const EMPTY_MEANING: Omit<Meaning, 'cardId'> = {
   keywords: [],
-  readingLine: '',
-  question: '',
+  readingLines: [],
+  questions: [],
   libraryEntry: '',
-  reversed: { readingLine: '', question: '', libraryEntry: '' },
+  reversed: { readingLines: [], questions: [], libraryEntry: '' },
   altText: '',
   status: 'placeholder',
 }

@@ -16,19 +16,28 @@ import type { Meaning, MeaningStatus } from '../engine/types'
  * production build via the conditional lazy import in App.tsx).
  *
  * Edits live in this table only — copy a row (or the whole file) as JSON
- * and paste it into src/content/meanings.json yourself. That final paste is
- * the authorship step, and it stays manual on purpose. See VOICE.md §10.
+ * and paste it into src/content/meanings.json. Batch review happens here:
+ * mark accept / edit / recast per the work order.
  */
 
 type SortKey = 'deck' | 'lint' | 'sameness' | 'status'
 
 const STATUSES: MeaningStatus[] = ['placeholder', 'drafted', 'authored', 'final']
 
-const FIELDS = ['readingLine', 'question', 'libraryEntry', 'altText'] as const
-
 export default function Writing() {
   const barnum = useMemo(() => parseBarnumPatterns(voiceMd), [])
-  const [rows, setRows] = useState<Meaning[]>(() => MEANINGS.map((m) => ({ ...m, reversed: { ...m.reversed } })))
+  const [rows, setRows] = useState<Meaning[]>(() =>
+    MEANINGS.map((m) => ({
+      ...m,
+      readingLines: [...m.readingLines],
+      questions: [...m.questions],
+      reversed: {
+        ...m.reversed,
+        readingLines: [...m.reversed.readingLines],
+        questions: [...m.reversed.questions],
+      },
+    })),
+  )
   const [sort, setSort] = useState<SortKey>('deck')
   const [copied, setCopied] = useState('')
 
@@ -36,9 +45,16 @@ export default function Writing() {
     const map = new Map<string, Violation[]>()
     for (const m of rows) {
       const all: Violation[] = []
-      for (const f of FIELDS) all.push(...lintField(m.cardId, f, m[f], { barnum }))
-      all.push(...lintField(m.cardId, 'reversedReadingLine', m.reversed.readingLine, { barnum }))
-      all.push(...lintField(m.cardId, 'reversedQuestion', m.reversed.question, { barnum }))
+      m.readingLines.forEach((t, i) => all.push(...lintField(m.cardId, `readingLines[${i}]`, t, { barnum })))
+      m.questions.forEach((t, i) => all.push(...lintField(m.cardId, `questions[${i}]`, t, { barnum })))
+      all.push(...lintField(m.cardId, 'libraryEntry', m.libraryEntry, { barnum }))
+      all.push(...lintField(m.cardId, 'altText', m.altText, { barnum }))
+      m.reversed.readingLines.forEach((t, i) =>
+        all.push(...lintField(m.cardId, `reversedReadingLines[${i}]`, t, { barnum })),
+      )
+      m.reversed.questions.forEach((t, i) =>
+        all.push(...lintField(m.cardId, `reversedQuestions[${i}]`, t, { barnum })),
+      )
       all.push(...lintField(m.cardId, 'reversedLibraryEntry', m.reversed.libraryEntry, { barnum }))
       map.set(m.cardId, all)
     }
@@ -46,7 +62,7 @@ export default function Writing() {
   }, [rows, barnum])
 
   const samenessByCard = useMemo(() => {
-    const grams = rows.map((m) => trigrams(m.libraryEntry || m.readingLine))
+    const grams = rows.map((m) => trigrams(m.libraryEntry || m.readingLines.join(' ')))
     const map = new Map<string, number>()
     rows.forEach((m, i) => {
       let s = 0
@@ -69,8 +85,8 @@ export default function Writing() {
     return list
   }, [rows, sort, lintByCard, samenessByCard])
 
-  function update(cardId: string, patch: Partial<Meaning>) {
-    setRows((rs) => rs.map((m) => (m.cardId === cardId ? { ...m, ...patch } : m)))
+  function update(cardId: string, mut: (m: Meaning) => Meaning) {
+    setRows((rs) => rs.map((m) => (m.cardId === cardId ? mut(m) : m)))
   }
 
   async function copy(text: string, label: string) {
@@ -81,12 +97,43 @@ export default function Writing() {
 
   const statusCounts = STATUSES.map((s) => `${rows.filter((r) => r.status === s).length} ${s}`).join(' · ')
 
+  function variantBlock(
+    m: Meaning,
+    label: string,
+    lines: string[],
+    setLines: (m: Meaning, next: string[]) => Meaning,
+  ) {
+    return (
+      <div className="writing-variants">
+        {lines.map((t, i) => (
+          <label key={i} className="writing-field">
+            <span className="writing-meta">
+              {label}[{i}] · {countWords(t)}w
+            </span>
+            <textarea
+              value={t}
+              rows={label.includes('uestion') ? 1 : 2}
+              onChange={(e) =>
+                update(m.cardId, (mm) =>
+                  setLines(
+                    mm,
+                    lines.map((x, j) => (j === i ? e.target.value : x)),
+                  ),
+                )
+              }
+            />
+          </label>
+        ))}
+      </div>
+    )
+  }
+
   return (
     <article className="view view-writing">
       <header className="view-head">
         <h1 className="view-title">Writing</h1>
         <p className="view-sub">
-          Dev-only. Edits stay on this screen — copy JSON out and paste into meanings.json yourself.
+          Dev-only. Edits stay on this screen — copy JSON out and paste into meanings.json.
           {' '}{statusCounts}
         </p>
         <p className="writing-toolbar">
@@ -127,7 +174,7 @@ export default function Writing() {
                 <span className="writing-meta">{m.cardId}</span>
                 <select
                   value={m.status}
-                  onChange={(e) => update(m.cardId, { status: e.target.value as MeaningStatus })}
+                  onChange={(e) => update(m.cardId, (mm) => ({ ...mm, status: e.target.value as MeaningStatus }))}
                   aria-label={`Status for ${card.name}`}
                 >
                   {STATUSES.map((s) => (
@@ -148,20 +195,53 @@ export default function Writing() {
                   {copied === m.cardId ? 'Copied' : 'Copy JSON'}
                 </button>
               </div>
+
               <div className="writing-fields">
-                {FIELDS.map((f) => (
-                  <label key={f} className="writing-field">
-                    <span className="writing-meta">
-                      {f} · {countWords(m[f])}w
-                    </span>
+                <div>
+                  {variantBlock(m, 'readingLines', m.readingLines, (mm, next) => ({ ...mm, readingLines: next }))}
+                  {variantBlock(m, 'questions', m.questions, (mm, next) => ({ ...mm, questions: next }))}
+                  <label className="writing-field">
+                    <span className="writing-meta">libraryEntry · {countWords(m.libraryEntry)}w</span>
                     <textarea
-                      value={m[f]}
-                      rows={f === 'libraryEntry' ? 5 : 2}
-                      onChange={(e) => update(m.cardId, { [f]: e.target.value } as Partial<Meaning>)}
+                      value={m.libraryEntry}
+                      rows={5}
+                      onChange={(e) => update(m.cardId, (mm) => ({ ...mm, libraryEntry: e.target.value }))}
                     />
                   </label>
-                ))}
+                  <label className="writing-field">
+                    <span className="writing-meta">altText · {countWords(m.altText)}w</span>
+                    <textarea
+                      value={m.altText}
+                      rows={1}
+                      onChange={(e) => update(m.cardId, (mm) => ({ ...mm, altText: e.target.value }))}
+                    />
+                  </label>
+                </div>
+                <div>
+                  {variantBlock(m, 'revReadingLines', m.reversed.readingLines, (mm, next) => ({
+                    ...mm,
+                    reversed: { ...mm.reversed, readingLines: next },
+                  }))}
+                  {variantBlock(m, 'revQuestions', m.reversed.questions, (mm, next) => ({
+                    ...mm,
+                    reversed: { ...mm.reversed, questions: next },
+                  }))}
+                  <label className="writing-field">
+                    <span className="writing-meta">revLibraryEntry · {countWords(m.reversed.libraryEntry)}w</span>
+                    <textarea
+                      value={m.reversed.libraryEntry}
+                      rows={5}
+                      onChange={(e) =>
+                        update(m.cardId, (mm) => ({
+                          ...mm,
+                          reversed: { ...mm.reversed, libraryEntry: e.target.value },
+                        }))
+                      }
+                    />
+                  </label>
+                </div>
               </div>
+
               {lint.length > 0 && (
                 <ul className="writing-lint">
                   {lint.map((v, i) => (

@@ -6,7 +6,7 @@ import { EchoPanel } from '../components/EchoPanel'
 import { EntryEditor } from '../components/EntryEditor'
 import { hasDualName, meaningFor } from '../engine/content'
 import { formatLong } from '../engine/dates'
-import { dailyCard, localDateString } from '../engine/draw'
+import { dailyCard, hashString, localDateString } from '../engine/draw'
 import { findEcho, logDailyDrawOnce, saveEntry } from '../engine/storage'
 
 /**
@@ -26,6 +26,10 @@ export function Today() {
 
   const echo = findEcho(entries, card.id, today)
   const meaning = meaningFor(card.id)
+  // variant of the day: stable all day, rotates with the date
+  const variant = meaning.readingLines.length
+    ? hashString(`${today}|${card.id}|v`) % meaning.readingLines.length
+    : 0
 
   async function save(text: string) {
     const now = Date.now()
@@ -56,8 +60,8 @@ export function Today() {
         <div className="today-reading fade-up">
           <h2 className="card-name">{card.name}</h2>
           {hasDualName(card) && <p className="card-classic">{card.classicName}</p>}
-          <p className="card-meaning">{meaning.readingLine}</p>
-          <p className="card-question">{meaning.question}</p>
+          <p className="card-meaning">{meaning.readingLines[variant] ?? ''}</p>
+          <p className="card-question">{meaning.questions[variant] ?? meaning.questions[0] ?? ''}</p>
 
           {echo && <EchoPanel echo={echo} />}
 

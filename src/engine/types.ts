@@ -14,21 +14,23 @@ export interface Card {
 export type MeaningStatus = 'placeholder' | 'drafted' | 'authored' | 'final'
 
 export interface ReversedMeaning {
-  readingLine: string
-  question: string
+  readingLines: string[]
+  questions: string[]
   libraryEntry: string
 }
 
-/** Layered card copy. See VOICE.md; `status` drives the writing dashboard
- *  and the ship gate — nothing ships while any card is placeholder/drafted. */
+/** Variant-depth card copy (Work Order v3). Three reading lines + three
+ *  questions per card, paired by index, upright and reversed. `status`
+ *  drives the writing dashboard and the ship gate — nothing ships below
+ *  `final`. Voice contract: VOICE-SPEC.md. */
 export interface Meaning {
   cardId: string
   keywords: string[]
-  /** 2–3 sentences shown right after a draw (~40–55 words). */
-  readingLine: string
-  /** Exactly one question (~10–20 words). The product. */
-  question: string
-  /** ~140–170 words, shown in Card Detail. Empty = fall back to readingLine. */
+  /** Three angles on one conceit, 35–52 words each; variant chosen per day. */
+  readingLines: string[]
+  /** One per reading line, paired by index. ≤12 words. The product. */
+  questions: string[]
+  /** ~140–170 words, shown in Card Detail. Empty = fall back to readingLines[0]. */
   libraryEntry: string
   /** Written during the campaign; gated behind the paid tier later. Unused by the playtest UI. */
   reversed: ReversedMeaning

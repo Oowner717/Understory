@@ -24,7 +24,7 @@ const { meanings } = JSON.parse(readFileSync(join(root, 'src/content/meanings.js
 const texts = meanings.map((m: any) => ({
   cardId: m.cardId as string,
   status: m.status as string,
-  text: (m.libraryEntry || m.readingLine) as string,
+  text: (m.libraryEntry || (m.readingLines ?? []).join(' ')) as string,
   usingFallback: !m.libraryEntry,
 }))
 

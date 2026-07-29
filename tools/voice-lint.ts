@@ -41,12 +41,12 @@ for (const m of meanings) {
     continue
   }
   const fields: [string, string][] = [
-    ['readingLine', m.readingLine],
-    ['question', m.question],
+    ...(m.readingLines ?? []).map((t: string, i: number) => [`readingLines[${i}]`, t] as [string, string]),
+    ...(m.questions ?? []).map((t: string, i: number) => [`questions[${i}]`, t] as [string, string]),
     ['libraryEntry', m.libraryEntry],
     ['altText', m.altText],
-    ['reversedReadingLine', m.reversed?.readingLine ?? ''],
-    ['reversedQuestion', m.reversed?.question ?? ''],
+    ...(m.reversed?.readingLines ?? []).map((t: string, i: number) => [`reversedReadingLines[${i}]`, t] as [string, string]),
+    ...(m.reversed?.questions ?? []).map((t: string, i: number) => [`reversedQuestions[${i}]`, t] as [string, string]),
     ['reversedLibraryEntry', m.reversed?.libraryEntry ?? ''],
   ]
   for (const [field, text] of fields)
