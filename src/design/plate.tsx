@@ -1,6 +1,7 @@
 import { useId, type ReactNode } from 'react'
+import { STR } from '../content/ui-strings'
 import type { Card, Suit } from '../engine/types'
-import { plateLabel, hasDualName } from '../engine/content'
+import { plateLabel, hasDualName, meaningFor } from '../engine/content'
 
 /*
  * The plate system. Every generated card is a specimen plate:
@@ -492,6 +493,7 @@ export function GeneratedPlate({ card, size = 'full' }: GeneratedPlateProps) {
   const grainId = useId()
   const accent = card.suit ? ACCENT[card.suit] : INK
   const label = plateLabel(card)
+  const authoredAlt = meaningFor(card.id).altText
 
   let center: ReactNode = null
   if (card.arcana === 'major') {
@@ -530,7 +532,10 @@ export function GeneratedPlate({ card, size = 'full' }: GeneratedPlateProps) {
     <svg
       viewBox={`0 0 ${PLATE_W} ${PLATE_H}`}
       role="img"
-      aria-label={`${card.name}${hasDualName(card) ? ` (${card.classicName})` : ''} — ${card.keywords.join(', ')}`}
+      aria-label={
+        authoredAlt ||
+        `${card.name}${hasDualName(card) ? ` (${card.classicName})` : ''} — ${card.keywords.join(', ')}`
+      }
       className="plate-svg"
     >
       <Frame />
@@ -589,7 +594,7 @@ export function GeneratedPlate({ card, size = 'full' }: GeneratedPlateProps) {
 /** The card back: same frame conventions, a quiet centered device. */
 export function PlateBack() {
   return (
-    <svg viewBox={`0 0 ${PLATE_W} ${PLATE_H}`} role="img" aria-label="Card, face down" className="plate-svg">
+    <svg viewBox={`0 0 ${PLATE_W} ${PLATE_H}`} role="img" aria-label={STR.cardFlip.faceDownAlt} className="plate-svg">
       <Frame />
       <g transform={`translate(${PLATE_W / 2},${PLATE_H / 2})`}>
         <circle cx="0" cy="0" r="34" {...stroke} strokeWidth="1.1" />

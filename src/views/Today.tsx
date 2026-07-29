@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useApp } from '../AppContext'
+import { STR } from '../content/ui-strings'
 import { CardFlip } from '../components/CardFlip'
 import { EchoPanel } from '../components/EchoPanel'
 import { EntryEditor } from '../components/EntryEditor'
@@ -44,18 +45,18 @@ export function Today() {
     <article className="view view-today">
       <header className="view-head">
         <p className="view-kicker">{formatLong(today)}</p>
-        <h1 className="view-title">Today's card</h1>
+        <h1 className="view-title">{STR.today.title}</h1>
       </header>
 
       <div className="today-card">
-        <CardFlip card={card} flipped={flipped} onFlip={() => setFlipped(true)} label="Turn today's card" />
+        <CardFlip card={card} flipped={flipped} onFlip={() => setFlipped(true)} label={STR.today.flipLabel} />
       </div>
 
       {flipped && (
         <div className="today-reading fade-up">
           <h2 className="card-name">{card.name}</h2>
           {hasDualName(card) && <p className="card-classic">{card.classicName}</p>}
-          <p className="card-meaning">{meaning.general}</p>
+          <p className="card-meaning">{meaning.readingLine}</p>
           <p className="card-question">{meaning.question}</p>
 
           {echo && <EchoPanel echo={echo} />}

@@ -11,12 +11,22 @@ export function cardById(id: string): Card | undefined {
   return byId.get(id)
 }
 
-const meanings = meaningsJson as Record<string, Meaning | string>
+export const MEANINGS = (meaningsJson as { meanings: Meaning[] }).meanings
+
+const meaningById = new Map<string, Meaning>(MEANINGS.map((m) => [m.cardId, m]))
+
+const EMPTY_MEANING: Omit<Meaning, 'cardId'> = {
+  keywords: [],
+  readingLine: '',
+  question: '',
+  libraryEntry: '',
+  reversed: { readingLine: '', question: '', libraryEntry: '' },
+  altText: '',
+  status: 'placeholder',
+}
 
 export function meaningFor(cardId: string): Meaning {
-  const m = meanings[cardId]
-  if (m && typeof m !== 'string') return m
-  return { general: '', question: '' }
+  return meaningById.get(cardId) ?? { cardId, ...EMPTY_MEANING }
 }
 
 export interface Templates {

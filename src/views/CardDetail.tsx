@@ -1,4 +1,5 @@
 import { useApp } from '../AppContext'
+import { STR } from '../content/ui-strings'
 import { CardPlate } from '../components/CardPlate'
 import { cardById, hasDualName, meaningFor } from '../engine/content'
 
@@ -11,7 +12,7 @@ export function CardDetail({ id }: { id: string }) {
     return (
       <article className="view">
         <p className="empty-state">
-          No such card in this deck. <a href="#/library">Back to the library.</a>
+          {STR.card.notFound} <a href="#/library">{STR.card.notFoundLink}</a>
         </p>
       </article>
     )
@@ -24,7 +25,7 @@ export function CardDetail({ id }: { id: string }) {
     <article className="view view-card">
       <header className="view-head">
         <p className="view-kicker">
-          <a href="#/library">← Library</a>
+          <a href="#/library">{STR.card.backToLibrary}</a>
         </p>
       </header>
 
@@ -35,14 +36,10 @@ export function CardDetail({ id }: { id: string }) {
       <h1 className="card-name">{card.name}</h1>
       {hasDualName(card) && <p className="card-classic">{card.classicName}</p>}
       <p className="card-keywords">{card.keywords.join(' · ')}</p>
-      <p className="card-meaning">{meaning.general}</p>
+      <p className="card-meaning">{meaning.libraryEntry || meaning.readingLine}</p>
       <p className="card-question">{meaning.question}</p>
       <p className="card-count">
-        {count === 0
-          ? "You haven't drawn this card yet. The deck takes its time."
-          : count === 1
-            ? "You've drawn this card once."
-            : `You've drawn this card ${count} times.`}
+        {count === 0 ? STR.card.drawnNever : count === 1 ? STR.card.drawnOnce : STR.card.drawnTimes(count)}
       </p>
     </article>
   )
