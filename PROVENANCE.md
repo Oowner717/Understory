@@ -1,11 +1,14 @@
 # PROVENANCE.md — corpus authorship ledger
 
-Per-card record of who drafted and who authored the final text, kept for
-copyright registration. Rules (VOICE.md §10): Claude drafts are stimulus in
-`/src/content/drafts/`; only text the author has personally rewritten enters
-`meanings.json`, moved there by the author. Update the row when a card's
-final is authored: set **Authored by**, the date, and bump the draft count if
-more drafting rounds happened.
+Per-card record of the corpus's authorship, kept accurate rather than
+flattering. Under Work Order v3, the corpus is **AI-drafted with human
+selection, approval, and editorial direction**: the human picks the voice
+(Gate 1 bake-off), approves all 78 conceits before prose exists (Gate 2),
+and accepts / edits / recasts every batch. Record those decisions here —
+they are the substance of the compilation claim. "Authored by" now means
+"selected and approved by"; note edits and recasts in the row when they
+happen. The six v2 calibration drafts in `/src/content/drafts/` remain as
+historical drafting records.
 
 All build-phase placeholder copy (2026-07-29) was drafted by Claude and is
 marked for full rewrite — it never ships.
