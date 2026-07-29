@@ -1,0 +1,42 @@
+{
+  "cardId": "M09",
+  "card": "The Hermit",
+  "draftedBy": "claude",
+  "date": "2026-07-29",
+  "round": 1,
+  "notes": "Conceit feels sound: the lamp as deliberate smallness. Risk to watch in authoring: 'quiet' is already a corpus-fatigue word per sameness report.",
+  "fields": {
+    "keywords": [
+      ["solitude", "one small light", "looking inward"],
+      ["a lit circle", "own counsel", "the shut door"]
+    ],
+    "readingLine": [
+      "The lantern is small on purpose. It lights the next few steps and nothing else, which turns out to be plenty. An evening with the door shut isn't hiding; it's how you hear the difference between what everyone says and what you think.",
+      "One lamp, held at knee height, showing exactly one stretch of path. You've been in rooms all week; some questions only speak up once the company leaves. Tonight could be the unattended kind — not lonely, just off the clock, the way a workbench is after hours."
+    ],
+    "question": [
+      "What do you think about this when nobody is weighing in?",
+      "Which question gets clearer the moment you stop asking around?"
+    ],
+    "libraryEntry": [
+      "A figure walks uphill with a lamp that lights three steps of ground. That's the whole apparatus: no map, no committee, no view. The Hermit is the deck's argument for subtraction — fewer voices, fewer inputs, one small circle of attention carried into the dark. It isn't loneliness, though from outside the two look identical. Loneliness wants company; this wants privacy, the specific hush in which your own opinion becomes audible again after a week of everyone else's. The lamp matters more than the mountain. Nobody climbs by lantern light to reach the top; they climb to see the next few feet honestly, which is more than most bright rooms allow. Drawn on an ordinary day, the card tends to point at a small withdrawal already overdue — an evening unbooked, a walk without headphones, a decision taken off the group chat. What you find out there is rarely dramatic. It's just yours, at last, with nobody to check it against.",
+      "The engravers gave him a staff, a cloak, and one lamp — equipment for going without. The Hermit works a simple trade: give up the wide view, get back your own eyes. A week has a way of filling with other people's certainties; this card is the hour where you put them down and find out which of your opinions are load-bearing. The retreat is small and practical, not a vanishing. An unbooked evening does it. So does a long walk with nothing in your ears, or a notebook page nobody else reads. What comes back from that hour tends to be short — a sentence, sometimes only a word — but it arrives signed, and you recognize the handwriting. The card asks for no vows and no cabin in the woods. It asks for one lit circle of attention, held steady long enough to see the ground you're actually standing on, before the next round of voices arrives."
+    ],
+    "altText": [
+      "A hand-drawn lantern with a ring handle and single flame, centered on a cream specimen plate.",
+      "One small lantern, line-engraved, its flame the only mark inside a double hairline frame."
+    ],
+    "reversedReadingLine": [
+      "The lamp turned inward until the room disappears. Solitude has a sell-by date, and this one may be past it: the thinking stopped producing sentences a while ago and started producing laps. Somebody out there is holding half of what you're missing.",
+      "A lantern lit in daylight — the retreat that forgot to end. The door was shut for good reasons that have since retired. Check the window: the weather changed a while back, and your room is starting to sound like one voice agreeing with itself."
+    ],
+    "reversedQuestion": [
+      "Which conversation have you been filing under distraction?",
+      "What was the door shut against, and is it still out there?"
+    ],
+    "reversedLibraryEntry": [
+      "Upside down, the lamp does what lamps do in closed rooms: it makes the walls brighter and the world dimmer. Reversed, the Hermit marks the point where good solitude goes off — where thinking becomes rehearsing, and the shut door stops protecting the work and starts protecting the mood. The tell is repetition. Fresh privacy produces sentences you haven't heard before; stale privacy produces the same three, on a loop, with rising confidence. Another tell: everyone out there has slowly become 'people,' a single blurred crowd not worth the bother, which is the room talking, not you. Nothing here says the withdrawal was a mistake. Doors get shut for excellent reasons, and seasons end anyway. The card only notices that a lantern is a walking instrument — built to move along a path, not to sit on a shelf lighting the same corner. One conversation, chosen carefully, tends to break the loop faster than another week of careful thinking.",
+      "The reversed Hermit is a connoisseur of his own company, going off the vintage. What began as retreat has furniture now, and opinions about visitors. The closed room works like a greenhouse: ideas grow fast in there, unargued-with, and some of them are weeds. Reversed, the card points at the difference between privacy and quarantine. Privacy has a return date; quarantine keeps extending itself, politely, one week at a time, until the extensions are the plan. Listen for the sound of your own conclusions — once they've stopped surprising you, they've stopped being conclusions and become wallpaper. The repair is smaller than it looks from inside. Not a party, not a confession: one walk with one person who disagrees with you agreeably. The lamp is still good. It just lights better when it's moving, and the path it was made for runs, inconveniently, through other people."
+    ]
+  }
+}

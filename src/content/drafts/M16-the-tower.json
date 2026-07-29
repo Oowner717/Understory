@@ -1,0 +1,42 @@
+{
+  "cardId": "M16",
+  "card": "The Tower",
+  "draftedBy": "claude",
+  "date": "2026-07-29",
+  "round": 1,
+  "notes": "Hardest tone-under-load card. Both library entries refuse the 'blessing in disguise' move explicitly and lean on the plate's unbroken ground line. If one specimen goes into VOICE.md §6 after authoring, suggest this card.",
+  "fields": {
+    "keywords": [
+      ["sudden change", "exposure", "cleared air"],
+      ["the strike", "what was dry", "the ground line"]
+    ],
+    "readingLine": [
+      "Lightning finds the tallest dry thing, and this week it found yours. Something built — a plan, an arrangement, a version of events — has come down fast. No softening on offer. The card grants you one accuracy instead: the air after is clearer.",
+      "A structure failed, suddenly, from the top. Not everything did — the drawn ground line holds, and holds you too. What fell had been carrying strain for longer than the crack took. Speed is how towers fall; it isn't how they weaken."
+    ],
+    "question": [
+      "Now that it's down, what does the site ask for first?",
+      "What had the structure been costing you to keep upright?"
+    ],
+    "libraryEntry": [
+      "The engraving is honest about the physics: a tree, struck, loses its proudest limb, and the bolt takes the path that was always there. Towers — the arrangements, plans, and stories tall enough to be proud of — fail the same way, along faults built in during construction and papered over during maintenance. The Tower is the deck's card of sudden structural truth. It refuses two comforts on principle. The first: calling the collapse a blessing in costume — things you built are genuinely down, and pretending otherwise insults the builder. The second: forecasting the rebuild — that's next season's business, and another card's. What it grants instead is accuracy about the moment itself. Demolition by lightning is fast, complete, and strangely clean, and standing in the cleared air is a real experience, reported by nearly everyone honest about their catastrophes. The ground line under the tree survives in every printing of this plate. That detail is load-bearing.",
+      "Struck towers get two reputations, and the card carries both without apology. The first is catastrophe, which is simply accurate: something with height, cost, and years in it came down in an afternoon, and the noise was real. The second is exposure. Lightning goes to the tallest dry thing — dry being the operative engraving choice. What it reveals, in one overlit instant, is everything the structure had been costing you to keep vertical: the bracing, the deferred repairs, the floors nobody visited but everybody maintained. People rarely rebuild the same tower. Not because anyone forbids it — because the strike showed them the invoice. The plate keeps three details in every printing: the bolt, jagged and brief; the broken limb, hanging, not yet fallen; the ground line, unbroken, with small grass ticks. Read in order, they're the card's whole grammar. What happened; what's still mid-air; what holds anyway, which is more than it seemed the day before."
+    ],
+    "altText": [
+      "A lightning-struck tree with one broken limb, zigzag bolt, unbroken ground line beneath.",
+      "Engraved bare tree, bolt descending from the corner, snapped branch mid-fall, grass ticks below."
+    ],
+    "reversedReadingLine": [
+      "The strike, postponed — a tower everyone involved knows is condemned, still receiving mail. Reversed, the card marks maintenance of the doomed: propping, repainting, agreeing not to mention the lean. The lightning isn't the danger here. The upkeep is, and you're paying it.",
+      "Aftershock season. The tower fell a while ago; reversed, the dust is being kept in the air by hand. Some collapses get curated — visited daily, narrated, insured against ending. The site is ready before you are, which is normal, and worth knowing."
+    ],
+    "reversedQuestion": [
+      "What are you propping that a strike would merely finish?",
+      "What would touring the wreckage one less time this week free up?"
+    ],
+    "reversedLibraryEntry": [
+      "Reversed, the bolt hasn't landed; that's the whole difference, and less of a mercy than it sounds. This is the condemned tower still under management — the arrangement everyone privately knows is structural history, kept upright by increasingly heroic maintenance. The lean gets renamed character. Inspections get scheduled for months with five weekends. The bracing budget, never itemized, quietly becomes the biggest line in the week. The card reversed is not an instruction to demolish; the deck issues no permits. It's an accounting of load paths: strain this size travels somewhere, and in propped towers it travels into the props — your shoulders, your evenings, the conversations rerouted around the crack in the middle of the room. Lightning, when it eventually cooperates, mostly formalizes. What it finds to strike was finished earlier, in private, around the time the repainting started meaning something else. The grass ticks are already growing at the base, for whatever that's worth.",
+      "The other reversal is life among the rubble after the dust had every chance to settle. Some collapses end and are permitted to stay ended; others get curated. Reversed this way, the Tower marks the site tour that never closes: the retelling polished to gallery quality, the anniversary observed with rising production values, the survivor's badge renewed annually like a lease. Nobody chooses this on purpose. Wreckage is orienting — it explains things, excuses things, and for a while it genuinely was the largest fact you had. The card only notes what groundskeepers know: cleared sites grow. The unbroken ground line, faithful in every printing of the plate, is not decoration; it's the deck's quietest claim, that the ground survives its architecture. What gets built next is unwritten and none of this card's business. Its business is the gate, and whether the museum's most faithful visitor has noticed that admission keeps getting charged in mornings."
+    ]
+  }
+}
