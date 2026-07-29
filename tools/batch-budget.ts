@@ -37,16 +37,26 @@ const questions: string[] = batch.flatMap((m: any) => [...m.questions, ...m.reve
 const entries: string[] = batch.flatMap((m: any) => [m.libraryEntry, m.reversed.libraryEntry]).filter(Boolean)
 
 /** Numeral or court sigil, followed by a suit object. "Three ways this goes
- *  wrong" is a structural opener and is deliberately not matched. */
+ *  wrong" is a structural opener and is deliberately not matched.
+ *
+ *  Major emblems are listed alongside the suit objects, added in batch 6.
+ *  Without them this check has no teeth on a Majors batch at all, since a
+ *  Major's plate carries an emblem and no suit mark, so "Two vessels joined
+ *  by a stream" is exactly as much a plate description as "Two sprigs" is.
+ *  Emblem names come from MajorEmblem in src/design/plate.tsx. */
 const PLATE_OPENER =
-  /^(?:One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|A|An)\s+(?:\w+\s+){0,3}(?:sprigs?|pods?|bells?|cups?|blades?|blade leaf|blade leaves|leaf|leaves|stakes?|chevron|sprout|bloom|crown)\b/
+  /^(?:One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|A|An)\s+(?:\w+\s+){0,3}(?:sprigs?|pods?|bells?|cups?|blades?|blade leaf|blade leaves|leaf|leaves|stakes?|chevron|sprout|bloom|crown|feather|flask|crescent|sheaf|standing stone|skep|beehive|stems?|wheel|bird|lantern|spiral|scale|chrysalis|teasel|vessels?|knot|tree|star|moon|moth|sunflower|shell|wreath)\b/
 
 /** Homonyms excluded on purpose. "tab" is a browser tab in cups-07 and
  *  "interest" is curiosity in pentacles-10. Both flagged clean copy. */
 const BOOKKEEPING =
   /\b(?:invoices?|itemiz\w+|audits?|accounting|ledgers?|banking|billing|bills|accrues?|accruing|bookkeeping)\b/gi
-/** Cards whose conceit is itself about exchange, where the register is earned. */
-const EXCHANGE_CONCEITS = new Set(['pentacles-02', 'pentacles-04', 'pentacles-06', 'swords-02', 'wands-06'])
+/** Cards whose conceit is itself about exchange, where the register is earned.
+ *  M11 joins in batch 6: its approved conceit is two columns of a ledger in
+ *  the same ink, so the vocabulary is the card rather than a slip into it. */
+const EXCHANGE_CONCEITS = new Set([
+  'pentacles-02', 'pentacles-04', 'pentacles-06', 'swords-02', 'wands-06', 'M11',
+])
 
 const sentenceLens = lines.flatMap((t) => splitSentences(t).map(countWords))
 const mean = (xs: number[]) => xs.reduce((a, b) => a + b, 0) / xs.length
@@ -96,6 +106,48 @@ add(
   `${plateOpeners}/${entries.length}`,
 )
 
+/* Self-echo. A card's library entry restating its own reading line word for
+ * word reads as padding, and it is invisible to the sameness linter, which
+ * only ever compares one card against another. Measured across the whole
+ * corpus in batch 6 it turned out to have been climbing for four batches
+ * without anyone looking: 0.3 shared six-word runs per card in batches 1
+ * and 2, then 1.5, 1.6, 2.2, and 2.8 in batch 6 before correction.
+ *
+ * M16 is exempt. Its upright reading lines are the frozen Gate 1 specimens
+ * and its library entry is written around the author's own approved
+ * phrasing, so the overlap there is deliberate. */
+const SELF_ECHO_EXEMPT = new Set(['M16'])
+const words = (t: string) => t.toLowerCase().match(/[a-z']+/g) ?? []
+const sixGrams = (t: string) => {
+  const w = words(t)
+  const out = new Set<string>()
+  for (let i = 0; i + 6 <= w.length; i++) out.add(w.slice(i, i + 6).join(' '))
+  return out
+}
+let echoPairs = 0
+const echoWorst: string[] = []
+for (const m of batch as any[]) {
+  if (SELF_ECHO_EXEMPT.has(m.cardId)) continue
+  let n = 0
+  for (const entry of [m.libraryEntry, m.reversed.libraryEntry].filter(Boolean)) {
+    const eg = sixGrams(entry)
+    for (const line of [...m.readingLines, ...m.reversed.readingLines]) {
+      const shared = [...sixGrams(line)].filter((g) => eg.has(g))
+      if (shared.length) {
+        n++
+        if (echoWorst.length < 8) echoWorst.push(`${m.cardId}  ${shared[0]}`)
+      }
+    }
+  }
+  echoPairs += n
+}
+const echoPerCard = echoPairs / Math.max(1, batch.length - [...SELF_ECHO_EXEMPT].filter((id) => batch.some((m: any) => m.cardId === id)).length)
+add(
+  'library entry echoing its own reading line, under 1 per card',
+  echoPerCard < 1,
+  echoPerCard.toFixed(1),
+)
+
 const firstWord = (q: string) => (q.split(/\s+/)[0] ?? '').replace(/[^A-Za-z']/g, '')
 const whatWhich = questions.filter((q) => ['What', "What's", 'Which'].includes(firstWord(q))).length
 add(
@@ -132,6 +184,10 @@ console.log(`  top content words  ${top.map(([w, n]) => `${w} x${n}`).join(', ')
 if (noBeat.length) {
   console.log('\n  lines with no short beat:')
   for (const t of noBeat) console.log(`    ${t.slice(0, 90)}`)
+}
+if (echoWorst.length) {
+  console.log('\n  self-echoed runs (entry repeating its own line):')
+  for (const t of echoWorst) console.log(`    ${t}`)
 }
 
 const failed = checks.filter((c) => !c.ok && c.hard)

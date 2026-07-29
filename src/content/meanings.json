@@ -148,26 +148,36 @@
     {
       "cardId": "M06",
       "keywords": [
-        "choice",
-        "closeness",
-        "alignment"
+        "a yes that cannot be walked back",
+        "drafts",
+        "two lives"
       ],
       "readingLines": [
-        "A real choice, the kind that changes the chooser. Closeness has terms, and they're rarely written down."
+        "Sending it changes two lives. Not sending it changes one. Your reply has been in drafts for four days. Both of those facts have been true the whole time. Two entwined stems, and no way to unwind them afterwards.",
+        "Two stems, grown together, neither able to be pulled out cleanly. A yes of this kind cannot be walked back. You already know that. That is why it is still in drafts. Four days is accuracy about the stakes rather than indecision.",
+        "You have written it and you have not sent it. The gap between those is where you live this week. Reversible choices deserve speed. This one is not reversible. The four days are the correct price of that difference."
       ],
       "questions": [
-        "What are you actually choosing between?"
+        "What is sitting in your drafts?",
+        "Who else does it change?",
+        "When does the draft go?"
       ],
-      "libraryEntry": "",
+      "libraryEntry": "A reply that would change two lives has been sitting in your drafts for four days. Nine words, already written, not sent. What makes this card difficult has nothing to do with romance, which is where it usually gets filed. It is about a yes that cannot be walked back. Most choices are reversible, and the correct speed for a reversible choice is fast, because the cost of being wrong is one correction. This is the other kind. Two stems grown together do not come apart cleanly, and the four days in drafts are not indecision. They are an accurate reading of the stakes, taken by someone who knows the difference between the two categories and is behaving correctly in the second. Nothing here says send it. What it says is that the delay is proportionate, and that declining to send is a choice too, and it gets made again every morning.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": "",
-        "readingLines": [],
-        "questions": []
+        "readingLines": [
+          "You sent it. The reply took nine words to write and four days to allow. Whatever happens next, the version of you that could not send it is finished. That ending happened the moment the message left. Two lives moved.",
+          "Your draft is still there and it is now three weeks old. Not sending is also a decision. It is being made daily, in small instalments. That is the only way this decision ever gets made. Nothing has been avoided.",
+          "You sent something you could walk back. Then called it the big one. Hedged yeses are common. They are not the same instrument. Two stems can be laid next to each other without growing together. That arrangement is comfortable, reversible, and not this card."
+        ],
+        "questions": [
+          "What ended when you sent it?",
+          "Where is the draft now?",
+          "Which yes did you actually send?"
+        ],
+        "libraryEntry": "Sent, unsent, and hedged. In the first the message leaves, and whatever follows, whoever you were while it sat unsent is gone, and that ending happened at the moment of sending rather than in whatever the answer turns out to be. Two lives moved and one of them was yours. In the second the draft is three weeks old, and the refusal is renewed each morning in small amounts, which is how this particular decision always gets made, and nothing at all has been avoided. Both of those are recognisable and neither is a failure. The third is the hedge. Something walk-back-able gets sent while being labelled the real thing, and stems laid side by side without growing together are comfortable and reversible and not what this card is about. The hedge answers a different question than the one asked."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "Two stems grown together, entwined in line drawing, centered above the plate numeral.",
+      "status": "drafted"
     },
     {
       "cardId": "M07",
@@ -196,26 +206,36 @@
     {
       "cardId": "M08",
       "keywords": [
-        "gentle nerve",
-        "patience",
-        "self-command"
+        "the floor at the edge of the bed",
+        "gentleness as technique",
+        "the hour it takes"
       ],
       "readingLines": [
-        "Not the loud kind of strong. The kind that waits out a snarl, keeps its voice level, opens its hand first."
+        "You are on the floor at the edge of the bed. The cat has not come out. Force has never once worked here. Not once, in the entire history of frightened animals. Strength here is the patience to stay on the floor.",
+        "A small perched bird, no cage anywhere near it. Whatever you were gentle with this week did not respond to being pushed. You knew that before you tried. Gentleness is the technique and not the mood.",
+        "You held your temper with something that deserved it. That is the whole card. It is more expensive than it sounds. Force is faster and it does not work on frightened things. Staying on the floor is what took the strength."
       ],
       "questions": [
-        "What responds to patience today that never responds to force?"
+        "Who are you waiting for?",
+        "What did you not push?",
+        "Where did you hold it?"
       ],
-      "libraryEntry": "",
+      "libraryEntry": "A person is flat on the carpet beside a bed, talking quietly to an animal that has stayed under it. That is the picture, and everything this card has to say is inside it. Force is faster, and force has never once worked on a frightened creature, and the person on the floor knows this from experience rather than from principle. What it costs is the hour. You spent one like that recently. Gentleness of this kind is not a temperament and not a mood, and it is not niceness. It is a technique with a known duration, applied by someone who would very much prefer to be doing something else. The cat comes out eventually, on its own schedule, usually once the room has stopped watching, and the last quiet hour gets no credit for that while being the reason it happened. Strength is the wrong word for it and the only one available.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": "",
-        "readingLines": [],
-        "questions": []
+        "readingLines": [
+          "The cat came out on its own at eleven, when you had stopped looking at it. Nothing you did in the last hour caused that. Everything you did in the first hour made it possible. Both are true.",
+          "You reached under the bed and got scratched. Force applied to a frightened animal produces exactly one result. It is on your hand. Not cruelty. Impatience, which is far more common and leaves the same mark.",
+          "Six weeks on this floor. The cat is comfortable under there now. Patience with no limit stops being patience. Waiting can become the thing you do instead of deciding. Gentleness has a version that never asks for anything."
+        ],
+        "questions": [
+          "When did it come out?",
+          "What were you out of?",
+          "How long have you been waiting?"
+        ],
+        "libraryEntry": "Two failures and one success, and the success is the least visible of the three. The success is the animal coming out at eleven, by itself, once the watching stopped, with nothing in the final hour causing it and everything in your first hour making it possible. Both of those are true and only one of them feels like a result. The first failure is the hand under the bed. Force applied to a frightened creature produces a single outcome and it is a scratch, and the cause is almost never cruelty. It is haste, which is commoner by far and marks a hand identically. The second failure is the floor becoming a residence. Endless patience is no longer patience, waiting stands in for deciding very comfortably, and there is a form of gentleness that never asks anybody for anything and calls that a virtue."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "A small bird perched on a bare twig, drawn in line above the plate numeral.",
+      "status": "drafted"
     },
     {
       "cardId": "M09",
@@ -244,170 +264,240 @@
     {
       "cardId": "M10",
       "keywords": [
-        "turning",
-        "cycles",
-        "timing"
+        "the run",
+        "false authorship",
+        "the same curve"
       ],
       "readingLines": [
-        "The wheel turns whether or not you push it. Some of this week is weather, not verdict."
+        "Six good weeks ended on a Tuesday and no explanation arrived. That is how weather ends. An ammonite spiral, tightening inward, the same curve all the way down. The run was real. Your account of why was the invention.",
+        "An ammonite spiral, chamber after chamber. Same shape, different size each time. Something good ran for a while and then stopped. You were not the cause of either end of it. That is worse news going up than coming down.",
+        "You had a good run and then you did not. Both halves were weather. The mistake in the middle was the story where you had worked out how to keep it going. Everyone writes that story, every time."
       ],
       "questions": [
-        "What part of this is simply the season it's in?"
+        "What did you take credit for?",
+        "Which part was yours?",
+        "Where did the story come from?"
       ],
-      "libraryEntry": "",
+      "libraryEntry": "A run of six good weeks ends on a Tuesday, without explanation, the way weather ends. The run was real and the ending is real, and the part that was invented is the middle, where a story got written in which the run was being caused by something you had worked out. Everyone writes that story. It is nearly irresistible, and it is harder to hear on the way up than on the way down, because up is where it feels like insight. An ammonite adds chamber after chamber in the same curve at increasing size, and the shell holds no view about which chamber it is in. What this card declines to offer is a prediction. It says the run happened, that the ending has no message in it, and that the authorship you assigned yourself was the only unreliable part of the sequence. The weather is not about you. That is the good news in it.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": "",
-        "readingLines": [],
-        "questions": []
+        "readingLines": [
+          "The run ended and you did not take it personally. That is unusual and worth recording. Weather that stops is not a verdict on the person standing under it. You appear to have known that on the day.",
+          "The run is still going and you have an explanation for it. Everyone does at this point in the spiral. An account of why the weather is good is the most confident writing anyone produces. It dates badly.",
+          "Eight weeks of a bad stretch. You have built a theory about yourself out of it. Downturns produce the same false authorship as good runs. The direction changes and the error does not. A spiral has no opinion about which chamber you are in."
+        ],
+        "questions": [
+          "Who did you not blame?",
+          "What is your explanation?",
+          "Whose theory is that?"
+        ],
+        "libraryEntry": "Three readings of the same spiral. The first is the rare one. The run ends and it does not get taken personally, because a stretch that ends passes no judgement on whoever stood under it, and knowing that on the day rather than six months later is unusual enough to write down. The second is the confident stretch. The run is still going, an explanation for it exists, and a theory explaining a good stretch is the most assured writing anybody does and the fastest to date badly. The third runs the same error in reverse. Two bad months, and a theory about yourself built out of them, because downturns manufacture false authorship exactly as reliably as good runs do. The direction changes and the mistake does not. A shell adds chambers in one curve and has no opinion about which one you are in."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "A coiled ammonite spiral drawn in line, tightening inward, above the plate numeral.",
+      "status": "drafted"
     },
     {
       "cardId": "M11",
       "keywords": [
-        "weighing",
-        "consequence",
-        "clear sight"
+        "both columns",
+        "the same ink",
+        "keeping the total"
       ],
       "readingLines": [
-        "Scales, held steady. Actions and their weights, seen plainly, without a thumb on the pan."
+        "One column says what it cost. The other says what it paid. Same ink, same hand, same page. You read only one of them this week. A balance scale on the plate, level, holding both columns at once.",
+        "A balance scale, level, both pans loaded. Fairness is not a feeling. It is not a mood you arrive at. It is two columns written in the same ink by the same person. You did the honest version of this recently, on something specific.",
+        "You gave something a fair reading this week. Including the unflattering parts. That is rarer than being right. A scale reads level only when both pans are loaded honestly. The second pan is the one that gets left light."
       ],
       "questions": [
-        "What would an even-handed account of this look like?"
+        "Which column did you skip?",
+        "What did it actually pay?",
+        "Whose account are you keeping?"
       ],
-      "libraryEntry": "",
+      "libraryEntry": "Two columns, one page, the same ink in both. What it cost on the left and what it paid on the right, written by the same hand, at the same sitting, with the same care. That is the whole instrument, and almost everyone runs it half-loaded, because one column is easy to fill and the other is the one that makes the total inconvenient. Which column gets shortchanged varies by person and stays consistent within a person. A balance scale reads level for a reason, and the reason is arithmetic rather than virtue. Fairness in this card has nothing to do with feeling fair, and feeling fair is a poor indicator, since a page with one pan light also comes to a total and the total looks just as tidy. What is asked here is narrow. One decision, both columns, same ink, and then keeping the answer even when it goes against you.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": "",
-        "readingLines": [],
-        "questions": []
+        "readingLines": [
+          "You added up both columns and the answer was not the one you wanted. Then you kept it. Holding an honest total that goes against you is the entire content of this card. It takes about a day to stop stinging.",
+          "One column is in ink and the other is in pencil. That is the ordinary way this gets done. It is not lying. The costs are precise and the payments approximate, or the reverse. Either way your scale reads level on a page that is not.",
+          "Every account gets settled in your head at eleven at night. Fairness turned inward without limit is not justice. It is a tribunal. This scale weighs one decision at a time. It does not weigh a whole person."
+        ],
+        "questions": [
+          "What total did you keep?",
+          "Which column is in pencil?",
+          "When does the weighing stop?"
+        ],
+        "libraryEntry": "The honest version and the two dishonest ones, and the dishonest pair are not lies. In the honest version both columns get added, the answer comes out against you, and you keep it anyway, which stings for roughly a day and then stops. That is the entire achievement. In the first failure one side is inked and the other pencilled. Costs precise and payments approximate, or the reverse, and the pans still balance above a page that does not, and nobody involved has said anything untrue. The second failure is scale creep. Every account settled nightly, in the head, at eleven, with fairness turned all the way inward and no stopping condition, which is a tribunal rather than a justice. The instrument takes one decision at a time. Handing it a whole person is a category error, and it produces a number every time."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "A two-pan balance scale hanging level, drawn in line above the plate numeral.",
+      "status": "drafted"
     },
     {
       "cardId": "M12",
       "keywords": [
-        "pause",
-        "another angle",
-        "letting be"
+        "the handed hour",
+        "suspension",
+        "invisible work"
       ],
       "readingLines": [
-        "Hanging upside down is uncomfortable and very clarifying. The view has changed; you haven't moved."
+        "Your train is ninety minutes late and there is nothing to do about it. You did not choose this hour and would never have scheduled it. A chrysalis on the plate, hanging, doing invisible work. The hour counts anyway.",
+        "A chrysalis, suspended and sealed. It is doing something you cannot watch. Waiting looks identical to nothing from outside. Your week put you somewhere you did not pick. Time you did not budget. You have already thought something you would not have thought.",
+        "Chosen stillness is a practice. Imposed stillness is a platform at Crewe with a coffee going cold. The second one produces more, more often. That is annoying and well documented. You would not have given yourself that hour."
       ],
       "questions": [
-        "What looks different about this from the other way up?"
+        "What did the delay hand you?",
+        "What surfaced in the extra hour?",
+        "When did you last stop on purpose?"
       ],
-      "libraryEntry": "",
+      "libraryEntry": "The train is ninety minutes late, the platform is cold, and there is nothing available to do about any of it. That is the situation this card describes, and the useful thing about it is that you would never have scheduled it. An hour given to yourself on purpose is a practice, and practices are good, and they are also rare and easily postponed. An hour taken from you by a signalling fault arrives whether or not you had planned on it. What tends to happen in that hour is small and hard to report. A thought surfaces that had been queued behind the ordinary noise, and it is usually about something you already knew. A chrysalis does its work sealed and unwatched and looks from outside like a thing hanging on a twig. You cannot photograph the middle of this. You can notice, afterwards, that it happened.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": "",
-        "readingLines": [],
-        "questions": []
+        "readingLines": [
+          "The delay handed you an hour and you used it. Ninety minutes. Using it looked like sitting still and staring at a departure board. That is what use looks like here. Nothing got produced and something got noticed.",
+          "You filled the ninety minutes with your phone and arrived with the same head you left with. That is the ordinary outcome and it is not a moral event. The hour was still handed to you. It went back unopened.",
+          "The stillness has stopped being imposed and become the arrangement. Hanging is a stage. Not an address. A chrysalis that never opens is not resting. A pause you were handed is not a pause you moved into. The difference is real."
+        ],
+        "questions": [
+          "What did you notice at the station?",
+          "Where did the ninety minutes go?",
+          "Handed to you, or moved into?"
+        ],
+        "libraryEntry": "Two ways the handed hour goes, and one edge case worth naming. It gets used, which looks like nothing, since using it means sitting on a bench watching a departure board while a thought surfaces that had been queued behind the noise. Or it goes back unopened, filled with a phone, and you arrive with the head you left with, and that is the ordinary outcome rather than a moral event. Neither of those is a failure and both happen to everybody. The edge case is when the pause stops being imposed. Hanging is a stage rather than an address, and a chrysalis that does not open is not resting, and the difference between a pause you were handed and one you have moved into is real and only visible from inside. That distinction is the whole of the reversal. Everything else here is just a late train."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "A chrysalis hanging from a twig, drawn in line, centered above the plate numeral.",
+      "status": "drafted"
     },
     {
       "cardId": "M13",
       "keywords": [
-        "ending",
-        "clearing",
-        "what falls away"
+        "an ending done",
+        "the empty bed",
+        "the ground stays"
       ],
       "readingLines": [
-        "Something is over, and the tidy word for that is compost. Endings feed what comes next, though rarely on request."
+        "You pulled the dead stems out. The bed is empty now. That emptiness is the work, finished. Something in your life ended this season and you were the one who cleared it. An empty bed in November is not a failed garden.",
+        "Something ended and you are standing in the space where it was. That space is wider than it looks in November. A bare teasel head. Seed gone, structure still standing. You are allowed to call it over on your own schedule.",
+        "Autumn does this to every bed in the country. Inside the same fortnight. Yours is not being singled out. The stems come out, the ground stays. The ground is the part that was always doing the work. You are still here."
       ],
       "questions": [
-        "What are you still watering that's already done?"
+        "What did you clear this season?",
+        "Where are you standing now?",
+        "What is still in the ground?"
       ],
-      "libraryEntry": "",
+      "libraryEntry": "The dead stems come out in October and what is left is bare soil, and every year a gardener looks at that bed and reads it as failure. It is the opposite. The emptiness is the work, completed, on schedule, by a person who did the pulling. Something of yours ended this autumn. You may have ended it yourself, or watched it end, or spent three months knowing it was over before anything moved, and all three of those are endings and none of them is a mistake. What stays is the ground. Beds do not lose their soil when they lose their planting, and the part that was doing the work all along is still exactly where it was. This card names the difficulty and does not soften it. It also does not pretend the ground went anywhere. You are standing on it.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": "",
-        "readingLines": [],
-        "questions": []
+        "readingLines": [
+          "You cleared it. You were sad about it. Both happened in the same week. That combination is the ordinary shape of an ending done properly. No contradiction there. The bed is empty and you are allowed to mind.",
+          "The stems are still standing in December and you know they are dead. Leaving them there is not denial. It is a way of not doing it yet. That is a different thing, and it costs something. The bed can wait.",
+          "You pulled everything, including two that were alive. Clearing at speed does not stop to check. That is what haste in autumn costs. It is a small loss inside a correct decision. The bed was still right."
+        ],
+        "questions": [
+          "What are you allowed to mind?",
+          "When does the bed get cleared?",
+          "What went out with it?"
+        ],
+        "libraryEntry": "Two things happen to an autumn clearing and neither is a moral failing. Either it does not happen, or it happens too fast. Stems left standing into December are not denial. They are a method of postponement, which takes its own kind of effort, and the bed waits without penalty because beds do. Clearing at speed is the other one, and it pulls two live plants along with the twelve dead ones, because haste does not stop to check. Both of those sit inside a decision that was still correct. What the reversal is not is a verdict on your timing. Autumn reaches every bed in the country within a fortnight of every other and consults none of them, and the ground under yours held through all of it. You are allowed to have minded, and for longer than seemed reasonable."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "A bare teasel head drawn in line, centered on the plate above the numeral.",
+      "status": "drafted"
     },
     {
       "cardId": "M14",
       "keywords": [
-        "mixing",
-        "measure",
-        "patience"
+        "a quarter teaspoon",
+        "increments",
+        "no story"
       ],
       "readingLines": [
-        "Two vessels, one stream, poured slowly. Most good mixtures are boring to watch being made."
+        "Your eleventh version of the soup differs from the tenth by a quarter teaspoon. That is the whole method. It is extremely boring. Two vessels, joined by a stream. Nothing here arrives by a leap.",
+        "Two vessels joined by a moving stream, neither of them full. You changed one small thing this week. It was the right size of change. Small adjustments are unimpressive. They are also the only ones that hold. The good version is boringly near the last one.",
+        "You resisted the urge to fix it all at once. That urge is strong. It produces version one again, from scratch, with new mistakes. A quarter teaspoon is not a compromise. It is the resolution the problem actually has."
       ],
       "questions": [
-        "What proportions are off by just a little?"
+        "What did you adjust by a quarter?",
+        "Which small thing did you change?",
+        "Where were you tempted to start over?"
       ],
-      "libraryEntry": "",
+      "libraryEntry": "The version that works differs from the previous version by a quarter teaspoon, and that is the least satisfying sentence in this deck. It is also how almost everything gets good. Two vessels with a stream between them, neither one full, the level moving slowly between them. What makes this hard is not the technique, which a child can follow. It is that increments produce no story. There is nothing to tell at a dinner table afterwards, no moment where the thing turned, and no version you can point to as the breakthrough, because there was not one. The competing urge is to throw the pot out and rebuild from scratch, which feels decisive and delivers version one with a fresh set of mistakes, several of which were already solved. Temperance is a very dull name for the discipline of changing one small thing and tasting it before changing another.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": "",
-        "readingLines": [],
-        "questions": []
+        "readingLines": [
+          "Version eleven works and it tastes almost exactly like version ten. You cannot point to the change. The change is still why it works. Increments make a poor story and a reliable soup. The recipe never gets asked for.",
+          "You threw the whole pot out and started again from nothing. That happens. It is usually about frustration rather than about the recipe. Version one has a fresh set of mistakes in it. Some of them are the ones you already fixed.",
+          "You have adjusted eleven times now. The dish is not the problem. Increments are a way of moving. They are also a way of not moving. Eleven versions of nearly the same thing is a decision avoided. Carefully, and in a kitchen."
+        ],
+        "questions": [
+          "What tastes right now?",
+          "What did you already fix once?",
+          "Adjusting, or avoiding?"
+        ],
+        "libraryEntry": "Two ways the method fails, and one of them looks like decisiveness. The clean case first. Version eleven works, tastes very nearly like the tenth, and you cannot trace it to any single change, and the untraceable change is precisely why it works, which is why nobody asks how it was done. The first failure is the fresh start. The whole pot goes out, the rebuild feels like action, and version one arrives with a new set of mistakes, some of them already solved two weeks ago, and the trigger is nearly always frustration rather than the dish. The second failure is subtler and more comfortable. Eleven quarter-teaspoon adjustments to a dish that was never the problem, because incrementing is a way of moving and also an excellent way of not moving, and both look identical from the stove. The taste is the only test that settles it."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "Two vessels joined by a moving stream, drawn in line above the plate numeral.",
+      "status": "drafted"
     },
     {
       "cardId": "M15",
       "keywords": [
-        "tangles",
-        "habit",
-        "what binds"
+        "a hundred harmless evenings",
+        "the tangle",
+        "privacy"
       ],
       "readingLines": [
-        "A bramble knot: nobody plants one, everybody grows one. Whatever binds here mostly binds because it's familiar."
+        "You opened it again without deciding to. That is the whole mechanism and it is not a character flaw. A bramble knot, grown from a hundred separate evenings, none of which was the problem. The knot is still a knot.",
+        "A bramble knot, drawn in line. No beginning visible anywhere in it. None of this was chosen once. It was chosen on a hundred evenings, each of them harmless. The compound is what you are looking at. Brambles are not villains. They are very good at this.",
+        "You know exactly which app it is and how long the average evening runs. Naming it is not the same as being ashamed of it. A knot has ends. Finding one takes longer than pulling it. Pulling is the part most people start with."
       ],
       "questions": [
-        "Which tangle do you keep because it's yours?"
+        "What opens without you deciding?",
+        "Which evening would you have skipped?",
+        "Where does the knot start?"
       ],
-      "libraryEntry": "",
+      "libraryEntry": "A bramble knot is not built on purpose. It arrives by accretion, from a hundred separate evenings, and not one of those evenings was the problem, which is exactly why the thing is hard to see and harder to date. You know which app it is. You could probably estimate the average evening to within ten minutes, and the estimate would be low, and none of that is a character defect. It is a compound of small permissions. Brambles are extremely good at this and hold no opinion about you at all. The useful fact about a knot is that it has ends. Locating an end takes longer than hauling on it, and pulling is where most attempts begin, which is why most attempts tighten it. This card does not tell you to cut anything. It says the knot grew the ordinary way, and that its main requirement is privacy.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": "",
-        "readingLines": [],
-        "questions": []
+        "readingLines": [
+          "You put it in a drawer for one evening. The evening was long and fine. One evening is not a cure and was never offered as one. It was a demonstration. The knot loosened by exactly the amount you loosened it.",
+          "The knot is tighter than it was in spring. You stopped counting the evenings. Growth like this is silent and does not announce a threshold. A bramble does not decide to take a garden. It takes one by not being cut.",
+          "You call this a weakness. It has been getting stronger on that diet. Shame is not a cutting tool. It keeps the evenings private. Privacy is the one condition brambles actually need. A number said out loud to another person is no longer private."
+        ],
+        "questions": [
+          "What did the long evening feel like?",
+          "When did you stop counting?",
+          "Who knows the number?"
+        ],
+        "libraryEntry": "Two states, and one of them is only visible from a distance. In the first, you put the thing in a drawer for a single evening and the evening turns out to be long and fine, and a single evening cures nothing and never claimed to. It is a demonstration that the loosening is available. In the second, the tangle has thickened since spring and the evenings stopped being counted some months ago, because growth of this kind is silent and never announces a threshold. What makes the second state persist is not weakness. It is privacy. Shame keeps the number unsaid, and unsaid is the one condition brambles require, so the shame and the bramble end up on the same side. A figure spoken to one other person has stopped being private. That is all this entry claims. It is also the only part of it that costs you anything."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "A tangled bramble knot drawn in line, centered on the plate above the numeral.",
+      "status": "drafted"
     },
     {
       "cardId": "M16",
       "keywords": [
-        "sudden change",
-        "exposure",
-        "cleared air"
+        "fast at the end",
+        "the clearing",
+        "the ground held"
       ],
       "readingLines": [
-        "Lightning is fast, and it mostly finds what was already tallest and driest. Something built has come down; the air is clearer than it's been."
+        "You built it, you maintained it, and this week you watched it come down. All three of those are true at once, and none of them cancels the others. What you knew and couldn't say is now visible from the road. That part, at least, is over.",
+        "Something you built came down this week. It went fast at the end, after being slow for a long time, the way these things go. You're allowed to just stand here for a minute. The card stands with you. The ground under both of you held.",
+        "Trees fall in an afternoon after growing for forty years. The afternoon gets all the attention. The drying takes seasons and no one photographs that part. Only the clearing is visible from where you stand today, and it is honestly wide."
       ],
       "questions": [
-        "What has this collapse saved you from maintaining?"
+        "What can you admit now?",
+        "What is still standing?",
+        "Where does the light reach now?"
       ],
-      "libraryEntry": "",
+      "libraryEntry": "Lightning takes a fraction of a second and the tree is on the ground by the end of the afternoon, and that afternoon gets all the attention, including yours. The forty years of growing get none. Neither does the clearing, which runs for seasons, in loads, with long gaps where nothing gets touched at all. Something you built came down. You built it, you maintained it, and you watched it fall, and all three of those are true at the same time without cancelling each other. That is the part that is hardest to hold. What you knew and could not say is visible from the road now. That much is over. The ground held through it, which is a plain fact about the ground rather than a consolation, and it happens to be the most useful fact available. Only the clearing is visible from where you stand today. It is honestly wide.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": "",
-        "readingLines": [],
-        "questions": []
+        "readingLines": [
+          "The tree came down in April and you have been clearing since. The falling was the fast part. What takes the years is the drying and the hauling. Also the not thinking about it for whole weeks at a time. That is also progress.",
+          "The strike is old news. The clearing is done. The sky over that spot is now just the sky. Nothing about this is a return to before. You are standing in a different field. Level, and with more light in it than the old one had.",
+          "You are rebuilding on the same footprint and using the same measurements. That is allowed. It is worth knowing you are doing it. Some of the old plan was good. Some of it is why the tree was standing where the lightning went."
+        ],
+        "questions": [
+          "What have you cleared already?",
+          "What grows there now?",
+          "Which measurements are you reusing?"
+        ],
+        "libraryEntry": "The falling is the short part. It photographs well and it is over in an afternoon, and everything afterwards is drying and hauling and long stretches of not thinking about it, which goes unrecorded as progress and which is exactly what progress looks like here. At some distance the strike becomes old news, the clearing finishes, and the sky above that gap is only sky, and the field that remains is not the old field restored. It is a different field, level, with more light in it. The one thing worth naming is the rebuild on the same footprint. Reusing your old measurements is permitted and common, and some of that old plan was good, and some of it is the reason the tree stood exactly where the lightning went. Both parts of that are true. Knowing which is which is a job for later, and later is allowed to be much later."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "A lightning-struck tree drawn in line, trunk split, centered above the plate numeral.",
+      "status": "drafted"
     },
     {
       "cardId": "M17",
@@ -436,26 +526,36 @@
     {
       "cardId": "M18",
       "keywords": [
-        "half-light",
-        "imagination",
-        "unease"
+        "the smaller room",
+        "same facts",
+        "the hour"
       ],
       "readingLines": [
-        "Half-light makes strange shapes out of ordinary fenceposts. Not everything you feel tonight is information."
+        "At two in the morning it is enormous. At nine it is a phone call and nothing more. Same facts, both times. The difference is not information. Knowing that at nine does not help you at two.",
+        "A moon on the plate and a moth in front of it. You were awake at two. The shape of the thing was wrong. Not exaggerated. A different animal, using the same facts. It had your full attention because the rest of the world was shut.",
+        "You lost some sleep to something that is a manageable size in daylight. That is not a failure of perspective. Night has fewer objects in it. The one you have gets bigger. The moth is not wrong about the moon being the brightest thing."
       ],
       "questions": [
-        "Which of these worries survives daylight?"
+        "What is it at nine?",
+        "Which animal was it at two?",
+        "Where did the size come from?"
       ],
-      "libraryEntry": "",
+      "libraryEntry": "The same problem has a two in the morning version and a nine in the morning version, and the facts are identical in both. Only the size changes, and it changes enormously. None of that is a lapse of perspective, and a calmer person would not have dodged it either. Night has fewer objects in it than day, so whatever is in the room takes up all of it, and a moth in the dark is not wrong in judging the moon the brightest object available. What the card names is the gap, and it declines to tell you the daylight version is the true one. Both readings use real facts. The night version is simply working in a smaller room, and with more confidence than the room supports. The one genuine hazard here is deciding at that hour, since a decision taken at two gets taken again at nine.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": "",
-        "readingLines": [],
-        "questions": []
+        "readingLines": [
+          "You waited until nine and made the call and it took four minutes. The two in the morning version does not have to be argued with. It has to be outlasted. You outlasted it by sleeping badly and then getting up.",
+          "It is three in the morning. Your problem has grown a face. Fear at this hour is not information about the problem. It is information about the hour. The face belongs to the hour. It was not there at four in the afternoon.",
+          "You have started making decisions at two in the morning. That is the hazard. The two in the morning version is confident. It is working from a smaller room. Decisions taken there get taken again at nine."
+        ],
+        "questions": [
+          "How long did it actually take?",
+          "What did it look like at four?",
+          "What got decided at two?"
+        ],
+        "libraryEntry": "Two ways this goes and neither of them is a lapse. In the first, you lose the hours and then make the call at nine and it takes four minutes, and the night version was never something to argue with. It was something to outlast, and a bad night followed by getting up is how outlasting works. In the second, the hour is three and the thing has grown a face, and the fear at that hour is information about the hour rather than about the thing. The face belongs to the clock. At four in the afternoon it had no face at all, and arriving in the dark does not make it a truer picture. What the reversal does not say is that the daylight reading is correct and the night one is hysteria. It says a smaller room makes a bigger object. Nothing about the object changed."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "A full moon in line, with a single moth in front of it, above the numeral.",
+      "status": "drafted"
     },
     {
       "cardId": "M19",
@@ -484,26 +584,36 @@
     {
       "cardId": "M20",
       "keywords": [
-        "reckoning",
-        "waking",
-        "second look"
+        "the old handwriting",
+        "scale",
+        "not a scorecard"
       ],
       "readingLines": [
-        "An old thing surfaces, asking to be re-read rather than re-lived. You've grown since you filed it."
+        "You read an old entry and recognised the handwriting and not the worry. Same hand. Different animal on the page. Whatever that was about, it resolved without you noticing the moment it stopped mattering. Most of them do.",
+        "A cicada shell, split down the back, the animal gone. You have outgrown a worry this year and did not attend the moment it happened. There was no announcement. The evidence is that you cannot get back into the old one.",
+        "Old journals are the only honest record of what you used to be afraid of. Memory edits. Paper does not. Reading your own handwriting about a worry that has since dissolved is the closest available look at your own scale."
       ],
       "questions": [
-        "What deserves a second look from who you are now?"
+        "Which worry no longer reaches you?",
+        "What can you no longer feel?",
+        "Where were you a year ago?"
       ],
-      "libraryEntry": "",
+      "libraryEntry": "An old journal entry is the only unedited account of your former fears, because memory edits continuously and paper does not. The common experience of rereading one is a mild vertigo. The handwriting is yours and unmistakable, and the worry on the page belongs to a person you can no longer fully reach, and there was no moment at which it stopped mattering, or at least no moment you attended. A cicada shell splits down the back and the animal is elsewhere, and nothing about the shell records the hour it happened. What this card offers is scale, and scale is the least dramatic and most useful thing on the list. It is not a verdict on the earlier version of you, who had less to work with than you do. It is a measurement, taken twice, on a person who was moving the whole time.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": "",
-        "readingLines": [],
-        "questions": []
+        "readingLines": [
+          "You read the entry and the worry had gone and you felt almost nothing about it. That flatness is the accurate response. Nothing to mark. A resolved thing does not owe you a feeling at the moment you notice it resolved.",
+          "You read the entry. The worry is still current, word for word, two years on. That is worth knowing plainly. Some shells do not split on schedule. A worry that has held the same size for two years is information. Not a verdict.",
+          "You reread the old entries in order to grade yourself. They are not a scorecard. The person who wrote them was working with what they had. Judgement in this card is a reading and not a sentence."
+        ],
+        "questions": [
+          "What resolved without a ceremony?",
+          "Which one is still current?",
+          "Who were you grading?"
+        ],
+        "libraryEntry": "Two readings and a misuse. In the first, the worry has gone and you feel almost nothing about it, and the flatness is correct rather than cold, because a resolved thing owes you no feeling on the day you notice it has gone. Nothing needs marking. In the second, the entry reads as current two years on, down to the wording, and that is worth stating plainly rather than gently. Not every shell splits on schedule, and a worry that has not shrunk in two years is information rather than a verdict on you. The misuse is rereading in order to grade. Old entries are not a scorecard, and the person who filled them was working with the information available at the time, which was less than you have now. Judgement here is a reading taken twice on a person who kept moving between the two. It was never a sentence."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "An empty cicada shell split down the back, drawn in line above the plate numeral.",
+      "status": "drafted"
     },
     {
       "cardId": "M21",
@@ -969,7 +1079,7 @@
         "libraryEntry": "Three states of the warm room. In the first it runs both ways. The kitchen fills, you enjoy it, and one of them washes up without being asked, and that single act is the whole difference between hosting and service. In the second the warmth has become a job. It cannot take a night off, because the role was assigned by repetition rather than agreement, and the guests are always the last to know the host is tired. That state answers to one cancelled Saturday and very little else. In the third the technique has outrun the affection. Warmth on demand is a real accomplishment and a strange thing to own, because a room can be worked by someone who does not much like the people in it, and from inside the room it feels identical. Only the host can tell those apart."
       },
       "altText": "An open bloom of six petals above one budded hawthorn sprig, ochre mark above.",
-      "status": "drafted"
+      "status": "authored"
     },
     {
       "cardId": "wands-king",
@@ -1003,7 +1113,7 @@
         "libraryEntry": "There are three states here, and only one of them is aim. The first is the deliberate two. Two lit, two allowed to go out, and the pair you lit sits further along than four would have, while the unlit pair stays interesting for years at no cost. The second is restraint that is actually depletion. The fire went out on its own and the word wisdom got applied afterwards, and from outside the two states are the same picture, which is why no one else ever settles the question. Rest and stall feel different from inside. The third is the full four. All lit, all tended in rotation, none of them a mistake, and that is precisely the difficulty, because a person can spend fifteen years maintaining four good ideas and building none of them. Subtraction is the last thing this suit learns."
       },
       "altText": "A crown of three seed heads above one budded hawthorn sprig, ochre mark above.",
-      "status": "drafted"
+      "status": "authored"
     },
     {
       "cardId": "cups-01",
@@ -1445,7 +1555,7 @@
         "libraryEntry": "Deep water runs three ways. In the first it runs in both directions. A call happens, you hold level, and at some point the other person asks you a real question and waits for the answer, and that single reversal is what separates a friendship from a service. In the second the water is not level and the calls keep coming. Holding steady is a skill that conceals its own limit, and the people who rely on it have no gauge and no reason to suspect one is wanted. That state ends when the level one says so, and rarely otherwise. In the third the depth has become the arrangement. Everyone brings theirs, none of them has yours, and this is comfortable, because never being sounded is safer than being sounded and found ordinary. The bell hangs and does not ring for itself."
       },
       "altText": "An open bloom of six petals above one hanging bellflower, slate mark above.",
-      "status": "drafted"
+      "status": "authored"
     },
     {
       "cardId": "cups-king",
@@ -1479,7 +1589,7 @@
         "libraryEntry": "The count goes three ways. The good one is mundane and nearly invisible. Three seconds, then a warm arrival, and the crash turns out to be a bowl, and the whole event leaves no trace except a household that trusts whoever stands in the doorway. Usually you. The second is the count that outgrew its job. Three seconds becomes thirty and then becomes a standing policy, and level is not the same as present, and a family can end up with a steady figure it can no longer reach. That state is easy to defend and hard to see, because it looks exactly like the virtue it started as. The third is the count that failed. First sound, straight up, loud, and a decade of the other thing is not undone by one Tuesday. Composure is a practice, and practices have an error rate."
       },
       "altText": "A crown of three seed heads above one hanging bellflower, slate mark above.",
-      "status": "drafted"
+      "status": "authored"
     },
     {
       "cardId": "swords-01",
@@ -1921,7 +2031,7 @@
         "libraryEntry": "Three states, and the middle one is the common failure. In the first the sentence gets said once, lands, and gets thought about later at home, which is the only place a true sentence ever does its work. In the second the sentence gets said three times. By the third repetition it has become a weapon regardless of how accurate it is, because being right is not a permit, and the person on the other end has stopped considering it and started defending. Candor and cruelty are frequently separated by the count and by little else. In the third the sentence never leaves the room. You have one or two of those. That is usually a fair estimate of the cost rather than cowardice, and the estimate is often correct, and the thing worth knowing is that kindness which risks nothing is manners. Manners are useful. They are a different instrument."
       },
       "altText": "An open bloom of six petals above one narrow blade leaf, oxblood mark above.",
-      "status": "drafted"
+      "status": "authored"
     },
     {
       "cardId": "swords-king",
@@ -1955,7 +2065,7 @@
         "libraryEntry": "The level gets used three ways and only one of them is judgment. The first is the inward reading taken and reported. It comes back false on your own shelf, you say so out loud to whoever it affects, and that one sequence changes how every later verdict of yours is received, at a cost most people decline to pay. The second is the standing exemption. The tool goes on every surface except the one you made, the exemption is never stated, and it is legible from every other seat in the room. That state feels like rigour from inside it. The third is inspection with no off switch. Every shelf, continually, including yours and including twice, and a house measured that often is not a house anyone lives in. Principle turned all the way up is no longer a judgment. It is a climate."
       },
       "altText": "A crown of three seed heads above one narrow blade leaf, oxblood mark above.",
-      "status": "drafted"
+      "status": "authored"
     },
     {
       "cardId": "pentacles-01",
@@ -2397,7 +2507,7 @@
         "libraryEntry": "The heavy bag has three states. In the first it simply works. The jumper comes out, it gets taken, the exchange lasts four seconds, and care that lands does not require acknowledgement in order to have been care. That version is common and almost never recorded anywhere. In the second the provisioning has outrun the need. Nine kilos, one of everything, carried on behalf of adults who own coats and can buy water, and the habit has stopped being generous and become a way of being necessary. That one is hard to hear and worth hearing. In the third the direction has never once reversed. Everyone on the platform is warm and the person with the bag has cold hands, not from martyrdom but because provisioning outward is a groove and no one has thought to run it the other way in a decade. There is room in your bag for a second jumper."
       },
       "altText": "An open bloom of six petals above one round Lunaria pod, moss mark above.",
-      "status": "drafted"
+      "status": "authored"
     },
     {
       "cardId": "pentacles-king",
@@ -2431,7 +2541,7 @@
         "libraryEntry": "A full barn goes three ways. In the first the doors stay open, three people take what they need without any conversation about it, the keeper loses nothing that can be named, and trust of that shape comes back on a schedule no one publishes. The second is the bolt. Enough arrived and the fear stayed, because it was never about the amount, and a locked store is a full store that is lonelier to sit in. That state is entirely defensible and it mostly costs the keeper. The third is the open door with no floor under it. Generosity beyond capacity is a slow transfer rather than stewardship, and the gleaners in the field cannot see the level and are not being careless in failing to. Only the keeper can read the level. Reading it is part of your job rather than a retreat from it."
       },
       "altText": "A crown of three seed heads above one round Lunaria pod, moss mark above.",
-      "status": "drafted"
+      "status": "authored"
     }
   ]
 }

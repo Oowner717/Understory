@@ -273,3 +273,30 @@ batch starts.
   keeps eight portraits from reading as eight compliments, and the same
   discipline applies to the Majors that name a quality, M08, M11 and M14
   in particular.
+- **2026-07-29, batch 6. A library entry may not restate its own reading
+  line.** Nothing was checking this. The swap test compares one card to
+  another and so does the sameness linter, while the one screen where a
+  reader sees a reading line and its library entry together is the card
+  detail page. Shared six-word runs per card ran 0.3 in batches 1 and 2,
+  then 1.5, 1.6, 2.2, and 2.8 in batch 6 before correction. `lint:batch`
+  now enforces under one per card. When an entry and a line want the same
+  idea, the entry says it in different words, because the entry is the long
+  form and not the transcript. M16 is exempt, its entry being written
+  around the author's frozen specimen phrasing.
+- **2026-07-29, batch 6. Reversed library entries for Majors are
+  inversions, not three-state.** The courts' three-state form stays with
+  the courts. A Major is an event or a force rather than a person, and
+  twenty-two more entries opening on "Three ways this goes" would be a
+  drumbeat.
+- **2026-07-29, batch 6. Heavy cards must not promise the difficulty
+  passes, even by implication.** M18 reversed slot 1 read "The face goes
+  when the light comes", which is a prediction wearing an observation's
+  clothes. Recast to place the face in the hour rather than in the future,
+  "It was not there at four in the afternoon." The valve already bans
+  promising it passes. The lesson is that the ban includes sentences whose
+  grammar is descriptive.
+- **2026-07-29, batch 6. Plain statement costs words.** Heavy cards run
+  longer per line because the valve asks for the ground-holding fact stated
+  plainly, and plain statement has no compression available to it. Batch 6
+  is 40.8 against a batch 1 to 4 cluster near 38.5. Accepted for a batch
+  of four heavy cards. Not a licence for the ordinary ones.

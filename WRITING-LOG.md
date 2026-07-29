@@ -431,3 +431,142 @@ Corpus at 56 of 78, and every court and every pip now written. Next: the
 twenty-two Majors, in two passes of eleven, hardest first. The four
 heavy Majors are M13, M15, M16 and M18, and M16 already exists as the
 Gate 1 specimen.
+
+## Batch 6 — the eleven hardest Majors
+
+Cards: M06 The Lovers, M08 Strength, M10 The Wheel of Fortune, M11
+Justice, M12 The Hanged Man, M13 Death, M14 Temperance, M15 The Devil,
+M16 The Tower, M18 The Moon, M20 Judgement. Four heavy cards, the most in
+any batch. Status: drafted.
+
+Batch 5 accepted entire by the author and moved to `authored`.
+
+### M16 arrives as approved copy, not a draft
+
+The Tower's three upright reading lines are the Gate 1 specimens, carried
+verbatim as the author selected and edited them. Slot 0 is Voice J with
+the author's own question. Slot 1 is the Voice F body with a new question,
+the F question having been rejected at Gate 1. Slot 2 is Voice G's
+approved opening pair and closing line with one new sentence between them,
+about the drying that nobody photographs.
+
+Two consequences. The frozen lines keep their contractions, "couldn't"
+and "You're", which the rest of the corpus avoids, exactly as
+pentacles-08 keeps the boring-card specimen's "You've". And M16 is
+exempt from the new self-echo check below, because its library entry is
+deliberately written around the author's phrasing.
+
+### What was hard here
+
+Three of these eleven name a virtue rather than a situation, which is the
+failure the senior courts already taught. Strength, Justice and
+Temperance in the generic form are compliments with no content. Their
+conceits are a scared cat under a bed, two columns of a ledger in the same
+ink, and a quarter teaspoon between version ten and version eleven, and
+each reading line stays on that object.
+
+M10 is the one card in the deck permitted to contain a banned word, and
+only in its title. The copy uses run, stretch and weather throughout and
+"fortune" appears nowhere in it.
+
+The four heavy cards took the valve. No wry beats, no notation, no
+diagnosis, and permission rather than instruction, which on M13 is "You
+are allowed to call it over on your own schedule" and on M15 is a flat
+refusal to prescribe anything at all. One heavy line was rewritten
+because it broke the no-prediction rule by promising the night passes.
+M18 reversed slot 1 now says the face belongs to the hour and was not
+there at four in the afternoon, which is an observation rather than a
+forecast.
+
+### Gauntlet report
+
+| Test | Failures | Notes |
+| --- | --- | --- |
+| 1 Screenshot | 2 rewrites | endings on M20 slot 0 and M10 slot 2, both of which had stacked a matched short pair |
+| 2 Horoscope | 2 cuts | M10 is structurally at risk here, since a card about a run of luck invites exactly the register the voice bans. Both cuts were on that card |
+| 3 Swap | 3 rewrites | M12 against M15, both phone-adjacent stillness, split by handed time against accumulated evenings. M20 against M13, both endings noticed late, split by handwriting against soil. M08 against M14, both patience, split by an animal that cannot be hurried against a recipe that can be and should not be |
+| 4 Bad-day | 1 rewrite | M18 reversed slot 1 promised the difficulty passes, which is a prediction and a pat on the head. Recast onto the hour rather than the outcome |
+| 5 Baseline | 3 written+deleted | M08, M11 and M14, the three virtue cards, each drafted against its generic version first to force distance |
+
+Linter first pass, **1 error** and 13 warnings. The error was "meant to
+be" on M15, a fate-shaped Barnum phrase and a fair catch. Twelve of the
+warnings were second-person gaps and one a short library entry. All
+fixed structurally.
+
+### Drift
+
+| Metric | B1 | B2 | B3 | B4 | B5 | B6 |
+| --- | --- | --- | --- | --- | --- | --- |
+| Words per line | 38.6 | 39.0 | 37.9 | 38.9 | 39.9 | 40.8 |
+| Mean sentence length | 7.2 | 9.5 | 9.3 | 9.3 | 7.8 | 8.2 |
+| Fragments | 48% | 35% | 42% | 42% | 39% | 37% |
+| Lines with a short beat | 68/78 | 78/78 | 84/84 | 48/48 | 48/48 | 66/66 |
+| Library words per entry | 162 | 150 | 145 | 145 | 146 | 148 |
+
+Batch 6 drafted at 41.2 words per line with fragments at 32 percent, the
+same drift shape batch 5 showed, and took the same correction. Sixteen
+compound sentences were split and four uses of "nothing" were replaced.
+Post-clip figures are 40.8 and 37 percent.
+
+Line length is now a word higher than batch 5 and two above the batch 1
+to 4 cluster. Part of that is the three frozen M16 lines, which run 46 to
+47 words each. The rest is the heavy cards, where the valve asks for the
+ground-holding fact stated plainly and plain statement takes words. It is
+accepted and it is the metric to watch in batch 7, which has only the one
+remaining heavy card and should come back down.
+
+### The defect this batch found, which is not this batch's
+
+The gauntlet's swap test compares one card against another. So does the
+sameness linter. Nothing was comparing a card against itself, and a
+library entry that repeats its own reading line word for word reads as
+padding on the one screen where a reader sees both.
+
+Measured across the whole corpus, shared six-word runs between a card's
+reading lines and its own library entries:
+
+| | B1 | B2 | B3 | B4 | B5 | B6 as drafted |
+| --- | --- | --- | --- | --- | --- | --- |
+| Per card | 0.3 | 0.3 | 1.5 | 1.6 | 2.2 | 2.8 |
+
+Batches 1 and 2 are clean because both took heavy editorial passes.
+From batch 3 onward it climbed every single batch, unmeasured, because no
+tool was looking and per-card review cannot see it. Batch 6 was rewritten
+down to 0.3 by recasting the entry side of every overlap, and the check
+now lives in `tools/batch-budget.ts` as a hard budget at under one per
+card, with the worst offenders printed.
+
+**Batches 3, 4 and 5 are above that threshold and remain so.** Those
+thirty cards are accepted copy, so the fix is not mine to apply
+unilaterally. The worst are swords-king at 4 shared runs and wands-queen,
+wands-king, wands-10, pentacles-knight and pentacles-king at 3 each. A
+remediation pass would rewrite only the library entry side, never the
+reading lines. It belongs before the §5 full-deck read-through, which
+reads all 78 as one continuous document and is where this would announce
+itself anyway.
+
+### Budgets, all met
+
+Reversed openers 0. Recorded openers 0. "You have been X-ing" 0.
+Bookkeeping off-budget 0, with M11 added to the exchange exemption
+because its approved conceit is literally a ledger. "The card" as agent,
+maximum 1 per entry. Plate-openers 1 of 22, after the check was taught
+the Major emblem names, without which it had no teeth on a Majors batch
+at all. Questions: What or Which 59 percent, Who or Whose 7, Where or
+When 16, or-shaped 2. Sameness, no pair above 0.10. Fuzzer, 0 errors
+across 500 readings.
+
+### Watch-list for batch 7
+
+"same" at 21 is the top word and is mostly conceit vocabulary in four
+different cards, the same ink on M11, the same facts on M18, the same
+footprint on M16, the same curve on M10. Six incidental uses were
+swapped out and the conceit-bound ones stay. "nothing" came down from 15
+to 11 after four substitutions and remains a standing check. Bundle at
+118 KB gzipped with 67 cards written, projecting near 122 KB at 78,
+inside the 150 KB budget with room.
+
+Corpus at 67 of 78. Batch 7 is the remaining eleven Majors, M00 to M05,
+M07, M09, M17, M19 and M21, of which only M09 has prior drafted material
+in `/drafts`. After that, every card exists and the §5 end-state checks
+can finally run.

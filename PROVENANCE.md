@@ -21,21 +21,21 @@ marked for full rewrite — it never ships.
 | M03 | The Empress | claude (build placeholder) | — | 1 | placeholder |
 | M04 | The Emperor | claude (build placeholder) | — | 1 | placeholder |
 | M05 | The Hierophant | claude (build placeholder) | — | 1 | placeholder |
-| M06 | The Lovers | claude (build placeholder) | — | 1 | placeholder |
+| M06 | The Lovers | claude (build placeholder + batch 6 draft + clipping pass) | pending | 2 | drafted |
 | M07 | The Chariot | claude (build placeholder) | — | 1 | placeholder |
-| M08 | Strength | claude (build placeholder) | — | 1 | placeholder |
+| M08 | Strength | claude (build placeholder + batch 6 draft + clipping pass) | pending | 2 | drafted |
 | M09 | The Hermit | claude (build placeholder + calibration draft ×2/field) | — | 2 | drafted (in /drafts; meanings.json still placeholder) |
-| M10 | The Wheel of Fortune | claude (build placeholder) | — | 1 | placeholder |
-| M11 | Justice | claude (build placeholder) | — | 1 | placeholder |
-| M12 | The Hanged Man | claude (build placeholder) | — | 1 | placeholder |
-| M13 | Death | claude (build placeholder) | — | 1 | placeholder |
-| M14 | Temperance | claude (build placeholder) | — | 1 | placeholder |
-| M15 | The Devil | claude (build placeholder) | — | 1 | placeholder |
-| M16 | The Tower | claude (build placeholder + calibration draft ×2/field) | — | 2 | drafted (in /drafts; meanings.json still placeholder) |
+| M10 | The Wheel of Fortune | claude (build placeholder + batch 6 draft + clipping pass) | pending | 2 | drafted |
+| M11 | Justice | claude (build placeholder + batch 6 draft + clipping pass) | pending | 2 | drafted |
+| M12 | The Hanged Man | claude (build placeholder + batch 6 draft + clipping pass) | pending | 2 | drafted |
+| M13 | Death | claude (build placeholder + batch 6 draft + clipping pass) | pending | 2 | drafted |
+| M14 | Temperance | claude (build placeholder + batch 6 draft + clipping pass) | pending | 2 | drafted |
+| M15 | The Devil | claude (build placeholder + batch 6 draft + clipping pass) | pending | 2 | drafted |
+| M16 | The Tower | claude (build placeholder + calibration draft ×2/field), Gate 1 specimens selected and edited by author | author, upright lines are author-selected specimen text | 3 | drafted |
 | M17 | The Star | claude (build placeholder) | — | 1 | placeholder |
-| M18 | The Moon | claude (build placeholder) | — | 1 | placeholder |
+| M18 | The Moon | claude (build placeholder + batch 6 draft + clipping pass) | pending | 2 | drafted |
 | M19 | The Sun | claude (build placeholder) | — | 1 | placeholder |
-| M20 | Judgement | claude (build placeholder) | — | 1 | placeholder |
+| M20 | Judgement | claude (build placeholder + batch 6 draft + clipping pass) | pending | 2 | drafted |
 | M21 | The World | claude (build placeholder) | — | 1 | placeholder |
 | wands-01 | Ace of Hawthorn | claude (build placeholder + batch 3 draft + budget pass) | author, accepted 2026-07-29 | 2 | authored |
 | wands-02 | Two of Hawthorn | claude (build placeholder + batch 3 draft + budget pass) | author, accepted 2026-07-29 | 2 | authored |
@@ -49,8 +49,8 @@ marked for full rewrite — it never ships.
 | wands-10 | Ten of Hawthorn | claude (build placeholder + batch 3 draft + budget pass) | author, accepted 2026-07-29 | 2 | authored |
 | wands-page | Page of Hawthorn | claude (build placeholder + batch 4 draft + clipping pass) | author, accepted 2026-07-29 | 2 | authored |
 | wands-knight | Knight of Hawthorn | claude (build placeholder + batch 4 draft + clipping pass) | author, accepted 2026-07-29 | 2 | authored |
-| wands-queen | Queen of Hawthorn | claude (build placeholder + batch 5 draft + splitting pass) | pending | 2 | drafted |
-| wands-king | King of Hawthorn | claude (build placeholder + batch 5 draft + splitting pass) | pending | 2 | drafted |
+| wands-queen | Queen of Hawthorn | claude (build placeholder + batch 5 draft + splitting pass) | author, accepted 2026-07-29 | 2 | authored |
+| wands-king | King of Hawthorn | claude (build placeholder + batch 5 draft + splitting pass) | author, accepted 2026-07-29 | 2 | authored |
 | cups-01 | Ace of Bellflower | claude (build placeholder + batch 3 draft + budget pass) | author, accepted 2026-07-29 | 2 | authored |
 | cups-02 | Two of Bellflower | claude (build placeholder + batch 3 draft + budget pass) | author, accepted 2026-07-29 | 2 | authored |
 | cups-03 | Three of Bellflower | claude (build placeholder + batch 2 draft + clipping pass) | author, accepted 2026-07-29 | 2 | authored |
@@ -63,8 +63,8 @@ marked for full rewrite — it never ships.
 | cups-10 | Ten of Bellflower | claude (build placeholder + batch 3 draft + budget pass) | author, accepted 2026-07-29 | 2 | authored |
 | cups-page | Page of Bellflower | claude (build placeholder + batch 4 draft + clipping pass) | author, accepted 2026-07-29 | 2 | authored |
 | cups-knight | Knight of Bellflower | claude (build placeholder + batch 4 draft + clipping pass) | author, accepted 2026-07-29 | 2 | authored |
-| cups-queen | Queen of Bellflower | claude (build placeholder + calibration draft ×2/field + batch 5 draft + splitting pass) | pending | 3 | drafted |
-| cups-king | King of Bellflower | claude (build placeholder + batch 5 draft + splitting pass) | pending | 2 | drafted |
+| cups-queen | Queen of Bellflower | claude (build placeholder + calibration draft ×2/field + batch 5 draft + splitting pass) | author, accepted 2026-07-29 | 3 | authored |
+| cups-king | King of Bellflower | claude (build placeholder + batch 5 draft + splitting pass) | author, accepted 2026-07-29 | 2 | authored |
 | swords-01 | Ace of Gladiolus | claude (build placeholder + batch 3 draft + budget pass) | author, accepted 2026-07-29 | 2 | authored |
 | swords-02 | Two of Gladiolus | claude (build placeholder + batch 3 draft + budget pass) | author, accepted 2026-07-29 | 2 | authored |
 | swords-03 | Three of Gladiolus | claude (build placeholder + batch 2 draft + clipping pass) | author, accepted 2026-07-29 | 2 | authored |
@@ -77,8 +77,8 @@ marked for full rewrite — it never ships.
 | swords-10 | Ten of Gladiolus | claude (build placeholder + batch 3 draft + budget pass) | author, accepted 2026-07-29 | 2 | authored |
 | swords-page | Page of Gladiolus | claude (build placeholder + batch 4 draft + clipping pass) | author, accepted 2026-07-29 | 2 | authored |
 | swords-knight | Knight of Gladiolus | claude (build placeholder + batch 4 draft + clipping pass) | author, accepted 2026-07-29 | 2 | authored |
-| swords-queen | Queen of Gladiolus | claude (build placeholder + batch 5 draft + splitting pass) | pending | 2 | drafted |
-| swords-king | King of Gladiolus | claude (build placeholder + batch 5 draft + splitting pass) | pending | 2 | drafted |
+| swords-queen | Queen of Gladiolus | claude (build placeholder + batch 5 draft + splitting pass) | author, accepted 2026-07-29 | 2 | authored |
+| swords-king | King of Gladiolus | claude (build placeholder + batch 5 draft + splitting pass) | author, accepted 2026-07-29 | 2 | authored |
 | pentacles-01 | Ace of Lunaria | claude (build placeholder + batch 3 draft + budget pass) | author, accepted 2026-07-29 | 2 | authored |
 | pentacles-02 | Two of Lunaria | claude (build placeholder + batch 3 draft + budget pass) | author, accepted 2026-07-29 | 2 | authored |
 | pentacles-03 | Three of Lunaria | claude (build placeholder + batch 3 draft + budget pass) | author, accepted 2026-07-29 | 2 | authored |
@@ -91,8 +91,8 @@ marked for full rewrite — it never ships.
 | pentacles-10 | Ten of Lunaria | claude (build placeholder + batch 3 draft + budget pass) | author, accepted 2026-07-29 | 2 | authored |
 | pentacles-page | Page of Lunaria | claude (build placeholder + batch 4 draft + clipping pass) | author, accepted 2026-07-29 | 2 | authored |
 | pentacles-knight | Knight of Lunaria | claude (build placeholder + batch 4 draft + clipping pass) | author, accepted 2026-07-29 | 2 | authored |
-| pentacles-queen | Queen of Lunaria | claude (build placeholder + batch 5 draft + splitting pass) | pending | 2 | drafted |
-| pentacles-king | King of Lunaria | claude (build placeholder + batch 5 draft + splitting pass) | pending | 2 | drafted |
+| pentacles-queen | Queen of Lunaria | claude (build placeholder + batch 5 draft + splitting pass) | author, accepted 2026-07-29 | 2 | authored |
+| pentacles-king | King of Lunaria | claude (build placeholder + batch 5 draft + splitting pass) | author, accepted 2026-07-29 | 2 | authored |
 
 ## Rounds
 
@@ -119,3 +119,15 @@ marked for full rewrite — it never ships.
   a nineteen-sentence splitting pass applied before review. Corpus at 56 of
   78, with every pip and every court now written. Awaiting accept, edit, or
   recast on batch 5.
+- **2026-07-29, batch 6.** Drafted by Claude, 11 cards, the hardest Majors,
+  including all four heavy cards. Author accepted batch 5 entire. M16's
+  three upright reading lines are the Gate 1 specimens carried verbatim, so
+  that card's upright copy is author-selected text rather than a Claude
+  draft, and its provenance row records that. Corpus at 67 of 78. Awaiting
+  accept, edit, or recast on batch 6.
+- **Known debt, recorded 2026-07-29.** Batches 3, 4 and 5, thirty accepted
+  cards, carry library entries that repeat their own reading lines word for
+  word at 1.5 to 2.2 shared six-word runs per card, against 0.3 in batches
+  1, 2 and 6. Correcting accepted copy is an author decision, so it is
+  logged here rather than applied. Any fix would rewrite the library entry
+  side only.
