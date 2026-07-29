@@ -234,3 +234,17 @@ batch starts.
   regex has been cruder than the prose it judges. The pattern is worth
   naming: when a budget check and a careful read disagree, check the
   regex before touching the sentence.
+- **2026-07-29, batch 4. The rule of thumb was not enough.** The
+  plate-opener false positive recurred one batch after being documented
+  here, claiming eleven openers where there were four. Prose rules do not
+  survive a verification script rewritten from scratch each batch, so the
+  budgets above are now enforced by `tools/batch-budget.ts`, run with
+  `npm run lint:batch` against whichever status group is under review.
+  Each corrected regex carries a comment naming the clean copy its cruder
+  version flagged. When a budget in this section changes, change it there
+  too.
+- **2026-07-29, batch 4. Court cards take a three-state reversed library
+  entry.** Not an inversion. A court card is a person rather than an
+  event, and a person has failure modes rather than one opposite. "Three
+  ways young interest ends and only one of them is a loss." This applies
+  to all sixteen courts and not to the pips.

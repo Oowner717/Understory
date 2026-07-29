@@ -561,7 +561,7 @@
         "libraryEntry": "Two failures and one success, and the success is almost too small to describe. You write the thing down. That is all. A recorded idea keeps for months in a notebook and costs nothing to keep, while an unrecorded one has a working life of about four hours, and you have lost several that way without noticing. The first failure is the internal prosecution. Early things get asked for their business case by the very person who had them, and they lose, because there is nothing there yet to argue with. That is not evidence against the idea. It is evidence about the timing of the question. The second failure is weather, plain and unremarkable. Some enthusiasms do not last the week and some frosts arrive in April. Hawthorn buds again the following year and treats the loss as ordinary, which it is."
       },
       "altText": "One budded hawthorn sprig, drawn large and centered, small ochre mark above.",
-      "status": "drafted"
+      "status": "authored"
     },
     {
       "cardId": "wands-02",
@@ -595,7 +595,7 @@
         "libraryEntry": "Three endings and only one of them is a decision. In the first you choose, and the choosing turns out to be a Tuesday rather than a revelation, and the unchosen prospect stays on the map without asking for anything. The relief is disproportionate to the drama, which is the usual report. In the second the holding becomes the arrangement. Two live options settle into a comfortable third state that neither of them would have provided, and nobody selects that state, it accumulates one undecided week at a time until it is simply how things are. In the third, one option expires. Nothing was mishandled. Real prospects have real windows, they close on their own schedule, and afterward the remaining option is still perfectly good while feeling noticeably different, because being chosen and being left over are not the same thing."
       },
       "altText": "Two budded hawthorn sprigs, one above the other, small ochre mark above.",
-      "status": "drafted"
+      "status": "authored"
     },
     {
       "cardId": "wands-03",
@@ -629,7 +629,7 @@
         "libraryEntry": "Waiting resolves three ways and only one of them is about the thing you sent. Sometimes it simply lands. The reply comes, the shipment arrives, and the four days of checking turn out to have contributed exactly nothing to the outcome, which is useful information for the next wait and is reliably forgotten by then. Sometimes nothing comes and the silence gets read. A queue is dull and a verdict is interesting, so the mind converts one into the other without asking, and almost always wrongly. And sometimes you go and fetch it. Chasing something already in motion occasionally helps, and more often it transmits impatience to the people whose good opinion you were waiting on, which is a poor trade for a day saved. The ridge was the better position. It is just an uncomfortable one to hold. It always was."
       },
       "altText": "Three budded hawthorn sprigs in a single centered column, small ochre mark above.",
-      "status": "drafted"
+      "status": "authored"
     },
     {
       "cardId": "wands-04",
@@ -867,7 +867,7 @@
         "libraryEntry": "Setting a load down goes two ways and the first is ordinary. One item gets handed to somebody who offered, accepted with both hands in view, and carried perfectly well by them, which is mildly insulting for about a day and then a straightforward relief. The shoulders take longest to believe it, and a stretch of bracing usually continues into a season that has nothing in it worth bracing against. The second way is harder and worth naming plainly. Sometimes the bundle cannot go down because it has stopped being work and become the answer to who you are, and without it the field looks unaccountably empty. In that state help reads as inspection and a lighter week reads as demotion. Nothing about this calls for renunciation, which is the same intensity pointed backwards. It tends to start with one item, handed over, and the discovery that the field is still there."
       },
       "altText": "Ten budded hawthorn sprigs in four rows of two with two centered between them.",
-      "status": "drafted"
+      "status": "authored"
     },
     {
       "cardId": "wands-page",
@@ -877,21 +877,31 @@
         "a green shoot"
       ],
       "readingLines": [
-        "A green shoot with opinions. Enthusiasm this young mostly wants permission and a little room."
+        "You checked out a book three subjects away from your field and cannot defend the choice. Good. A sprout above one sprig, and no plan anywhere on the plate. Curiosity that has to justify itself stops being curiosity.",
+        "A sprout, unfolding. Above it a budded branch. Something has your attention this week for no productive reason. You keep calling it a distraction. It has not offered a defence, because young interests do not come with one.",
+        "Interest arrives before its use. Always in that order. The page is the suit at its least strategic and most alive. Whatever you read around the edges of your actual work is the part you would do unpaid."
       ],
       "questions": [
-        "What are you curious about that you've been calling unproductive?"
+        "What are you reading for no reason?",
+        "Who else finds it interesting?",
+        "What would you do unpaid?"
       ],
-      "libraryEntry": "",
+      "libraryEntry": "Curiosity does not arrive with a business case and it does not survive being asked for one. The library book three subjects sideways, the documentary about a trade you have no plans to practise, the fifteen minutes spent on the etymology of a word you did not need. All of it looks like leakage from a productive week, and most of it is the only part of the week that was actually yours. Hawthorn buds early and this is the suit's youngest form, a sprout above a branch, out ahead of any use. What tends to happen next is a small internal interrogation. The interest gets asked what it is for, it has no answer, and it gets filed as procrastination and dropped. There is no fault in a thing you cannot justify. Most of what you know well began exactly here, in a week somebody else would have called wasted.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": "",
-        "readingLines": [],
-        "questions": []
+        "readingLines": [
+          "You followed it and it went nowhere useful. That was the arrangement. Sprouts are not promises. A fortnight spent on something that led nowhere is not a fortnight anybody stole from you. Some following is its own return.",
+          "The book went back unread. Three renewals, good intentions, and a shelf that has been holding your curiosity hostage since spring. Interest keeps for a while and not forever. That one had a date on it.",
+          "You have twelve interests open and none of them past the sprout. Enthusiasm at this stage is genuinely pleasant, and it is also where this suit can idle indefinitely. Budding is one thing. Growing is another."
+        ],
+        "questions": [
+          "Where did the fortnight actually go?",
+          "Which one had a date on it?",
+          "Sprouting, or growing?"
+        ],
+        "libraryEntry": "Three ways young interest ends and only one of them is a loss. The first is the honest dead end. You followed it, it went nowhere useful, and that was always the arrangement rather than a failure of the following. A fortnight spent on something with no outcome is not a fortnight anybody took from you. The second is expiry. Curiosity keeps for a while and not indefinitely, and a book renewed three times has usually already been read as much as it ever gets read. Some interests have a season and the season closes quietly. The third is the crowded shelf. Twelve things open, all of them pleasant, none of them past the sprout, because the sprouting is the enjoyable part and the growing asks for a duller kind of attention. Nobody has to choose. It is worth knowing which stage you like."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "A small sprout sigil above one budded hawthorn sprig, ochre mark above.",
+      "status": "drafted"
     },
     {
       "cardId": "wands-knight",
@@ -901,21 +911,31 @@
         "boldness"
       ],
       "readingLines": [
-        "Off at a gallop, hat gone, grinning. Boldness covers distance; it's less good at corners."
+        "Your reply-all went at a gallop and it covered enormous distance. It also took a corner badly. A chevron above one sprig. Speed is a real asset and it has never once improved anybody's judgement of tone.",
+        "A double chevron above a budded branch, and hoofprints going off the plate. You sent something fast this week, mostly correctly, and there is one line in it you would take back. That ratio is the knight's career.",
+        "You moved before you were ready and it mostly worked. Nobody else in the thread was moving at all, which is the part the corner-taking pays for. A chevron above a sprig. Boldness costs something and the cost is affordable."
       ],
       "questions": [
-        "Where does the dash serve you, and where does it just feel good?"
+        "Which line would you take back?",
+        "Who else was moving at all?",
+        "What did the speed buy you?"
       ],
-      "libraryEntry": "",
+      "libraryEntry": "A running chevron above a budded sprig, and hoofprints leaving the frame. The knight of this suit is the deck's fastest thing and the least careful, and both halves of that are load-bearing. Distance gets covered. Corners get taken badly. What the card refuses to do is choose between those, because when you send the fast reply you are also the only person in the thread who sent anything, and the thread would still be open otherwise. Speed is an asset with a known defect, and the defect is always tone. Judgement does not improve with velocity, it just arrives sooner, and on a busy Thursday the judgement available at speed is not the best judgement in the building. The repair is not slowing down permanently. It is knowing which of your messages have corners. Most of them have none.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": "",
-        "readingLines": [],
-        "questions": []
+        "readingLines": [
+          "You slowed one message down and the difference was one sentence. Same reply, sent an hour later, minus the line that would have needed apologising for. An hour is the whole technique. The message was already good. The hour only removed one line.",
+          "Your gallop went into a wall. Something got sent fast that needed to be sent carefully, and the recovery is taking longer than the caution would have. That sum is obvious afterwards and invisible before.",
+          "The horse has not moved. Not in a fortnight. All that momentum of yours, parked, because the last corner went badly and now every message gets drafted three times. Caution learned from one bruise overcorrects reliably. The thread has noticed, and it has not said so."
+        ],
+        "questions": [
+          "What did the extra hour remove?",
+          "How long is the recovery taking?",
+          "Parked, or resting?"
+        ],
+        "libraryEntry": "Three states, and the middle one is where most of the learning is. The good one is a single hour of delay. Same message, same nerve, sent later, minus the one line that would have needed apologising for, and the whole technique fits in that hour. The second is the wall. Something went fast that needed to go carefully, and the recovery costs more than the caution would have, which is obvious afterwards and genuinely invisible beforehand, because velocity feels like competence right up to the corner. The third is the overcorrection. One bruise, and then a fortnight of a parked horse and messages drafted three times, and you, who used to be the only one moving, are now the slowest thing in the thread. Caution learned from a single event overcorrects reliably, and it wears off if nobody makes a policy out of it."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "A double chevron above one budded hawthorn sprig, ochre mark above.",
+      "status": "drafted"
     },
     {
       "cardId": "wands-queen",
@@ -997,7 +1017,7 @@
         "libraryEntry": "Three ways an opening cup goes wrong, and one of them is fine. The fine one is permission. You let the feeling be present without naming it, and it moves through and settles, and no interpretation was required at any point. That happens more often than people expect and gets no credit because nothing dramatic occurs. The first real failure is the lid. Something starts to rise and gets closed off in about two seconds, competently, by a reflex trained a long time ago by someone who probably did not mean to train it. The second is redirection. Feeling with no door available finds a window, and the window is usually a small domestic irritation delivered at a volume nobody in the room has earned. None of this is a character flaw. It is plumbing, and plumbing responds to being noticed rather than to being scolded."
       },
       "altText": "One hanging bellflower, drawn large and centered, small slate mark above.",
-      "status": "drafted"
+      "status": "authored"
     },
     {
       "cardId": "cups-02",
@@ -1031,7 +1051,7 @@
         "libraryEntry": "Three ways the level pair goes off. The first is neglect. A genuinely even hour happens, gets appreciated, and is never repeated, because even exchanges do not renew themselves and somebody has to send the message about a Tuesday. Nobody withdrew. It just lapsed. The second is tilt. One cup sits higher for a fortnight, and you have been the listener in every conversation, competently, and nobody has asked you anything in return. That is rarely malice. It is a habit both parties maintain, one by defaulting and one by allowing. The third is the strangest. Evenness becomes managed. Turns get tracked, attention gets rationed to stay fair, and the exchange keeps its shape while losing the quality that made it worth having. Accidental balance and administered balance feel entirely different, and both people can usually taste which one they are in."
       },
       "altText": "Two hanging bellflowers, one above the other, small slate mark above.",
-      "status": "drafted"
+      "status": "authored"
     },
     {
       "cardId": "cups-03",
@@ -1303,7 +1323,7 @@
         "libraryEntry": "Three states share one appearance. The good one is occupancy. Somebody stands inside the functioning arrangement for an evening without scanning it for faults, which is rarer than the arrangement itself and much harder to schedule. The second is concentration. The household runs quietly because one person absorbs every bump before it reaches the table, and quiet in that case is a service being provided rather than a condition being shared. The bill for it arrives late and privately. The third is silence mistaken for peace. Ten cups at the same height with a good deal not being said at that height, which keeps the surface level at a cost paid by whoever is holding the unsaid part. From outside all three look like a full table. From inside they feel nothing alike, and the person best placed to tell is not always the one who set your table."
       },
       "altText": "Ten hanging bellflowers in four rows of two with two centered between them.",
-      "status": "drafted"
+      "status": "authored"
     },
     {
       "cardId": "cups-page",
@@ -1313,21 +1333,31 @@
         "softness"
       ],
       "readingLines": [
-        "A small message in a soft envelope. Whimsy is how feeling introduces itself politely."
+        "A meme sent at midnight, saying the thing neither of you says. A sprout above one bell. Whimsy is how feeling introduces itself when the direct version would be too much. It counted, and you both know it.",
+        "You sent something silly to somebody this week and it was not silly. Small odd gestures carry more than their weight. The page is the suit's least dignified messenger and reliably its most effective one. Dignity was never the requirement.",
+        "It looked like a joke when you sent it. It was a message. A sprout above a hanging bell. Something small and real got moved between two people, at an hour when defences are down. Neither party has to admit anything."
       ],
       "questions": [
-        "What small odd impulse have you been dismissing?"
+        "Who did you send it to?",
+        "What did the joke actually say?",
+        "What small odd impulse have you dismissed?"
       ],
-      "libraryEntry": "",
+      "libraryEntry": "A sprout above a hanging bell, which is the youngest thing in the suit and the least respectable. The page of this suit does not arrive with a speech. It arrives as a photograph of a dog that looks like your father, sent at eleven at night, carrying the entire content of a conversation neither of you has the equipment for. Whimsy is not the opposite of depth. It is depth's delivery service, and it works because it gives both parties an exit. Nobody has to acknowledge what was actually sent. The suit's older cards handle feeling that has found its words, and this one handles feeling that has not, which is most feeling most of the time. What gets dismissed here is the impulse. Small, odd, undignified, and almost always the accurate instrument for the job. Yours are worth trusting.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": "",
-        "readingLines": [],
-        "questions": []
+        "readingLines": [
+          "You sent it and they understood. No part of it had to be said plainly, which was the point. What needed to arrive arrived by the least direct route available. Whimsy delivered again. Both of you kept your cover.",
+          "The impulse got talked out of. You drafted something small and odd. Looked at it, decided it was too much or not enough, and put the phone down. That message would have landed. It kept nobody company.",
+          "Everything you send arrives as a joke now. The sideways route stopped being one route and became the only one. A person who can only be sincere in a costume eventually cannot be sincere. That is a slow problem."
+        ],
+        "questions": [
+          "What arrived without being said?",
+          "What did you draft and not send?",
+          "When did you last say it plainly?"
+        ],
+        "libraryEntry": "Three ways the indirect route goes. The first works, and works well. Something small and odd gets sent, it lands, both people understand it, and nobody has to acknowledge what was actually transmitted. That exit is a feature and not a cowardice. The second is the unsent draft. Written, examined, judged too much or not enough, and put down, and the specific loss is unmeasurable because a message that never went cannot report on what it would have done. Most people have a small archive of these. The third is the costume that stopped coming off. When every sincere thing has to arrive dressed as a joke, the joke stops being a route and becomes the only address, and your sincerity gets harder to perform each year it goes unpractised. That one responds to a plain sentence said badly rather than to better jokes."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "A small sprout sigil above one hanging bellflower, slate mark above.",
+      "status": "drafted"
     },
     {
       "cardId": "cups-knight",
@@ -1337,21 +1367,31 @@
         "approach"
       ],
       "readingLines": [
-        "An approach, an offer, a flower held slightly too formally. Romance of any kind runs on nerve."
+        "You bought the flowers and then had to carry them home on the bus. That second part is the card. Romance of any kind runs on nerve, and the nerve is required for the carrying rather than the buying.",
+        "A chevron above a hanging bell. Somebody on a bus, holding something absurd. You made an approach this week and it was slightly ridiculous in transit. Ridiculous in transit is the normal condition of any real offer.",
+        "You made an offer. Now you are between the making and the answer, holding it, in public. The knight of this suit lives entirely in that stretch. None of it is dignified, and it is where everything actually happens."
       ],
       "questions": [
-        "What invitation are you circling instead of answering?"
+        "What are you carrying home on the bus?",
+        "Who did you approach?",
+        "What made it feel ridiculous?"
       ],
-      "libraryEntry": "",
+      "libraryEntry": "Every genuine approach has an undignified middle. The decision is quick and slightly exhilarating, the answer arrives eventually, and between them is a stretch of carrying the thing in public with no cover story available. Flowers on a bus. A message sent and visibly delivered. An invitation extended and not yet answered. The knight of Bellflower lives in exactly that stretch, and the nerve this card measures is not the nerve required to offer, which is brief. It is the nerve required to keep holding the offer while it is conspicuous and unanswered. Most people can decide. Fewer can carry. That is why so many approaches get withdrawn in the middle, converted retroactively into jokes, or hedged into ambiguity that protects the offerer and removes the offer. The bus ride is short. It only feels long because everyone can see you.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": "",
-        "readingLines": [],
-        "questions": []
+        "readingLines": [
+          "You carried it the whole way and handed it over. The answer is separate. Genuinely separate, because what you did was the carrying, and that part is complete whichever way the answer goes. The carrying was the part that took nerve.",
+          "It got downgraded halfway home. Sincere when you sent it, wearing quotation marks when it arrived, which protects the sender and cancels the offer. The person receiving it can usually tell, and they almost always let it pass.",
+          "The gesture keeps getting made. It never lands. Flowers every week, to nobody in particular. The making is the enjoyable part, and an actual answer would end the pleasant open state. You know which of yours are which."
+        ],
+        "questions": [
+          "What is complete, regardless of the answer?",
+          "Where did the sincerity get hedged?",
+          "Offering, or being seen to offer?"
+        ],
+        "libraryEntry": "Three ways the carrying goes. In the first it simply completes. The thing gets carried the whole way and handed over, and the answer becomes a separate matter, genuinely separate, because what you did was the carrying, and that is finished whichever way the answer falls. That distinction is worth more than it sounds. The second is the retroactive joke. An offer leaves sincere and arrives in quotation marks, which protects the sender exactly as much as it cancels the offer, and the person on the other end can nearly always tell and nearly always lets it pass. The third is the gesture that never lands on purpose. Offers made repeatedly, warmly, to nobody in particular, because the offering is the enjoyable part and a real answer would close a pleasant open state. All three are ordinary. Only one of them is an approach."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "A double chevron above one hanging bellflower, slate mark above.",
+      "status": "drafted"
     },
     {
       "cardId": "cups-queen",
@@ -1433,7 +1473,7 @@
         "libraryEntry": "Three outcomes, and the good one is anticlimactic. The sentence gets written, it takes eleven words, and the month of circling stops within a day. Nearly everyone reports the same aftermath, which is that the dread was substantially larger than the event, and that the plain version was available weeks earlier. The first failure is aim. An edge this clean cuts whatever it is pointed at, and clarity delivered at the wrong target removes something load-bearing while feeling like courage. Sharp and correct are separate properties. The second failure is the draft folder. A good sentence, ready since Tuesday, waiting on a better moment that does not arrive, while the ambiguity it would end keeps everybody comfortable, including you. Comfort is why vagueness survives in organisations and in kitchens. It is nobody's fault and it costs a month at a time."
       },
       "altText": "One narrow blade leaf, drawn large and centered, small oxblood mark above.",
-      "status": "drafted"
+      "status": "authored"
     },
     {
       "cardId": "swords-02",
@@ -1467,7 +1507,7 @@
         "libraryEntry": "Three resolutions and two of them are cheaper than the stalemate was. The first is signing. One quote gets accepted, not necessarily the better one, and the relief that follows within a day is mostly about the signing rather than about the choice, which tells you what the holding was costing all along. The second is external. A deadline passes, a price moves, somebody else decides, and the matter resolves by means that were never yours. Worth noticing in that case is the direction of the feeling, because relief and resentment point at different things. The third is splitting. Both options taken partially, which presents as breadth and generally means paying twice for half of each. Nobody announces this one. It arrives dressed as flexibility, and the two blades come down together while the counter stays exactly as full as it was."
       },
       "altText": "Two narrow blade leaves, one above the other, small oxblood mark above.",
-      "status": "drafted"
+      "status": "authored"
     },
     {
       "cardId": "swords-03",
@@ -1739,7 +1779,7 @@
         "libraryEntry": "Three things happen after a complete ending and the first is simply getting up. Not healed and not resolved. Upright, because it was the available next thing, and enough for a Tuesday, with the blades left on the floor where they fell because nobody needed them picked up. The second is running the ending. Something genuinely over gets told, revisited, given anniversaries and kept in working order, and the maintenance becomes the ongoing cost long after the event stopped charging anything. That is not weakness and it does not respond to being scolded. It usually responds to noticing how much of your week goes into it. The third is premature declaration. Calling a thing finished stops the bleeding and works for about a fortnight, and then one of the blades on the floor moves. Nothing is wrong with having needed the fortnight."
       },
       "altText": "Ten narrow blade leaves in four rows of two with two centered between them.",
-      "status": "drafted"
+      "status": "authored"
     },
     {
       "cardId": "swords-page",
@@ -1749,21 +1789,31 @@
         "quick wit"
       ],
       "readingLines": [
-        "All questions, quick eyes, notebook out. Watchfulness is wit before it's had practice."
+        "A young magpie is testing every latch in your garden. It has no theory. It has a method, which is to try each one and watch what happens. A sprout above one blade, and questions with feathers.",
+        "Watchfulness is wit before it has had practice. You have asked a great many questions this week and answered almost none of them. That is the correct order for this stage. Latches first. Theories later.",
+        "You noticed something nobody else in the room noticed and said it out loud. A sprout above a blade leaf. That is the page's entire job description, and it is more useful than it feels in the moment."
       ],
       "questions": [
-        "What are you observing closely, and is the observing standing in for acting?"
+        "Which latch did you try this week?",
+        "What did you notice that nobody mentioned?",
+        "Who taught you to look?"
       ],
-      "libraryEntry": "",
+      "libraryEntry": "A sprout above a single blade leaf, and a magpie somewhere off the plate working through the latches one at a time. The page of Gladiolus is the suit before it has opinions. All eyes, all questions, no position to defend, which makes it the most useful and least respected member of the court. Older Gladiolus cards know things. This one finds things out, and finding out is a separate skill that gets lost as soon as knowing becomes available. What it does well is notice, which is what you did this week. The detail nobody mentioned, the sentence that did not fit, the latch that turns out to be unlocked. What it does badly is conclude, and it is not supposed to. Trouble only starts when the noticing becomes a substitute for acting on any of it, which is a later problem than this card.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": "",
-        "readingLines": [],
-        "questions": []
+        "readingLines": [
+          "You asked the question and it turned out to be the right one. Nobody in the room had checked. A young magpie found the latch open, and the whole afternoon changed on a question that cost you eleven words.",
+          "The questions have become the activity. You have researched, read, asked, and circled. Every one of those was genuinely informative. None of them was the thing. Noticing can be a very well-lit way of not moving.",
+          "You tried the latch and something broke. Curiosity at this stage has no sense of what is load-bearing. A fair question asked in the wrong room does real damage. Not malice. Inexperience, which nobody gets to skip."
+        ],
+        "questions": [
+          "What did eleven words change?",
+          "Where has research replaced moving?",
+          "Whose room was it, exactly?"
+        ],
+        "libraryEntry": "Three things happen to the questioner and two of them are worth the trouble. The first is the good version. A question gets asked that nobody in the room had thought to ask, it costs eleven words, and an afternoon reorganises itself around the answer. That is the entire value of not yet knowing things. The second is displacement. Reading, asking, circling and researching are all genuinely informative and can absorb a year, and a very well-lit room is still a room you have not left. The third is breakage. Questions have no sense of what is load-bearing, and one asked honestly in the wrong company at the wrong hour takes something down that was holding weight. That is inexperience rather than malice, nobody gets to skip it, and the repair afterwards is usually shorter than the dread about it."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "A small sprout sigil above one narrow blade leaf, oxblood mark above.",
+      "status": "drafted"
     },
     {
       "cardId": "swords-knight",
@@ -1773,21 +1823,31 @@
         "the charge"
       ],
       "readingLines": [
-        "Full tilt into the argument, reins somewhere behind. Speed of thought isn't the same as depth of it."
+        "The squall crossed the valley in ten minutes. Loud, fast, gone. The fence is down. Some arguments work like weather, and afterwards the sensible question is about the fence rather than the clouds. You were somewhere in that ten minutes.",
+        "You were right. You were also the weather. A chevron above one blade, moving. Speed of thought is not depth of it. A case made at full volume gets remembered for the volume, long after the case is granted.",
+        "Something got said fast. It landed hard. You charged, which is what the knight of this suit does, which is useful when the thing genuinely needed charging at. Which of those this was shows up in the fence line rather than in the argument."
       ],
       "questions": [
-        "What case are you making faster than you're checking?"
+        "What is down that was standing on Monday?",
+        "Who was in the way?",
+        "Right, or just loud?"
       ],
-      "libraryEntry": "",
+      "libraryEntry": "A chevron above a single blade, both angled as though already in motion. The knight of Gladiolus is the suit at speed, which for a suit made of edges means arguments arriving before anyone has agreed to have one. The charge is often correct. That is the part people miss when they dismiss this card, because someone has to say the unwelcome accurate thing, and this week it was you and the polite room never produces it. What the charge costs is separate from whether it was right. Volume gets remembered longer than content, and a case won at speed gets granted and resented in the same afternoon. Weather is the honest comparison. The squall does real work, clears real air, and takes down a fence that was holding something, and the fence is the part worth counting afterwards. Fences are cheaper to count than to argue about.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": "",
-        "readingLines": [],
-        "questions": []
+        "readingLines": [
+          "Your squall passed. The fence got mended the same week. Fast damage repaired fast leaves almost no trace, and the speed that caused it is the same speed that fixed it. That symmetry is the saving grace.",
+          "Every conversation of yours has become weather. The charge that worked once is now the only gear. A person who arrives at speed in every room stops being listened to and starts being waited out. Waiting out is cheaper than arguing.",
+          "The charge never left the gate. You have the case, you have the nerve, and it has been Thursday for three weeks. Held charges sour, and they come out later at the wrong volume about the wrong thing."
+        ],
+        "questions": [
+          "What got mended this week?",
+          "Who waits you out now?",
+          "What has been Thursday for weeks?"
+        ],
+        "libraryEntry": "Three weathers. The first is the honest squall, arriving fast, doing damage and work in the same ten minutes, and mended the same week, because the speed that took the fence down is the identical speed that puts it back. Almost no trace remains, and the whole event reads afterwards as a bad afternoon rather than a change in the climate. The second is the single gear. A charge worked once, decisively, and became the only available approach, and a person who arrives at volume in every room, which may be you lately, stops being answered and starts being waited out, which is cheaper for everyone else and invisible to them. The third is the charge held at the gate. Case ready, nerve ready, three weeks of Thursdays, and held charges sour in storage. They come out eventually at the wrong volume, about the wrong thing, at somebody who was not the target."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "A double chevron above one narrow blade leaf, oxblood mark above.",
+      "status": "drafted"
     },
     {
       "cardId": "swords-queen",
@@ -1869,7 +1929,7 @@
         "libraryEntry": "Two reversals, and they ask opposite questions. The first is the drawer. Everything about the enterprise exists except the enterprise. Research done and redone, equipment excellent, notebook developing chapters, and no seed in any soil, because an unplanted seed keeps its promise indefinitely while a planted one starts reporting results, some of them disappointing. Lunaria is an annual, and seasons are unimpressed by readiness. The second reversal is placement. Something did go in, with real effort and real hours behind it, and the ground was wrong. A rocky client, a thin month, a bed that never gets sun. Your instinct afterward is to blame the seed, or worse, the hand that planted it, and the botany disagrees. Lunaria fails in dry shade and thrives a metre away. The correction is undramatic. Same beginning, moved. Ground first, then seed, which is the order the botany prefers."
       },
       "altText": "One round Lunaria seed pod, drawn large and centered, small moss mark above.",
-      "status": "drafted"
+      "status": "authored"
     },
     {
       "cardId": "pentacles-02",
@@ -1903,7 +1963,7 @@
         "libraryEntry": "Three ways continuous balancing resolves. The first is subtraction, and it is reliably better than expected. One item gets set down and your month eases by considerably more than that item's apparent weight, because the juggling itself was the expensive part rather than any single object in the air. That surprises people every time and gets forgotten by the next month. The second is a dropped ball. A date passes, a payment bounces, something gets missed, and it is worth being accurate about the cause. Tight arrangements fail on ordinary Tuesdays, not on bad ones. There was no carelessness, only a system with no slack in it. The third is the trap with good reviews. Juggling done long enough reads as competence, gets praised as such, and the praise becomes the reason nothing is ever set down. Skill is not always evidence that your arrangement is sound. Sound arrangements have slack in them."
       },
       "altText": "Two round Lunaria seed pods, one above the other, small moss mark above.",
-      "status": "drafted"
+      "status": "authored"
     },
     {
       "cardId": "pentacles-03",
@@ -1937,7 +1997,7 @@
         "libraryEntry": "Three failures around the informed audience, and they are all about access rather than quality. The first is not showing. Work gets finished and stays in the drawer, assessed only by the person who made it, which guarantees drift in whatever direction that person already leaned. You are the least reliable reader of your own seams and always have been. The second is not asking. There is usually somebody available who knows the work, the request costs one uncomfortable message, and the discomfort is the whole obstacle. The third is arguing with the answer. The nod comes, or the correction does, and three reasons appear immediately for why the assessment does not apply in this particular case. That reflex is well practised in most people, and it converts scarce accurate feedback into nothing at all, at no saving. The message costs nothing."
       },
       "altText": "Three round Lunaria seed pods in a single centered column, small moss mark above.",
-      "status": "drafted"
+      "status": "authored"
     },
     {
       "cardId": "pentacles-04",
@@ -2175,7 +2235,7 @@
         "libraryEntry": "Three positions in the chain, and all of them are ordinary. The first is planting. You put something in that you may not see finish, a tree, a practice, a child's competence, and the deck offers no other version of continuing past yourself. The second is coasting. Living on what earlier hands built while adding nothing to it works for a surprisingly long time, because well-built things carry passengers, and then it stops, usually without notice and usually in somebody else's generation rather than yours. The third is the inheritance that arrived with terms. A house that came with expectations, a trade nobody chose, a name to keep up, ten pods handed over rather than grown. Some of those terms are worth keeping and some were never yours to accept, and the distinction is available to be made rather than simply lived with."
       },
       "altText": "Ten round Lunaria seed pods in four rows of two with two centered between them.",
-      "status": "drafted"
+      "status": "authored"
     },
     {
       "cardId": "pentacles-page",
@@ -2185,21 +2245,31 @@
         "small savings"
       ],
       "readingLines": [
-        "Head down over the books, one seed pod saved as a specimen. Diligence is curiosity that shows up on schedule."
+        "One page a day, filled by you, for eleven weeks. A sprout above one pod. Diligence is curiosity that shows up on schedule, and the schedule is doing more work than the curiosity is. Both are needed. Only one is reliable.",
+        "You have kept a small thing going for longer than you have noticed. A page, a stretch, ten minutes, some unremarkable daily item. Nobody has praised it because there is nothing yet to praise. There is however a stack.",
+        "A sprout above a seed pod, both drawn plainly. Like the page of this suit, you study. The pace is that of somebody who intends to still be here in a year. Slow is the strategy. Not the limitation."
       ],
       "questions": [
-        "What are you learning slowly and honestly?"
+        "What have you kept going without noticing?",
+        "How many days is it now?",
+        "Who else knows you do it?"
       ],
-      "libraryEntry": "",
+      "libraryEntry": "Diligence has a bad name because it photographs badly. The notebook with one page filled every day for eleven weeks produces nothing worth showing at week eleven, and it is the reason somebody is competent at week two hundred. Lunaria takes a season and gives no weekly report, and this is the youngest card in the suit that already understands that. What makes the page unusual is that the schedule is carrying the curiosity rather than the reverse. Interest is unreliable and turns up when it likes. A daily slot turns up whether or not interest does, and the slot is what accumulates. There is no drama available here and none required. You, keeping a small ordinary thing going, unpraised because there is not yet anything to praise, quietly building the one asset that compounds without supervision. Nobody supervises it, which is exactly why it holds.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": "",
-        "readingLines": [],
-        "questions": []
+        "readingLines": [
+          "The streak broke on a Thursday. You started again on the Friday. That is the actual skill, and it is not the streak. Nobody who keeps anything for years has an unbroken record of it.",
+          "Your streak became the point. Eleven weeks of pages, and the pages have stopped containing anything. The requirement is now the mark on the calendar, not the ten minutes it was meant to protect. The ticks are immaculate. The pages are empty.",
+          "You are studying instead of doing. A page a day about the thing, for eleven weeks, and no version of the thing itself yet. Preparation is genuinely pleasant and it is not the same as the work."
+        ],
+        "questions": [
+          "When did you start again?",
+          "What is on the pages lately?",
+          "Studying, or doing?"
+        ],
+        "libraryEntry": "Three failures of the daily habit, and the first is not a failure at all. A streak breaks on a Thursday and gets restarted on the Friday, and the restarting is the skill rather than the streak, because nobody who has kept anything for years has an unbroken record of it. The people who look consistent are the people who resumed quickly. The second is the calendar mark becoming the requirement. Eleven weeks of pages that no longer contain anything, kept because the row of ticks now has to be defended, and the ten minutes your habit existed to protect have quietly been evicted by the habit. The third is study as a substitute. A page a day about the work, faithfully, and no version of the work. Preparation is pleasant, visible, and available in unlimited quantities to anyone avoiding a first attempt."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "A small sprout sigil above one round Lunaria pod, moss mark above.",
+      "status": "drafted"
     },
     {
       "cardId": "pentacles-knight",
@@ -2209,21 +2279,31 @@
         "the long row"
       ],
       "readingLines": [
-        "The long row, hoed to the end. Thoroughness is unglamorous right up until it's the whole difference."
+        "You hoed the whole row, including the middle, where nobody was watching and nothing was interesting. A chevron above one pod. Thoroughness is unglamorous until it turns out to be the entire difference. Nobody is standing at the middle of a row.",
+        "The middle of the row is where most rows get abandoned. Not the start, which is exciting, and not the end, which is visible. The middle, which is neither. You have been in a middle lately and you are still hoeing.",
+        "A chevron above a seed pod. Both plain, neither hurried. Like the knight of this suit, you are the slowest thing in the court and the one that finishes. Reliability looks unremarkable from outside. From inside it looks like a finished row."
       ],
       "questions": [
-        "What gets finished if today holds only ordinary effort?"
+        "Which middle are you in?",
+        "What did you finish that nobody saw?",
+        "Who relies on you for this?"
       ],
-      "libraryEntry": "",
+      "libraryEntry": "The middle of the row is where things get abandoned. Beginnings recruit attention and endings are visible from a distance, and between them is a stretch that is neither, in which the work is identical and the interest is gone. Getting through that stretch is the entire competence this card describes. Lunaria's knight is the slowest figure in the deck's court and the one that arrives, and those two facts are the same fact. What makes the middle hard is not difficulty. It is the absence of feedback in either direction, no novelty and no finish line, just the same motion in a part of the field nobody visits. Whoever depends on you probably depends on this rather than on anything you would list. Yours is invisible until the one occasion it is the whole difference. That occasion arrives without notice.",
       "reversed": {
-        "readingLine": "",
-        "question": "",
-        "libraryEntry": "",
-        "readingLines": [],
-        "questions": []
+        "readingLines": [
+          "You finished the row. Nobody mentioned it. That is standard, and not a slight. Finished rows do not announce themselves, and the person who notices them is usually the one who hoed. You noticed. That is the usual arrangement.",
+          "The row stopped two thirds along. Not from laziness, from the middle, which is where rows stop. You could pick it up where it stopped. That point is closer to the end than the abandoning made it feel.",
+          "You are hoeing a row nobody needs finished. Thoroughness with no judgement attached hoes anything, including a field planted by mistake, and does it beautifully, all season. Diligence has no opinion about direction. Nobody checks the direction of a good worker."
+        ],
+        "questions": [
+          "What did you finish unremarked?",
+          "Where did the row stop?",
+          "Which row does not need finishing?"
+        ],
+        "libraryEntry": "Three ways thoroughness plays out. The first is the unremarked finish. A row gets completed, nobody mentions it, and that is the standard result rather than a slight, because finished rows are silent by nature and the only reliable witness is the person who hoed. The second is the two-thirds stop, which happens in the middle and not from laziness, and it leaves the work closer to done than the abandoning made it feel. Picking up where it stopped is generally a smaller job than starting anything. The third is the harder one. Thoroughness carries no opinion about direction, so it hoes whatever row it is pointed at, including a field planted by mistake, and it does that beautifully for an entire season. Diligence is a wonderful engine and a poor navigator, and it very rarely asks you whether the row was the right one."
       },
-      "altText": "",
-      "status": "placeholder"
+      "altText": "A double chevron above one round Lunaria pod, moss mark above.",
+      "status": "drafted"
     },
     {
       "cardId": "pentacles-queen",

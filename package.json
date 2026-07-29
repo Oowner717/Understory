@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "lint:voice": "node --experimental-strip-types --no-warnings tools/voice-lint.ts",
     "lint:sameness": "node --experimental-strip-types --no-warnings tools/sameness.ts",
-    "fuzz:readings": "node --experimental-strip-types --no-warnings tools/fuzz-readings.ts"
+    "fuzz:readings": "node --experimental-strip-types --no-warnings tools/fuzz-readings.ts",
+    "lint:batch": "node --experimental-strip-types --no-warnings tools/batch-budget.ts"
   },
   "dependencies": {
     "idb-keyval": "^6.3.0",

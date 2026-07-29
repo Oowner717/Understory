@@ -39,3 +39,6 @@ One line per non-obvious choice, newest last.
 - VOICE-SPEC carries an absolute sentence-length target (7 to 10 words per sentence, per batch) rather than a comparison to the previous batch, because batch 1's 7.2 is an artifact of the dash conversion.
 - Batch 3 is 14 cards, not 13, so that one pass completes every pip. Courts and Majors follow in batches of 8, 8, 11, 11.
 - Verification regexes have now produced three false positives against clean copy ("tab", "interest", any-leading-numeral). Standing rule of thumb recorded in VOICE-SPEC: when a budget check and a careful read disagree, check the regex first.
+- Cross-deck budget checks live in `tools/batch-budget.ts` (`npm run lint:batch`), not in a per-batch throwaway script. Four batches of re-derived checks produced four false positives, including the plate-opener one recurring the batch after it was documented. A rule written in prose does not survive a script rewritten from scratch; a committed regex does.
+- Courts are batched by rank, 8 and 8, rather than by suit. A Page and a Knight of the same suit occupy adjacent territory, so writing all four of one rank together is what keeps them apart.
+- Reversed library entries for court cards are three-state ("three ways this goes"), not inversions. A court card is a person, and a person has failure modes rather than one opposite.
