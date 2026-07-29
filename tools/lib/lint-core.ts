@@ -177,7 +177,9 @@ export function lintField(cardId: string, field: string, text: string, opts: Lin
   const qCount = (text.match(/\?/g) ?? []).length
 
   if (/[:;]/.test(text))
-    push('punctuation', 'error', 'colon or semicolon — the voice uses periods and em dashes (VOICE-SPEC)')
+    push('punctuation', 'error', 'colon or semicolon. The voice uses periods and commas (VOICE-SPEC)')
+  if (/[—–]|\s--?\s/.test(text))
+    push('punctuation', 'error', 'em/en dash. Banned by author rule, restructure with periods or commas (VOICE-SPEC)')
 
   if (bounds?.questions === '0' && qCount > 0)
     push('question-marks', 'error', `${qCount} question mark(s); this field carries none — the question field carries the question`)

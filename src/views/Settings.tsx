@@ -20,7 +20,7 @@ export function Settings() {
           return c ? (c.name === c.classicName ? c.name : `${c.name} (${c.classicName})`) : id
         })
         .join(', ')
-      lines.push('— — —', '', `${formatFull(e.isoDate)} · ${names}`, '', e.text.trim(), '')
+      lines.push('* * *', '', `${formatFull(e.isoDate)} · ${names}`, '', e.text.trim(), '')
     }
     if (sorted.length === 0) lines.push(STR.settings.exportEmpty)
     const blob = new Blob([lines.join('\n')], { type: 'text/plain;charset=utf-8' })

@@ -31,22 +31,22 @@ export const STR = {
   },
 
   echo: {
-    ariaLabel: 'Echo — your earlier entry with this card',
-    /** Followed by an em dash and a relative date. */
+    ariaLabel: 'Echo, your earlier entry with this card',
+    /** Followed by a comma and a relative date. */
     titlePrefix: 'Last time you drew this card',
     readEntry: 'Read entry',
   },
 
   editor: {
     label: 'Journal entry',
-    placeholder: "Nothing here yet. The first entry doesn't need to be wise — it just needs to be true.",
+    placeholder: "Nothing here yet. The first entry doesn't need to be wise. It just needs to be true.",
     saved: 'Saved',
     typing: '…',
   },
 
   journal: {
     title: 'Journal',
-    emptyLead: "Nothing here yet. The first entry doesn't need to be wise — it just needs to be true.",
+    emptyLead: "Nothing here yet. The first entry doesn't need to be wise. It just needs to be true.",
     emptyLink: "Today's card is waiting.",
   },
 
@@ -55,7 +55,7 @@ export const STR = {
     /** `n` is the window in days. */
     titleWindowed: (n: number) => `Threads · last ${n} days`,
     preview:
-      'Threads is still sprouting. After five draws it starts noticing what keeps coming up — which cards return, and how the four suits balance across your month. Draw a card a day and watch this space fill in.',
+      'Threads is still sprouting. After five draws it starts noticing what keeps coming up. Which cards return, and how the four suits balance across your month. Draw a card a day and watch this space fill in.',
     suitBalanceLabel: 'Suit balance',
   },
 
@@ -96,7 +96,7 @@ export const STR = {
     journalNote: "Everything you've written, as one plain-text file.",
     exportButton: 'Export journal (.txt)',
     exportFilename: 'understory-journal.txt',
-    exportHeader: 'UNDERSTORY — JOURNAL EXPORT',
+    exportHeader: 'UNDERSTORY JOURNAL EXPORT',
     exportEmpty: 'No entries yet.',
     motionHeading: 'Motion',
     motionToggle: 'Reduce motion (the card flip becomes a crossfade)',
@@ -110,7 +110,7 @@ export const STR = {
   },
 
   /*
-   * Onboarding — three screens, written and ready; the first-run flow that
+   * Onboarding. Three screens, written and ready; the first-run flow that
    * shows them is not part of the playtest build yet.
    */
   onboarding: {
@@ -122,7 +122,7 @@ export const STR = {
       },
       {
         title: 'The deck notices',
-        body: "When a card comes back, Understory shows you what you wrote the last time it was here. That's the whole trick — attention, kept.",
+        body: "When a card comes back, Understory shows you what you wrote the last time it was here. That's the whole trick. Attention, kept.",
         button: 'Next',
       },
       {
@@ -134,7 +134,7 @@ export const STR = {
   },
 
   /*
-   * Notification copy — static only. Never a card name, never journal
+   * Notification copy, static only. Never a card name, never journal
    * content. Written to sit comfortably on a lock screen a stranger can see.
    */
   notifications: [

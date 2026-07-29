@@ -25,7 +25,7 @@ export function EchoPanel({ echo }: Props) {
   return (
     <aside className="echo fade-up" aria-label={STR.echo.ariaLabel}>
       <p className="echo-title">
-        {STR.echo.titlePrefix} — {formatRelative(echo.isoDate, localDateString())}
+        {STR.echo.titlePrefix}, {formatRelative(echo.isoDate, localDateString())}
       </p>
       <blockquote className="echo-excerpt">{excerpt(echo.text)}</blockquote>
       <a className="echo-link" href={`#/entry/${encodeURIComponent(echo.id)}`}>

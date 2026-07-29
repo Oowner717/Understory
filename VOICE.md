@@ -24,8 +24,9 @@ exceptions, including for sentences the author wrote and likes.
   a question the reader answers.
 - Never console by minimizing. "It's not so bad" is a lie told to get away
   from someone else's discomfort. Name the thing and stay in the room.
-- **No colons or semicolons in card copy** (author's rule, Gate 1; lint-enforced).
-  Periods, commas, and em dashes do all the work. See `VOICE-SPEC.md`.
+- **No colons, semicolons, or em/en dashes in card copy** (author's rules,
+  Gate 1 and batch 1; lint-enforced). Periods and commas do all the work.
+  See `VOICE-SPEC.md`.
 
 ## 2. Banned outright (lint-enforced)
 

@@ -14,12 +14,14 @@ second-person sentences, the ground-holding fact, permission without
 instruction. Long-lens framing (Tower G's first and last lines) is approved
 furniture for heavy cards.
 
-## Punctuation law (author's rule, Gate 1 — lint-enforced)
+## Punctuation law (author's rules, Gate 1 + batch 1 review — lint-enforced)
 
-- **No colons. No semicolons. Anywhere in card copy.**
-- Periods, commas, and em dashes do all the work. The question mark appears
-  once, at the end of the question field, and nowhere else.
-- Notation habits that want a colon get an em dash or a new sentence.
+- **No colons. No semicolons. No em dashes or en dashes. Anywhere in card copy.**
+- Periods and commas do all the work. The question mark appears once, at the
+  end of the question field, and nowhere else. Hyphenated compound words
+  (walk-past, face-down) stay legal.
+- Anything that wants a dash gets a new sentence. The voice tolerates
+  fragments after periods, so pivots become full stops. "Not good. Better."
 
 ## Sentence mechanics (measured from the winning specimens)
 
@@ -75,10 +77,10 @@ stand here for a minute." G-style long-lens lines may open or close.
 ### Four of Bellflower · Four of Cups — the ordinary-card standard
 
 > Three cups in reach, all full, none touched. A fourth arriving, easy to
-> miss. The subject faces away. Recorded behavior — wanting, aimed past the
+> miss. The subject faces away. Recorded behavior. Wanting, aimed past the
 > available. You've been surveying the middle distance for a while now.
 >
-> Q — What have you stopped seeing?
+> Q. What have you stopped seeing?
 
 ### The Tower — the heavy-card standard (primary, Voice J)
 
@@ -87,7 +89,7 @@ stand here for a minute." G-style long-lens lines may open or close.
 > What you knew and couldn't say is now visible from the road. That part, at
 > least, is over.
 >
-> Q — What can you admit now?
+> Q. What can you admit now?
 
 Approved heavy-card furniture, same card —
 
@@ -96,7 +98,7 @@ Approved heavy-card furniture, same card —
 > stand here for a minute. The card stands with you. The ground under both of
 > you held.   (Voice F body — question rejected)
 
-> Trees fall in an afternoon after growing for forty years — the afternoon
+> Trees fall in an afternoon after growing for forty years. The afternoon
 > gets all the attention.   (G, opening line)
 > Only the clearing is visible from where you stand today, and it is honestly
 > wide.   (G, closing line)
@@ -107,7 +109,7 @@ Approved heavy-card furniture, same card —
 > third. No single specimen worth framing. The series is the specimen. You've
 > done the thing again this week. That was the work.
 >
-> Q — Cleaner than the first attempt, or not yet?
+> Q. Cleaner than the first attempt, or not yet?
 
 ## Library entries and reversals
 
@@ -119,3 +121,9 @@ calibration. Reversed lines follow the upright's register, one notch flatter.
 
 Recast notes from batch review get appended here, dated, before the next
 batch starts.
+
+- **2026-07-29, batch 1 review.** Em dashes and en dashes banned outright
+  (author: "it looks AI-written"). Batch 1, specimens, templates, and UI
+  copy converted. Pivots become full stops. Parentheticals become commas or
+  their own sentences. Lint enforces. Tells-to-avoid list gains a ninth
+  entry, the dash reflex.
