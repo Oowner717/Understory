@@ -5,8 +5,8 @@ import { VitePWA } from 'vite-plugin-pwa'
 // GitHub Pages project site serves from /<repo>/; override with UNDERSTORY_BASE if needed.
 const base = process.env.UNDERSTORY_BASE ?? '/Understory/'
 
-export default defineConfig(({ command }) => ({
-  base: command === 'build' ? base : '/',
+export default defineConfig({
+  base,
   plugins: [
     react(),
     VitePWA({
@@ -34,4 +34,4 @@ export default defineConfig(({ command }) => ({
   build: {
     target: 'es2020',
   },
-}))
+})

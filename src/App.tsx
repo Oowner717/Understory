@@ -69,7 +69,7 @@ export default function App() {
           Understory
         </a>
       </header>
-      <main id="main" className="main">
+      <main id="main" className={`main${route.view === 'library' ? ' main--wide' : ''}`}>
         <View route={route} />
       </main>
       <nav className="tabbar" aria-label="Main">

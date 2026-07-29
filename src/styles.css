@@ -625,6 +625,11 @@ button {
     padding-top: var(--space-8);
   }
 
+  /* the Library is a cabinet drawer — let it spread out */
+  .main--wide {
+    max-width: 62rem;
+  }
+
   .library-grid {
     grid-template-columns: repeat(auto-fill, minmax(112px, 1fr));
   }
