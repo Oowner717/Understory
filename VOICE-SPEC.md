@@ -92,8 +92,9 @@ with it no more than once per suit. Everywhere else the inversion is
 carried by content. The app knows the orientation when it renders.
 
 **Extended bookkeeping vocabulary is budgeted.** Invoice, itemize,
-audit, accounting, ledger, banking, billing, accrue, interest, tab,
-bookkeeping. Permitted only where the conceit is itself about exchange.
+audit, accounting, ledger, banking, billing, accrue, bookkeeping. Not
+"tab" and not "interest", both of which are homonyms that flagged clean
+copy, browser tabs in cups-07 and curiosity in pentacles-10. Permitted only where the conceit is itself about exchange.
 Everywhere else, one plain cost word at most, and figures come from the
 card's own assigned domain in CONCEITS.md.
 
@@ -127,7 +128,9 @@ it meant contorting good questions to fill a quota, which is worse than
 the repetition it prevents. The floors are the teeth.
 
 **Library entry architecture must vary.** At most half the entries in a
-batch open on the plate. At least three name no rank. At least two end
+batch open on the plate, meaning a numeral followed by a suit object.
+"Three ways this goes wrong" is a structural opener, not a plate
+description, and does not count. At least three name no rank. At least two end
 without an epigram. Batch 1 has one architecture in all twenty six
 entries, which reads as a drumbeat in the full deck read through.
 
@@ -223,3 +226,11 @@ batch starts.
   long-sentence tell and is now tell number nine. Post-clip figures are 9.5
   and 35 percent, with every line carrying a short beat. A residual gap to
   batch 1 remains and is accepted, since batch 1 is the outlier.
+- **2026-07-29, batch 3. Three checker corrections, no copy changed.**
+  "interest" dropped from the bookkeeping list, curiosity in
+  pentacles-10. Plate-opener detection tightened to numeral plus suit
+  object, since counting any leading numeral flagged eighteen entries
+  when the real figure was six. This is the third time a verification
+  regex has been cruder than the prose it judges. The pattern is worth
+  naming: when a budget check and a careful read disagree, check the
+  regex before touching the sentence.

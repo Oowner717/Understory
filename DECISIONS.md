@@ -37,3 +37,5 @@ One line per non-obvious choice, newest last.
 - Bundle projection at 78 written cards is roughly 131 KB gzipped against the 150 KB budget. If that gets tight, the next lever is serving meanings.json as a precached fetched asset instead of a bundled import.
 - Question word floor lowered 4 to 2, and the What/Which ceiling raised 60 to 70 percent. Both were uncalibrated numbers that would have cost good copy.
 - VOICE-SPEC carries an absolute sentence-length target (7 to 10 words per sentence, per batch) rather than a comparison to the previous batch, because batch 1's 7.2 is an artifact of the dash conversion.
+- Batch 3 is 14 cards, not 13, so that one pass completes every pip. Courts and Majors follow in batches of 8, 8, 11, 11.
+- Verification regexes have now produced three false positives against clean copy ("tab", "interest", any-leading-numeral). Standing rule of thumb recorded in VOICE-SPEC: when a budget check and a careful read disagree, check the regex first.

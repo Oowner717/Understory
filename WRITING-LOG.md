@@ -149,3 +149,81 @@ composed readings.
 composition and are not a real signal. Library entries came in at 150
 words against batch 1's 162, which is closer to the middle of the band
 and worth holding.
+
+## Batch 3 — all remaining pips (14 cards)
+
+Cards: the four aces, the four twos, the two remaining threes (wands-03,
+pentacles-03), and the four tens. Fourteen rather than thirteen because
+this completes the entire pip range in one pass, which matches the work
+order's hardest-first logic better than leaving two orphans. Heavy cards:
+wands-10 and swords-10. Status: drafted.
+
+Batch 2 accepted entire by the author and moved to `authored`.
+
+### Gauntlet report
+
+| Test | Failures | Notes |
+| --- | --- | --- |
+| 1 Screenshot | 4 rewrites | endings on s01, p01, w02, c10 |
+| 2 Horoscope | 2 cuts | one "trust the timing" shape in w03, one gratitude turn in c10 |
+| 3 Swap | 3 rewrites | w02 against c07 was the flagged risk from batch 1 and it was real. Both were tab-browsing. w02 rewritten onto stakes and horizons, deliberation rather than proliferation, and the pair now survives the swap. Also s01 against s02, split by making one about writing a sentence and the other about signing one |
+| 4 Bad-day | 4 rewrites | w10 and s10 both took the heavy valve. Two "should" constructions caught in drafting, before the linter saw them |
+| 5 Baseline | 1 written+deleted | c10, the hardest in the batch to keep off horoscope ground |
+
+Linter first pass, **0 errors** and 41 warnings, the first batch to draft
+with no banned vocabulary at all. The warning tail was 24 second-person
+gaps and 17 word counts, every one of the latter just under a floor
+rather than over a ceiling, which is a new pattern. Having internalised
+short sentences I now undershoot the line length. Final pass 0/0.
+
+### Drift, and the first batch to land in the band unaided
+
+| Metric | Batch 1 | Batch 2 | Batch 3 |
+| --- | --- | --- | --- |
+| Words per line | 38.6 | 39.0 | 37.9 |
+| Mean sentence length | 7.2 | 9.5 | 9.3 |
+| Fragments | 48% | 35% | 42% |
+| Lines with a short beat | 68/78 | 78/78 | 84/84 |
+| Library words per entry | 162 | 150 | 145 |
+
+Batch 3 needed no clipping pass. It drafted at 9.7 and finished at 9.3,
+inside the 7 to 10 target, which suggests the absolute target added after
+batch 2 works better than comparing each batch to the last.
+
+### Budgets
+
+Reversed openers 0. Recorded openers 0, using neither of the two
+sanctioned slots. "You've been X-ing" 0. Bookkeeping off-budget 0. "The
+card" as agent, maximum 1 per entry. Plate-openers 6 of 28 against a cap
+of 14. Questions: What or Which 51 percent, Who or Whose 20, Where or
+When 7, How 7, or-shaped 7.
+
+### Three checker corrections, no copy changed
+
+This batch's most useful finding is about the tooling rather than the
+prose. Three of the four apparent budget failures were verification
+errors.
+
+1. "interest" flagged pentacles-10, where it means curiosity. Dropped
+   from the bookkeeping list, same class as "tab" in batch 1.
+2. Plate-opener detection counted any leading numeral, so "Three ways
+   this goes wrong" registered as plate description. It flagged 18
+   entries when the true figure was 6. Tightened to numeral plus suit
+   object.
+3. The only genuine miss was 13 reading lines with no sentence of six
+   words or fewer, all fixed by splitting rather than adding.
+
+The pattern is now worth stating as a rule of thumb, and it is in
+VOICE-SPEC. When a budget check and a careful read disagree, check the
+regex before touching the sentence.
+
+### Watch-list for batch 4
+
+"nothing" was 20 in first draft and is 14 after thinning, its third
+consecutive batch at the top. It is now a standing check rather than a
+per-batch note. "nobody" and "somebody" at 16 and 14 are the same
+reflex, impersonal constructions used to avoid naming an agent, and they
+are worth watching together with it.
+
+Corpus at 40 of 78. Next: the sixteen courts, likely split eight and
+eight, then the twenty-two Majors.
