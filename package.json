@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint:voice": "node --experimental-strip-types --no-warnings tools/voice-lint.ts",
+    "lint:sameness": "node --experimental-strip-types --no-warnings tools/sameness.ts",
+    "fuzz:readings": "node --experimental-strip-types --no-warnings tools/fuzz-readings.ts"
   },
   "dependencies": {
     "idb-keyval": "^6.3.0",
