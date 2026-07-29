@@ -1,0 +1,27 @@
+{
+  "_note": "PLACEHOLDER COPY — rewrite before any public release. Slot-based templates for the spread composer. Slots: {name} = botanical card name, {kw1}/{kw2} = card keywords. Voice rules apply: notices, never predicts; no advice verbs; the reading ends with exactly one question.",
+  "situation": [
+    "{name} to start: {kw1}, with some {kw2} underneath.",
+    "The ground here is {name} — {kw1}, mostly.",
+    "Where you stand looks like {name}: {kw1}, and a thread of {kw2}.",
+    "{name} opens the line. That reads as {kw1} more than anything else."
+  ],
+  "knot": [
+    "The knot is {name}: {kw1} tangled up with {kw2}.",
+    "In the middle sits {name} — {kw1}, doing most of the tightening.",
+    "What snags is {name}: {kw1}, wearing the costume of {kw2}.",
+    "{name} marks the snag — {kw1}, close enough to trip over."
+  ],
+  "direction": [
+    "For direction, {name}: notice where {kw1} already points.",
+    "{name} closes the line — {kw1}, taken one small step at a time.",
+    "The way through resembles {name}: {kw1}, before anything grand.",
+    "Last, {name} — {kw1}, which is quieter than it sounds."
+  ],
+  "questions": [
+    "What changes if {kw1} gets taken seriously?",
+    "Where does {kw1} already have a foothold in this?",
+    "What's one small gesture toward {kw1} available before tonight?",
+    "If {kw1} were the point all along, what would you notice first?"
+  ]
+}
