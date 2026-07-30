@@ -48,6 +48,9 @@ for (const m of meanings) {
     ...(m.reversed?.readingLines ?? []).map((t: string, i: number) => [`reversedReadingLines[${i}]`, t] as [string, string]),
     ...(m.reversed?.questions ?? []).map((t: string, i: number) => [`reversedQuestions[${i}]`, t] as [string, string]),
     ['reversedLibraryEntry', m.reversed?.libraryEntry ?? ''],
+    ...(['situation', 'knot', 'direction'] as const)
+      .map((pos) => [`spreadLine.${pos}`, m.spread?.[pos] ?? ''] as [string, string])
+      .filter(([, t]) => t !== ''),
   ]
   for (const [field, text] of fields)
     for (const v of lintField(m.cardId, field, text, { barnum }))

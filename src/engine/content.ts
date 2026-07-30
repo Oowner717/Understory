@@ -22,6 +22,7 @@ const EMPTY_MEANING: Omit<Meaning, 'cardId'> = {
   libraryEntry: '',
   reversed: { readingLines: [], questions: [], libraryEntry: '' },
   altText: '',
+  spread: { situation: '', knot: '', direction: '' },
   status: 'placeholder',
 }
 

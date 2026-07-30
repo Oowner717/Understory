@@ -887,3 +887,80 @@ opening-move classifier reading one sentence where contrast lands on two,
 an orphan check with an 86 percent false-positive rate. Every time, the
 right move was to fix the tool and not the sentence. That rule of thumb is
 in VOICE-SPEC and it earned its place.
+
+## Spread tranche S1 — the 20 hardest Directions (60 lines)
+
+2026-07-29, the stretch goal opened once all 78 cards were final. Cards: the
+twelve heavy cards plus M01, M02, M06, M08, M12, M14, cups-08 and
+pentacles-08, chosen because their conceits are themselves actions, which is
+where the Direction position is most likely to become an instruction.
+
+These 234 lines replace `templates.json`, the last placeholder copy in the
+repo and the only place the mad-libs register ever appeared. Seeing an
+authored Knot line sitting between two template fallbacks in a live spread is
+the best argument for finishing them. "Where you stand looks like Ten of
+Bellflower. accord, and a thread of home." against "From outside, waiting and
+doing nothing are the same picture."
+
+Plumbing landed first so the linters could check the field as it was written.
+`SpreadLines` in types, the field on all 78 cards, `spreadLine` bounds in
+lint-core, six new budgets in `lint:batch --spread`, and a composer that
+prefers authored copy and falls back to templates per position, so a
+half-written corpus still composes a reading rather than a gap. The spread's
+one question now comes from the Direction card's own `questions`, which is
+why the figure is 234 and not 312.
+
+### The first draft was a formula, and the tool said so
+
+Draft one passed voice-lint at 0 errors and then failed all six new budgets.
+The worst of it was the Knot position: **all twenty lines opened on one of
+three interchangeable stems**, "The snag is", "The tightening is", "What
+tightens is", eleven of them starting with the word "The". That is the
+mad-libs register reappearing inside the field written to delete it, which is
+worth naming plainly rather than filing as a near miss.
+
+Also 22 of 60 lines lifted a six-word run out of the card's own reading
+lines, since compressing a conceit by reusing its phrases is the path of
+least resistance.
+
+All 60 were rewritten rather than patched. Openers now repeat at most twice
+per position, echo is 0, and "already", the obvious Direction crutch, is 0
+against a budget of 2.
+
+### Two rules corrected an hour after being written
+
+Both were mine and both were wrong.
+
+**The word floor moved from 20 to 18.** Nineteen lines came in at exactly 19
+words. When a floor sits one word above where the form naturally lands, the
+floor is the thing that is wrong, and padding nineteen lines to satisfy it is
+the same mistake as the 60 percent question ceiling the author corrected in
+batch 1.
+
+**The short-beat rule is per card, not per line.** Three 20-word lines are
+joined into one paragraph, so a fragment in each puts three inside 60 words
+and reads staccato. What the rule protects is audible rhythm in the composed
+paragraph, and one short beat across the three delivers it. The per-line
+version measured 32/60 and the per-card version 20/20, so it still has teeth.
+
+### A defect only a real render could find
+
+Driving the built app in a browser showed the template fallback shipping
+"Ten of Bellflower. accord, and a thread of home." Keywords are stored
+lowercase and several templates drop one at the start of a sentence. No
+linter could see it, because the defect lives in the join rather than in
+either string, and this is the first bug in the campaign that needed a
+browser instead of a checker. `fill()` now capitalises after sentence
+punctuation. It dies with the templates.
+
+### State
+
+| | |
+| --- | --- |
+| Spread lines written | 60 of 234 |
+| Mean words per line | 20.0 |
+| voice-lint | 0 errors, 0 warnings |
+| Spread budgets | 6 of 6 met |
+| Bundle | 126 KB gzipped, projecting near 133 KB at 234 lines |
+
+Remaining: three tranches. S2 and S3 of 20 cards, S4 of 18.

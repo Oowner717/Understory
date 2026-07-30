@@ -300,3 +300,65 @@ batch starts.
   plainly, and plain statement has no compression available to it. Batch 6
   is 40.8 against a batch 1 to 4 cluster near 38.5. Accepted for a batch
   of four heavy cards. Not a licence for the ordinary ones.
+
+## Spread lines (Work Order stretch, opened 2026-07-29 once all 78 were final)
+
+Three lines per card, one per spread position, 234 in total. They replace the
+keyword-substitution templates in `templates.json`, which are the last
+placeholder copy in the repo and the only place the mad-libs register ever
+appeared. "{name} to start. {kw1}, with some {kw2} underneath." is what this
+section exists to delete.
+
+### The governing constraint
+
+`Spread.tsx` joins the three lines with a single space and renders them as
+**one paragraph**. Three cards drawn at random supply the three parts. So each
+line has to survive being read immediately after two lines it has never met,
+written for other cards, in a different suit, about a different conceit.
+
+That rules out three things outright.
+
+- **No plate description.** The three plates are on screen directly above the
+  text. "Three cups in reach, all full" is right for a reading line and wrong
+  here, and three of them in a row is a catalogue.
+- **At most one of a card's three positions may open with "You."** Otherwise a
+  spread can open every sentence with the same word.
+- **No question mark, anywhere.** The spread's single question comes from the
+  Direction card's existing `questions` array, chosen by the same seed. That
+  is why the figure is 234 and not 312.
+
+### Position semantics
+
+- **Situation** — the ground being stood on. Present tense. Names the
+  condition and not its cause. No verdict, since the Knot has not been read
+  yet.
+- **Knot** — where it tightens. The specific snag, not difficulty in general.
+  This is the position most likely to slide into diagnosis, and it does not
+  get to.
+- **Direction** — where the thing already points. **This is the hardest
+  constraint in the corpus.** The position is called Direction and the voice
+  bans advice verbs, so the line must state a tendency or an available fact
+  and leave the step to the reader. The template's instinct, "Notice where
+  {kw1} already points", is the right shape and the wrong execution: "notice"
+  is both an imperative and a measured crutch word. Permitted move is plain
+  indicative. "The short version is already written." Not "write the short
+  version."
+
+### Mechanics
+
+- **20 to 30 words each**, 2 to 4 sentences. Shorter than a reading line
+  because three are read at once, and 40 each would make a 120-word wall
+  under three plates on a 390px screen.
+- At least one sentence of six words or fewer in every line.
+- Punctuation law unchanged. No colons, no semicolons, no em or en dashes.
+- Second person appears in at least one of a card's three lines and not in
+  all three as an opener.
+- The card's conceit still governs. A spread line is the conceit compressed,
+  not a new idea about the card.
+
+### Budgets, per tranche
+
+- "already" is the obvious crutch for Direction. Two per tranche.
+- No position may open with the same word more than twice.
+- No line may share a six-word run with that card's reading lines or library
+  entries. The self-echo rule extends to the new field.

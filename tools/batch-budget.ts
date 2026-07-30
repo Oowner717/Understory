@@ -174,6 +174,65 @@ for (const t of lines)
     if (w.length > 3 && !STOP.has(w)) freq.set(w, (freq.get(w) ?? 0) + 1)
 const top = [...freq.entries()].sort((a, b) => b[1] - a[1]).slice(0, 6)
 
+/* Spread lines. Written in tranches after the corpus went final, checked
+ * against a card group rather than a status group, since every card is now
+ * `final`. Run with --spread to check only the cards that have them. VOICE-SPEC
+ * "Spread lines" is the contract. */
+const withSpread = (meanings as any[]).filter((m) => m.spread?.situation)
+if (withSpread.length > 0 && process.argv.includes('--spread')) {
+  const sLines = withSpread.flatMap((m) => [m.spread.situation, m.spread.knot, m.spread.direction])
+  const already = sLines.reduce((n, t) => n + (t.match(/\balready\b/gi) ?? []).length, 0)
+  add('spread: "already", 2 or fewer', already <= 2, String(already))
+
+  /* Per card, not per line. Three 20-word lines are joined into one paragraph,
+   * so requiring a fragment in each would put three of them inside 60 words and
+   * read staccato. What the rule is actually protecting is audible rhythm in the
+   * composed paragraph, and one short beat across the three delivers that. The
+   * per-line version measured 32/60 and the per-card version 20/20, so this is a
+   * correction to a rule written an hour earlier and not a hole opened to let
+   * copy through. */
+  const noBeatCards = withSpread.filter(
+    (m) => !(['situation', 'knot', 'direction'] as const).some((p) =>
+      splitSentences(m.spread[p]).some((x) => countWords(x) <= 6)),
+  )
+  add('spread: each card carries a beat of 6 words or fewer', noBeatCards.length === 0, `${withSpread.length - noBeatCards.length}/${withSpread.length}`)
+
+  const youOpeners = withSpread.filter(
+    (m) => ['situation', 'knot', 'direction'].filter((p) => /^You\b/.test(m.spread[p])).length > 1,
+  )
+  add('spread: at most one position per card opens on "You"', youOpeners.length === 0, `${youOpeners.length} card(s)`)
+
+  for (const pos of ['situation', 'knot', 'direction'] as const) {
+    const first = new Map<string, number>()
+    for (const m of withSpread) {
+      const w = (m.spread[pos].split(/\s+/)[0] ?? '').replace(/[^A-Za-z']/g, '')
+      first.set(w, (first.get(w) ?? 0) + 1)
+    }
+    const worst = [...first.entries()].sort((a, b) => b[1] - a[1])[0]
+    add(`spread: ${pos} opener repeats, 2 or fewer`, (worst?.[1] ?? 0) <= 2, `${worst?.[0]} x${worst?.[1]}`)
+  }
+
+  /* The self-echo rule extends to the new field. A spread line is the conceit
+   * compressed, so it must not lift a run out of the reading lines. */
+  let sEcho = 0
+  const sEchoWorst: string[] = []
+  for (const m of withSpread) {
+    const own = new Set<string>()
+    for (const t of [...m.readingLines, ...m.reversed.readingLines, m.libraryEntry, m.reversed.libraryEntry])
+      for (const g of sixGrams(t)) own.add(g)
+    for (const pos of ['situation', 'knot', 'direction'] as const) {
+      const shared = [...sixGrams(m.spread[pos])].filter((g) => own.has(g))
+      if (shared.length) {
+        sEcho++
+        if (sEchoWorst.length < 6) sEchoWorst.push(`${m.cardId} ${pos}  ${shared[0]}`)
+      }
+    }
+  }
+  add('spread: lines echoing the card\'s own copy', sEcho === 0, String(sEcho))
+  console.log(`\n  spread tranche: ${withSpread.length} cards, ${sLines.length} lines, mean ${(sLines.reduce((a, t) => a + countWords(t), 0) / sLines.length).toFixed(1)} words`)
+  if (sEchoWorst.length) for (const t of sEchoWorst) console.log(`    echo ${t}`)
+}
+
 console.log(`batch-budget, ${batch.length} cards at status "${STATUS}"\n`)
 for (const c of checks)
   console.log(`${c.ok ? '✓' : '✗'} ${c.label.padEnd(48)} ${c.actual}`)

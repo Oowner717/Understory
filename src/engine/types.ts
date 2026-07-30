@@ -36,7 +36,19 @@ export interface Meaning {
   reversed: ReversedMeaning
   /** ~15 words, VoiceOver description of the plate. Empty = generated alt. */
   altText: string
+  /** Position-aware spread copy. Replaces the templates.json composer. */
+  spread: SpreadLines
   status: MeaningStatus
+}
+
+/** One line per spread position, 20–30 words each, rendered as a single
+ *  paragraph with two lines from other cards. No question mark: the spread's
+ *  question comes from the Direction card's `questions`. Spec: VOICE-SPEC.md
+ *  "Spread lines". Empty = composer falls back to templates.json. */
+export interface SpreadLines {
+  situation: string
+  knot: string
+  direction: string
 }
 
 export type DrawSource = 'daily' | 'spread'

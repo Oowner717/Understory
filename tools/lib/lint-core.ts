@@ -127,6 +127,10 @@ export const FIELD_BOUNDS: Record<string, FieldBounds> = {
   question: { minWords: 2, maxWords: 12, questions: '1' },
   libraryEntry: { minWords: 140, maxWords: 170, questions: '0' },
   altText: { minWords: 8, maxWords: 22, questions: '0' },
+  /* Spread lines run short because three are read as one paragraph under three
+   * plates on a 390px screen. No question mark: the spread's single question
+   * comes from the Direction card's own questions. VOICE-SPEC "Spread lines". */
+  spreadLine: { minWords: 18, maxWords: 30, questions: '0' },
 }
 
 export interface LintOptions {
@@ -173,6 +177,8 @@ export function lintField(cardId: string, field: string, text: string, opts: Lin
     .replace(/^reversed/, '')
     .replace(/^[A-Z]/, (c) => c.toLowerCase())
     .replace(/^(readingLine|question)s$/, '$1')
+    // "spreadLine.direction" → base field "spreadLine"
+    .replace(/^(spreadLine)\..*$/, '$1')
   const bounds = FIELD_BOUNDS[base]
   const qCount = (text.match(/\?/g) ?? []).length
 
