@@ -138,3 +138,8 @@ remains: all 78 cards carry written text.**
   §5 end-state checks can now run for the first time. Awaiting accept, edit,
   or recast on batch 7. No card can move to `final` until batch 7 is
   accepted and those checks are on the record.
+- **2026-07-29, remediation pass.** Fifty-two library-entry clauses across
+  batches 3, 4 and 5 rewritten by Claude to remove self-echo, on the author's
+  instruction. No reading line, question or alt text was altered, and no
+  card's meaning changed. The debt entry above is discharged. Self-echo is
+  now 0.1 to 0.3 per card in every batch.

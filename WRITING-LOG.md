@@ -664,3 +664,33 @@ pass closed eight. These are the residue. cups-05 is the deck's heaviest
 grief card and the author edited its question by hand, so its rhythm is
 not something to alter on a linter's say-so. Both are one split away from
 compliant if the author wants them closed.
+
+## Remediation pass — self-echo in batches 3, 4 and 5
+
+Applied 2026-07-29, after batch 7, on the author's instruction to fold it in.
+**Reading lines were not touched. Every change is on the library entry side.**
+
+Fifty-two overlapping clauses across the thirty cards of batches 3, 4 and 5
+were rewritten so the entry states its idea in its own words rather than
+reciting the reading line's. Self-echo per card, before and after:
+
+| | B1 | B2 | B3 | B4 | B5 | B6 | B7 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Before | 0.3 | 0.3 | 1.5 | 1.6 | 2.2 | 0.3 | 0.1 |
+| After | 0.3 | 0.3 | 0.1 | 0.1 | 0.1 | 0.3 | 0.1 |
+
+Corpus total is 15 shared six-word runs across 78 cards, 0.19 per card,
+against the enforced ceiling of 1.0.
+
+The pass introduced three errors of its own, all caught by lint and all
+mine: a predictive "going to" on wands-page, a predictive "will" on
+pentacles-10, and a second-person "has to" on cups-02. It also pushed nine
+entries under the 140-word floor and dropped second person out of two.
+Every one of those was fixed with a real beat rather than padding. That
+error rate on a mechanical pass is worth recording, because it is the
+argument for running the linters after remediation and not only after
+drafting.
+
+Final state, whole corpus: voice-lint 0 errors and 0 warnings across all 78
+cards, `lint:batch` clean on both status groups, sameness under threshold,
+fuzzer clean across 500 readings, bundle 123 KB gzipped.
