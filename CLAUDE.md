@@ -9,7 +9,9 @@ Echo, dual naming, plate system) and to serve as a living spec for the Swift por
 Keep these clean above all else; everything else is disposable scaffolding.
 
 1. **Content JSON schemas + card ids** — `src/content/cards.json` (`M00`–`M21`,
-   `wands-01`…`pentacles-king`), `meanings.json`, `templates.json`.
+   `wands-01`…`pentacles-king`) and `meanings.json`, which now carries the
+   spread copy too. `templates.json` is deleted — the composer reads authored
+   per-position lines instead of filling keyword slots.
 2. **The plate/frame spec** — `src/design/plate.tsx` geometry and mark system.
 3. **The Voice rules** — see below; binding for every string in the app.
 4. **Echo semantics** — most recent earlier entry containing the drawn card with text;
@@ -24,7 +26,7 @@ Keep these clean above all else; everything else is disposable scaffolding.
   /views       Today, Journal, EntryView, Library, CardDetail, Spread, Settings
   /components  CardPlate, CardFlip, EchoPanel, ThreadsPanel, EntryEditor
   /engine      draw.ts, composer.ts, threads.ts, storage.ts, content.ts, dates.ts, types.ts
-  /content     cards.json, meanings.json, templates.json   (PLACEHOLDER COPY — see _note keys)
+  /content     cards.json, meanings.json   (all 78 cards final; no placeholder copy remains)
   /design      tokens.css, fonts.css, fonts/, plate.tsx
 /public/deck   real art drops here; manifest.json lists which ids have files
 /public/icons  PWA icons (regenerate with scripts/make-icons.mjs)

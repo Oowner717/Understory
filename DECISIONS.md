@@ -5,7 +5,7 @@ One line per non-obvious choice, newest last.
 - Deploy target: GitHub Pages via Actions (this repo is already on GitHub; the brief's deploy question resolved itself).
 - Suit plants fixed as one species per suit for naming: Hawthorn (Wands), Bellflower (Cups), Gladiolus (Swords), Lunaria (Pentacles).
 - Majors: `name === classicName`; the UI hides the subtitle when the two names match rather than special-casing arcana.
-- `meanings.json`/`templates.json` placeholder marker is a `"_note"` key (JSON has no comments).
+- `meanings.json` placeholder marker was a `"_note"` key (JSON has no comments). Moot since batch 7: no placeholder copy remains, and `templates.json` is deleted.
 - Card ids in entries/draws are stored as strings only; entries and draws live in two idb-keyval arrays (playtest scale, keeps export/wipe trivial).
 - Daily entry id = the ISO date itself (one daily entry per day); spread entries get `spread-{date}-{timestamp}`.
 - Daily draw is logged once per date on first visit to Today, not on flip (the card is determined either way).
@@ -59,3 +59,6 @@ One line per non-obvious choice, newest last.
 - The composer prefers authored spread lines and falls back to a template per position, consuming rng in the same order either way, so a half-written corpus still composes a reading and a spread reads identically before and after its cards get authored lines.
 - The spread short-beat rule is per card, not per line. Three fragments inside a 60-word joined paragraph reads staccato; one across the three gives the paragraph its rhythm.
 - `fill()` capitalises after sentence punctuation. Keywords are lowercase and templates drop them at sentence starts, which shipped "Ten of Bellflower. accord, and a thread of home." Found by rendering a spread in a browser, not by a linter, because the defect is in the join.
+- `templates.json` is deleted and the composer's fallback path with it. A spread reading is now the three authored position lines joined, so no keyword-slot filling remains anywhere in the app and `fill()` went with it.
+- `fuzz:readings` composes from the authored spread lines rather than replicating the composer over templates. It fuzzes the real product instead of a stand-in, and attributes errors to cards rather than template slots.
+- The "Two" situation-opener cap caught the deck's own structure (the four twos plus Justice), not a tic. Two of the five were reworded anyway, because four cards announcing their own number is still a drumbeat.

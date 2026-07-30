@@ -5,7 +5,6 @@
  *   - src/content/meanings.json   (placeholder-status entries skipped unless --all,
  *                                  so the signal stays clean during the campaign)
  *   - src/content/drafts/*.json   (always, every variant — drafts must arrive clean)
- *   - src/content/templates.json  (vocabulary + Barnum shapes)
  *   - src/content/ui-strings.ts   (vocabulary + Barnum shapes, raw scan)
  *
  * Exits non-zero on error-severity violations. If a rule false-positives
@@ -71,15 +70,6 @@ if (existsSync(draftsDir)) {
       }
     }
   }
-}
-
-/* templates.json — vocabulary and shape only */
-const templates = JSON.parse(readFileSync(join(root, 'src/content/templates.json'), 'utf8'))
-for (const [group, list] of Object.entries(templates)) {
-  if (group === '_note') continue
-  for (const [i, tpl] of (list as string[]).entries())
-    for (const v of lintField(`templates.${group}[${i}]`, group, tpl, { barnum, vocabOnly: true }))
-      violations.push({ ...v, file: 'templates.json' })
 }
 
 /* ui-strings.ts — raw scan, vocabulary and shape only */

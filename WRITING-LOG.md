@@ -1046,3 +1046,89 @@ not the least.
 
 Remaining: S4, the 26 pips not covered by S1 or S2. Twos through nines across
 four suits, minus the ten that went in with S1.
+
+## Spread tranche S4 — the remaining pips, and the corpus closes (78 lines)
+
+The 26 pips not covered by S1 or S2: twos through nines across four suits,
+minus the ten that went in with S1. Largest tranche of the four.
+
+**The spread corpus is complete. 234 of 234 lines.** Every card carries one
+authored line per position.
+
+### What the tranche cost
+
+First pass: 0 errors, 14 lines under the word floor, three opener budgets
+over, and 17 echoes. S3's finding held up in the useful direction. These pips
+were written in batches 1 to 3, longest ago, and echoed at 17 across 26 cards
+against S3's 21 across 12. Recency, not difficulty, is what drives echo, and
+it predicted the shape of this tranche correctly.
+
+Three passes to clear. The middle pass introduced its own breaches, including
+a "Two" situation-opener count of five.
+
+### The "Two" finding
+
+Five Situation lines opened with "Two": the twos of all four suits plus
+Justice, whose conceit is two columns. That is the deck's own structure
+showing through the budget rather than a writing tic, which is a category the
+checkers have not produced before.
+
+Two of the five were reworded anyway. "Both phones went screen-down" and
+"Neither quote got signed" are better lines than the versions that announced
+their own number, so the budget was right for the wrong reason.
+
+### templates.json is deleted
+
+The point of the whole phase. Gone with it:
+
+- the `situation`/`knot`/`direction`/`questions` template arrays
+- `fill()`, the keyword-slot substitution, and the sentence-case patch that
+  was added three tranches ago to stop it shipping "Ten of Bellflower.
+  accord, and a thread of home."
+- the composer's per-position fallback
+- the `Templates` interface and the `TEMPLATES` export
+- voice-lint's templates block
+
+`fuzz:readings` was rewritten rather than retired. It used to replicate the
+composer's fill logic over templates.json so it could run without the browser
+bundle. It now composes from the authored lines, which means **it fuzzes the
+real product instead of a stand-in**, and it attributes errors to cards rather
+than to template slots. That is a better fuzzer than the one it replaces, and
+it only became possible because the templates went.
+
+### Verified in the browser
+
+Four spreads drawn and rendered at 390px. Composed paragraphs run 55 to 56
+words from three unrelated cards and read as continuous prose, which was the
+governing constraint of the spec. One example, from swords-02, cups-knight and
+M18:
+
+> Neither quote got signed, and everything needed to choose between them is
+> sitting right there on the counter. Deciding is quick. Carrying is not. The
+> nerve is for the middle, where no cover story is available. A nine o'clock
+> reading of this exists and has not been taken yet. Decisions made now get
+> made a second time.
+>
+> Q. What is it at nine?
+
+### Final state, whole corpus
+
+| | |
+| --- | --- |
+| Cards | 78, all `final` |
+| Reading lines | 468 |
+| Questions | 468, no duplicates |
+| Library entries | 156 |
+| Spread lines | 234, mean 19.1 words |
+| Alt texts | 78 |
+| Placeholder copy | none |
+| voice-lint | 0 errors, 0 warnings |
+| lint:batch spread budgets | 7 of 7 |
+| sameness | no pair above 0.10 |
+| fuzz:readings | 0 errors across 500 real composed readings |
+| self-echo | 0 across all 234 spread lines |
+| Bundle | 131 KB gzipped against a 150 KB budget |
+
+Work order §1 target was 468 reading lines and questions. Stretch target was
+234 position-aware spread lines. Both are met, and the app now contains no
+generated or templated prose at any point in its reading path.

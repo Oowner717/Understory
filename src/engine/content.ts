@@ -1,6 +1,5 @@
 import cardsJson from '../content/cards.json'
 import meaningsJson from '../content/meanings.json'
-import templatesJson from '../content/templates.json'
 import type { Card, Meaning, Suit } from './types'
 
 export const CARDS = cardsJson as Card[]
@@ -29,17 +28,6 @@ const EMPTY_MEANING: Omit<Meaning, 'cardId'> = {
 export function meaningFor(cardId: string): Meaning {
   return meaningById.get(cardId) ?? { cardId, ...EMPTY_MEANING }
 }
-
-export interface Templates {
-  situation: string[]
-  knot: string[]
-  direction: string[]
-  questions: string[]
-}
-
-const { _note: _templatesNote, ...templateRest } = templatesJson
-void _templatesNote
-export const TEMPLATES = templateRest as Templates
 
 export const SUITS: Suit[] = ['wands', 'cups', 'swords', 'pentacles']
 
