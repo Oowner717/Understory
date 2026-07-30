@@ -814,3 +814,76 @@ gate holds while any card is `placeholder` or `drafted`. On accept, the
 remaining decisions are the four orphaned questions above, the two
 short-beat misses on cups-05 and cups-06, and the six single-costume cards.
 None of those blocks a playtest.
+
+## Batch 7 accepted — the corpus is final
+
+2026-07-29. Author accepted all eleven cards. With the §5 checks on the
+record, all 78 cards move to `final` and the ship gate in CLAUDE.md is
+satisfied for the first time.
+
+Five orphaned questions were fixed before the status change, each recast to
+anchor in the reading line it is actually paired with. pentacles-03 turned
+out to carry two, in slots 1 and 2, not the one reported.
+
+| Card | Was | Now |
+| --- | --- | --- |
+| cups-01 u2 | Where did it come from, if not the advert? | What has no name yet? |
+| cups-03 r1 | Who used to hold the thread? | Who did you want there? |
+| pentacles-03 u1 | Who has seen the work lately? | Who is your whole audience? |
+| pentacles-03 u2 | What did the nod mean? | What did being seen change? |
+| pentacles-09 u1 | Who taught you the Saturdays? | Who built that fence? |
+
+Two items are left alone on purpose and are recorded in PROVENANCE so they
+are not mistaken for oversights. cups-05 and cups-06 slot 2 keep their
+7-word shortest sentences, because a 7-word sentence against a 6-word target
+is a spec technicality rather than something a reader feels, and cups-05 is
+the heaviest card in the deck. And the six single-costume cards keep their
+opening moves, because fixing them means rewriting opening sentences of
+accepted reading lines, which is a larger intervention than the defect
+warrants.
+
+### Final corpus state
+
+| | |
+| --- | --- |
+| Cards | 78, all `final` |
+| Reading lines | 468 (234 upright, 234 reversed) |
+| Questions | 468, no duplicates |
+| Library entries | 156 |
+| Alt texts | 78 |
+| Words | 44,313 |
+| voice-lint | 0 errors, 0 warnings |
+| sameness | no pair above 0.10 |
+| fuzz:readings | 0 errors across 500 composed readings |
+| self-echo | 0.19 shared six-word runs per card |
+| What or Which questions | 53% against a 70% ceiling |
+| Bundle | 123 KB gzipped against a 150 KB budget |
+
+Three budgets read as breached on a corpus-wide `lint:batch` run and are
+not. Recorded openers at 3 and "You have been X-ing" at 12 are per-batch
+allowances of 2 summed across seven batches, and the two short-beat misses
+are the cups-05 and cups-06 lines above. All three are documented in
+DECISIONS.
+
+### What the seven batches taught, in one place
+
+The recurring lesson was not about voice. It was that **every quality
+problem worth finding was invisible to per-card review**, and each one
+needed a tool before it could be seen.
+
+- Cross-deck sameness: found by measuring batch 1 after accepting it.
+- Drift in sentence rhythm: found by an absolute target, after a
+  batch-to-batch comparison proved useless.
+- Fragment share collapsing inside a passing sentence-length band.
+- A library entry reciting its own reading line, which climbed for four
+  batches at 0.3, 1.5, 1.6, 2.2, 2.8 with nothing watching.
+- A question asking about a prop that appears only in a sibling slot.
+
+And the counter-lesson, eight times over: **a checker is usually cruder
+than the prose it judges.** "tab" as bookkeeping, "interest" as money, any
+leading numeral as plate description, the plate-opener regex knowing no
+Major emblems, "diagnosis" inside a sentence denying diagnosis, an
+opening-move classifier reading one sentence where contrast lands on two,
+an orphan check with an 86 percent false-positive rate. Every time, the
+right move was to fix the tool and not the sentence. That rule of thumb is
+in VOICE-SPEC and it earned its place.

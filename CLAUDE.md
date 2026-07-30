@@ -44,7 +44,9 @@ Keep these clean above all else; everything else is disposable scaffolding.
 - UI copy lives in `src/content/ui-strings.ts` — nothing hardcoded in
   components.
 - Ship gate: nothing ships while any card's `status` is `placeholder` or
-  `drafted`.
+  `drafted`. **Satisfied 2026-07-29 — all 78 cards are `final`.** The gate
+  stays in force for any future edit: a card being reworked drops to
+  `drafted` until it is re-accepted.
 
 ## Voice rules (binding for all copy)
 
