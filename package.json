@@ -10,7 +10,9 @@
     "lint:voice": "node --experimental-strip-types --no-warnings tools/voice-lint.ts",
     "lint:sameness": "node --experimental-strip-types --no-warnings tools/sameness.ts",
     "fuzz:readings": "node --experimental-strip-types --no-warnings tools/fuzz-readings.ts",
-    "lint:batch": "node --experimental-strip-types --no-warnings tools/batch-budget.ts"
+    "lint:batch": "node --experimental-strip-types --no-warnings tools/batch-budget.ts",
+    "verify:deck": "node --experimental-strip-types --no-warnings tools/verify-deck.ts",
+    "verify:engine": "node --experimental-strip-types --no-warnings --import ./tools/lib/register-app-imports.mjs tools/verify-engine.ts"
   },
   "dependencies": {
     "idb-keyval": "^6.3.0",
