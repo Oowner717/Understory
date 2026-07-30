@@ -570,3 +570,97 @@ Corpus at 67 of 78. Batch 7 is the remaining eleven Majors, M00 to M05,
 M07, M09, M17, M19 and M21, of which only M09 has prior drafted material
 in `/drafts`. After that, every card exists and the §5 end-state checks
 can finally run.
+
+## Batch 7 — the last eleven Majors
+
+Cards: M00 The Fool, M01 The Magician, M02 The High Priestess, M03 The
+Empress, M04 The Emperor, M05 The Hierophant, M07 The Chariot, M09 The
+Hermit, M17 The Star, M19 The Sun, M21 The World. No heavy cards. Status:
+drafted.
+
+Batch 6 accepted entire by the author and moved to `authored`.
+
+**The corpus is complete. 78 cards, 468 reading lines, 468 questions, 156
+library entries, 78 alt texts, 44,313 words.** That line count is the work
+order's §1 target exactly.
+
+### Gauntlet report
+
+| Test | Failures | Notes |
+| --- | --- | --- |
+| 1 Screenshot | 2 rewrites | endings on M03 slot 1 and M19 slot 1, both of which had stacked two short beats into a matched pair |
+| 2 Horoscope | 2 cuts | M17 is the structural risk in this batch. A card about slow recovery is one clause away from "trust the process", and both cuts were there |
+| 3 Swap | 3 rewrites | M01 against M17, both about things that accumulate or fail to, split by a bench that is ready against a barrel that is filling. M02 against M09, both about what surfaces without input, split by permission-seeking against gap-loss. M00 against M21, both thresholds, split by a door you leave through against a room you stand in |
+| 4 Bad-day | 1 rewrite | M21 slot 2 ended on "Stand in it anyway, for a minute", which is an instruction. Recast as the permission it was trying to be |
+| 5 Baseline | 2 written+deleted | M17 and M19, the two nearest to consolation. Both drafted against their generic versions first |
+
+Linter first pass, **2 errors** and 27 warnings. Both errors were the word
+"abundance" on M03, in the reading line and again in the entry, which is
+banned vocabulary and a fair catch. The warning tail was twelve library
+entries under the 140-word floor and eleven second-person gaps, all fixed
+by adding real beats rather than padding.
+
+The guidance net also flagged M02's "That is a permission and not a
+diagnosis." The net is warn-level by design, on the stated grounds that a
+human reads every hit. Read: the clause was a second stacked aphorism and
+the line is better without it. That is the net working rather than a false
+positive, and it is the first guidance hit in seven batches that improved
+the copy.
+
+### Drift, and the prediction that held
+
+| Metric | B1 | B2 | B3 | B4 | B5 | B6 | B7 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Words per line | 38.6 | 39.0 | 37.9 | 38.9 | 39.9 | 40.8 | 38.5 |
+| Mean sentence length | 7.2 | 9.5 | 9.3 | 9.3 | 7.8 | 8.2 | 8.0 |
+| Fragments | 48% | 35% | 42% | 42% | 39% | 37% | 38% |
+| Lines with a short beat | 68/78 | 78/78 | 84/84 | 48/48 | 48/48 | 66/66 | 66/66 |
+| Library words per entry | 162 | 150 | 145 | 145 | 146 | 148 | 147 |
+
+Batch 6 recorded that its 40.8 was heavy-card cost and predicted a return
+toward the cluster once the valve was no longer in play. Batch 7 came in
+at 38.5 with no clipping pass needed on line length at all. That is the
+first prediction this log has made about its own drift, and it held.
+
+### The self-echo check earns its keep on day one
+
+Batch 7 drafted at **3.1** shared six-word runs per card, worse than batch
+6's uncorrected 2.8, on a metric that had been enforced for exactly one
+batch. Thirty-four overlaps were rewritten on the entry side, then nine
+more, then three, landing at 0.1.
+
+The instructive part is that writing the entry as a long-form restatement
+of the reading lines is not a slip. It is the natural way to write it, and
+it will recur in every future batch, which is why the check has to be a
+tool and not a note. Two of the three passes were needed only because the
+first pass introduced fresh overlaps while removing old ones.
+
+### Budgets, all met
+
+Reversed openers 0. Recorded openers 0. "You have been X-ing" 1.
+Bookkeeping off-budget 0. "The card" as agent, maximum 1 per entry.
+Plate-openers 0 of 22, the first batch with none. Questions: What or Which
+45 percent, Who or Whose 14, Where or When 16, or-shaped 2. Sameness, no
+pair above 0.10. Fuzzer, 0 errors across 500 readings. Bundle 123 KB
+gzipped with all 78 cards written, against the 150 KB budget.
+
+### Two corpus-level findings, both in accepted copy
+
+Running `lint:batch` across all 67 authored cards at once surfaces two
+things worth recording accurately.
+
+**Three budgets appear to breach and do not.** Recorded openers at 3 and
+"You have been X-ing" at 11 are counted against per-batch allowances of 2,
+so the corpus total is meaningless against them. VOICE-SPEC defines both
+budgets per batch, and every batch was inside its own. The tool takes a
+status group and cannot know a group is six batches wide. Noted rather
+than fixed, since the per-batch use is the real one.
+
+**Two reading lines in the whole deck have no sentence of six words or
+fewer.** Both are batch 1, both are accepted copy, and both are 7-word
+near-fragments rather than long sentences: cups-05 slot 2 and cups-06 slot
+2. Batch 1's log recorded ten such misses as accepted, and the revision
+pass closed eight. These are the residue. cups-05 is the deck's heaviest
+grief card and the author edited its question by hand, so its rhythm is
+not something to alter on a linter's say-so. Both are one split away from
+compliant if the author wants them closed.

@@ -11,32 +11,33 @@ happen. The six v2 calibration drafts in `/src/content/drafts/` remain as
 historical drafting records.
 
 All build-phase placeholder copy (2026-07-29) was drafted by Claude and is
-marked for full rewrite — it never ships.
+marked for full rewrite — it never ships. **As of batch 7 no placeholder copy
+remains: all 78 cards carry written text.**
 
 | Card | Name | Drafted by | Authored by (final) | Draft rounds | Status |
 | --- | --- | --- | --- | --- | --- |
-| M00 | The Fool | claude (build placeholder) | — | 1 | placeholder |
-| M01 | The Magician | claude (build placeholder) | — | 1 | placeholder |
-| M02 | The High Priestess | claude (build placeholder) | — | 1 | placeholder |
-| M03 | The Empress | claude (build placeholder) | — | 1 | placeholder |
-| M04 | The Emperor | claude (build placeholder) | — | 1 | placeholder |
-| M05 | The Hierophant | claude (build placeholder) | — | 1 | placeholder |
-| M06 | The Lovers | claude (build placeholder + batch 6 draft + clipping pass) | pending | 2 | drafted |
-| M07 | The Chariot | claude (build placeholder) | — | 1 | placeholder |
-| M08 | Strength | claude (build placeholder + batch 6 draft + clipping pass) | pending | 2 | drafted |
-| M09 | The Hermit | claude (build placeholder + calibration draft ×2/field) | — | 2 | drafted (in /drafts; meanings.json still placeholder) |
-| M10 | The Wheel of Fortune | claude (build placeholder + batch 6 draft + clipping pass) | pending | 2 | drafted |
-| M11 | Justice | claude (build placeholder + batch 6 draft + clipping pass) | pending | 2 | drafted |
-| M12 | The Hanged Man | claude (build placeholder + batch 6 draft + clipping pass) | pending | 2 | drafted |
-| M13 | Death | claude (build placeholder + batch 6 draft + clipping pass) | pending | 2 | drafted |
-| M14 | Temperance | claude (build placeholder + batch 6 draft + clipping pass) | pending | 2 | drafted |
-| M15 | The Devil | claude (build placeholder + batch 6 draft + clipping pass) | pending | 2 | drafted |
-| M16 | The Tower | claude (build placeholder + calibration draft ×2/field), Gate 1 specimens selected and edited by author | author, upright lines are author-selected specimen text | 3 | drafted |
-| M17 | The Star | claude (build placeholder) | — | 1 | placeholder |
-| M18 | The Moon | claude (build placeholder + batch 6 draft + clipping pass) | pending | 2 | drafted |
-| M19 | The Sun | claude (build placeholder) | — | 1 | placeholder |
-| M20 | Judgement | claude (build placeholder + batch 6 draft + clipping pass) | pending | 2 | drafted |
-| M21 | The World | claude (build placeholder) | — | 1 | placeholder |
+| M00 | The Fool | claude (build placeholder + batch 7 draft + echo pass) | pending | 2 | drafted |
+| M01 | The Magician | claude (build placeholder + batch 7 draft + echo pass) | pending | 2 | drafted |
+| M02 | The High Priestess | claude (build placeholder + batch 7 draft + echo pass) | pending | 2 | drafted |
+| M03 | The Empress | claude (build placeholder + batch 7 draft + echo pass) | pending | 2 | drafted |
+| M04 | The Emperor | claude (build placeholder + batch 7 draft + echo pass) | pending | 2 | drafted |
+| M05 | The Hierophant | claude (build placeholder + batch 7 draft + echo pass) | pending | 2 | drafted |
+| M06 | The Lovers | claude (build placeholder + batch 6 draft + clipping pass) | author, accepted 2026-07-29 | 2 | authored |
+| M07 | The Chariot | claude (build placeholder + batch 7 draft + echo pass) | pending | 2 | drafted |
+| M08 | Strength | claude (build placeholder + batch 6 draft + clipping pass) | author, accepted 2026-07-29 | 2 | authored |
+| M09 | The Hermit | claude (build placeholder + calibration draft ×2/field + batch 7 draft + echo pass) | pending | 3 | drafted |
+| M10 | The Wheel of Fortune | claude (build placeholder + batch 6 draft + clipping pass) | author, accepted 2026-07-29 | 2 | authored |
+| M11 | Justice | claude (build placeholder + batch 6 draft + clipping pass) | author, accepted 2026-07-29 | 2 | authored |
+| M12 | The Hanged Man | claude (build placeholder + batch 6 draft + clipping pass) | author, accepted 2026-07-29 | 2 | authored |
+| M13 | Death | claude (build placeholder + batch 6 draft + clipping pass) | author, accepted 2026-07-29 | 2 | authored |
+| M14 | Temperance | claude (build placeholder + batch 6 draft + clipping pass) | author, accepted 2026-07-29 | 2 | authored |
+| M15 | The Devil | claude (build placeholder + batch 6 draft + clipping pass) | author, accepted 2026-07-29 | 2 | authored |
+| M16 | The Tower | claude (build placeholder + calibration draft ×2/field), Gate 1 specimens selected and edited by author | author, accepted 2026-07-29; upright lines are author-selected specimen text | 3 | authored |
+| M17 | The Star | claude (build placeholder + batch 7 draft + echo pass) | pending | 2 | drafted |
+| M18 | The Moon | claude (build placeholder + batch 6 draft + clipping pass) | author, accepted 2026-07-29 | 2 | authored |
+| M19 | The Sun | claude (build placeholder + batch 7 draft + echo pass) | pending | 2 | drafted |
+| M20 | Judgement | claude (build placeholder + batch 6 draft + clipping pass) | author, accepted 2026-07-29 | 2 | authored |
+| M21 | The World | claude (build placeholder + batch 7 draft + echo pass) | pending | 2 | drafted |
 | wands-01 | Ace of Hawthorn | claude (build placeholder + batch 3 draft + budget pass) | author, accepted 2026-07-29 | 2 | authored |
 | wands-02 | Two of Hawthorn | claude (build placeholder + batch 3 draft + budget pass) | author, accepted 2026-07-29 | 2 | authored |
 | wands-03 | Three of Hawthorn | claude (build placeholder + batch 3 draft + budget pass) | author, accepted 2026-07-29 | 2 | authored |
@@ -131,3 +132,9 @@ marked for full rewrite — it never ships.
   1, 2 and 6. Correcting accepted copy is an author decision, so it is
   logged here rather than applied. Any fix would rewrite the library entry
   side only.
+- **2026-07-29, batch 7.** Drafted by Claude, 11 cards, completing the deck.
+  Author accepted batch 6 entire. **The corpus is complete at 78 cards, 468
+  reading lines, 468 questions, 156 library entries and 78 alt texts.** The
+  §5 end-state checks can now run for the first time. Awaiting accept, edit,
+  or recast on batch 7. No card can move to `final` until batch 7 is
+  accepted and those checks are on the record.
