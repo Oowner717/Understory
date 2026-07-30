@@ -1,0 +1,57 @@
+UNDERSTORY — how to run this
+============================
+
+Two ways. Neither needs a network connection after the first load.
+
+
+A. Just open it (no build, no Node)
+-----------------------------------
+The `dist/` folder in this zip is already built. It needs to be served over
+HTTP rather than opened as a file, because it is a PWA with a service worker,
+and it expects to live at the path /Understory/.
+
+  python3 -m http.server 8000 --directory .
+  then open  http://localhost:8000/dist/
+
+If the page loads blank, the base path is the reason. Rebuild with the base
+set to root:
+
+  UNDERSTORY_BASE=/ npm run build
+
+
+B. Run the source
+-----------------
+  npm install
+  npm run dev        # dev server, opens at /Understory/
+  npm run build      # tsc -b (strict) + Vite + PWA precache into dist/
+  npm run preview    # serve dist/ locally (restart after each rebuild)
+
+Node 22 or newer. The only runtime dependencies are React and idb-keyval.
+
+
+The editorial toolchain
+-----------------------
+  npm run lint:voice        # every string against VOICE.md / VOICE-SPEC.md
+  npm run lint:sameness     # cross-deck repetition (trigram overlap)
+  npm run lint:batch        # cross-deck budgets; add --spread for spread lines
+  npm run fuzz:readings     # composes 500 real spreads and lints each one
+
+All four should report zero errors. `#/writing` is a dev-only dashboard.
+
+
+Where things are
+----------------
+  src/content/meanings.json   the corpus: 78 cards, 468 reading lines,
+                              468 questions, 156 library entries,
+                              234 spread lines, 78 alt texts
+  src/content/cards.json      card ids, dual names, keywords
+  src/design/plate.tsx        the generated specimen-plate system
+  public/deck/                drop real art here; manifest.json lists ids
+  VOICE.md, VOICE-SPEC.md     the voice rules, binding for every string
+  CONCEITS.md                 one approved idea per card
+  WRITING-LOG.md              per-batch gauntlet reports and drift stats
+  PROVENANCE.md               per-card authorship ledger
+  DECISIONS.md                one line per non-obvious choice
+
+Data is local-only: three idb-keyval keys, no accounts, no telemetry, zero
+network requests after first load. Settings has a text export and a wipe.
