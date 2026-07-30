@@ -202,6 +202,13 @@ if (withSpread.length > 0 && process.argv.includes('--spread')) {
   )
   add('spread: at most one position per card opens on "You"', youOpeners.length === 0, `${youOpeners.length} card(s)`)
 
+  /* Opener cap is proportional, not a flat number. The first version said "2 or
+   * fewer", which was written thinking per tranche and then measured across
+   * every card that has spread lines, which is the scope that matters since a
+   * reader draws from all 78. Five percent of the group keeps the same teeth at
+   * any size: 2 of 40, 4 of 78. A flat 2 across 78 would demand 39 distinct
+   * opening words per position and start costing good lines. */
+  const openerCap = Math.max(2, Math.round(withSpread.length * 0.05))
   for (const pos of ['situation', 'knot', 'direction'] as const) {
     const first = new Map<string, number>()
     for (const m of withSpread) {
@@ -209,7 +216,7 @@ if (withSpread.length > 0 && process.argv.includes('--spread')) {
       first.set(w, (first.get(w) ?? 0) + 1)
     }
     const worst = [...first.entries()].sort((a, b) => b[1] - a[1])[0]
-    add(`spread: ${pos} opener repeats, 2 or fewer`, (worst?.[1] ?? 0) <= 2, `${worst?.[0]} x${worst?.[1]}`)
+    add(`spread: ${pos} opener repeats, ${openerCap} or fewer`, (worst?.[1] ?? 0) <= openerCap, `${worst?.[0]} x${worst?.[1]}`)
   }
 
   /* The self-echo rule extends to the new field. A spread line is the conceit

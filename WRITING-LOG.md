@@ -964,3 +964,43 @@ punctuation. It dies with the templates.
 | Bundle | 126 KB gzipped, projecting near 133 KB at 234 lines |
 
 Remaining: three tranches. S2 and S3 of 20 cards, S4 of 18.
+
+## Spread tranche S2 — the aces and the courts (60 lines)
+
+The four aces and all sixteen courts, chosen because Situation is hardest on
+them. A Situation line has to name a condition without the verdict the Knot
+has not delivered yet, and on an ace there is barely any condition to name
+while on a court the condition is a person.
+
+S1's lessons were applied in the drafting rather than discovered afterwards.
+No shared stems, deliberately varied openers, and nothing lifted from the
+card's own copy. First pass came in at 0 errors, three opener budgets over,
+and 16 echoes, against S1's six-of-six failure. The remaining work was
+mechanical rather than a rewrite.
+
+### The opener cap was the wrong shape
+
+S1's budget said "no position may open with the same word more than twice",
+written thinking per tranche. Run across every card that has spread lines,
+which is the scope that matters because a reader draws from all 78, it
+reported "Something x4" as a breach when that was two from each tranche.
+
+Flat 2 across 78 cards would demand 39 distinct opening words per position and
+would start costing good lines. The cap is now **five percent of the group**,
+which is 2 at 40 cards and 4 at 78, so it keeps the same teeth at any size.
+That is the third rule in this phase corrected within a day of writing it, and
+all three were mine.
+
+### State
+
+| | |
+| --- | --- |
+| Spread lines written | 120 of 234 |
+| Mean words per line | 19.4 |
+| voice-lint | 0 errors, 0 warnings across all 78 cards |
+| Spread budgets | 7 of 7 met |
+| Bundle | 128 KB gzipped, projecting near 134 KB at 234 lines |
+
+Remaining: S3 of 20 cards and S4 of 18. S3 is the remaining Majors, where
+Direction has to point without prescribing on cards that are forces rather
+than situations. S4 is the remaining pips.
