@@ -1004,3 +1004,45 @@ all three were mine.
 Remaining: S3 of 20 cards and S4 of 18. S3 is the remaining Majors, where
 Direction has to point without prescribing on cards that are forces rather
 than situations. S4 is the remaining pips.
+
+## Spread tranche S3 — the remaining Majors (36 lines)
+
+M00, M03, M04, M05, M07, M09, M10, M11, M17, M19, M20, M21. Twelve cards, not
+the twenty forecast at the end of S2, which was my arithmetic error: ten
+Majors went in with S1 as heavy or action-conceit cards, so only twelve
+remained. That leaves 26 pips for S4 rather than 18.
+
+Hardest Direction problem so far. These cards are forces rather than
+situations, so there is frequently no tendency belonging to the reader to
+point at. M10 is the extreme case: a run of luck ending has no direction in it
+at all, and the honest line says so. "Chambers get added along a single curve.
+The shell is indifferent to where in the sequence anyone happens to be."
+
+### Echo density tracks recency, not difficulty
+
+First pass produced **21 echoes across 12 cards**, nearly two per card,
+against S2's 16 across 20 and S1's 22 across 20. Worst rate of the three
+tranches, on the easiest-to-compress cards.
+
+The reason is not difficulty. These are the Majors whose reading lines were
+written most recently, in batches 6 and 7, so their phrasing was freshest and
+compressing a conceit whose prose you wrote an hour ago pulls that prose's
+words. Every one was rewritten on the spread side, took three passes because
+each pass introduced new overlaps while clearing old ones, and finished at 0.
+
+Worth stating as a working rule: **echo risk rises with how recently the
+source prose was written**, which means the last tranche is the most exposed,
+not the least.
+
+### State
+
+| | |
+| --- | --- |
+| Spread lines written | 156 of 234 |
+| Mean words per line | 19.3 |
+| voice-lint | 0 errors, 0 warnings across all 78 cards |
+| Spread budgets | 7 of 7 met |
+| Bundle | 129 KB gzipped, projecting near 136 KB at 234 lines |
+
+Remaining: S4, the 26 pips not covered by S1 or S2. Twos through nines across
+four suits, minus the ten that went in with S1.
