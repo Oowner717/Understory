@@ -11,7 +11,7 @@ longer matches the working tree is **stale** and gets re-issued, not applied.
 
 | Order file | Build reviewed | Items | Applied | Deviated | Blocked | Regression | Date |
 |---|---|---|---|---|---|---|---|
-| _none received_ | — | — | — | — | — | — | — |
+| INTEG-pass-01-full.md | acae2c4 | 14 | 0 | 0 | 14 (not received) | n/a | 2026-07-30 |
 
 ## Blocked items
 
@@ -20,7 +20,7 @@ into a backlog.
 
 | Item id | Order file | Why blocked | Returned to | Date |
 |---|---|---|---|---|
-| _none_ | — | — | — | — |
+| all 14 | INTEG-pass-01-full.md | Order file not received — only the chat PASS TALLY was provided. Cannot apply items or report per item id without it. Also stale by protocol definition: written against acae2c4, tree is at c7a1b14. | Integrity | 2026-07-30 |
 
 ## Owner decisions outstanding (bucket 4 — never implemented here)
 
@@ -28,6 +28,7 @@ into a backlog.
 |---|---|---|---|
 | Third reversed variant | Work order §4 specifies 2 reversed lines and 2 reversed questions per card; 3 and 3 are built and accepted. Keep the extra 78+78, or cut to spec. | Builder, on reading the final work order | 2026-07-30 |
 | Question word bounds | Work order §4 says questions run ~10–20 words; VOICE-SPEC.md sets a 12-word hard maximum and the 468 built average 6.0. One document has to win before the Editor's first Tier 3 pass. | Builder | 2026-07-30 |
+| Variant-rotation conflict | Raised by Integrity, described in its carry-forward as "awaits author decision". Detail is in the unreceived order file. Not implemented, no option chosen. | Integrity, pass 01 | 2026-07-30 |
 | AI-text disclosure in the store listing | Work order §12 requires asking once. Owner answered: prefer not to disclose, accept it if required. Recorded in `src/content/store-listing.md`. | Builder, batch 1 | 2026-07-29 |
 
 ## Regression check history
@@ -86,3 +87,51 @@ manifest on mount, and my first check of the precache list said it was not
 precached. That was a bad regex, not a bad build: `deck/manifest.json` is in
 `sw.js`'s precache manifest, so the fetch is cache-served after first load.
 
+## Pass 01 — received as a tally only, 2026-07-30
+
+Integrity's chat tally arrived; `INTEG-pass-01-full.md` did not. Fourteen items
+are therefore blocked on receipt, not on difficulty. What is established so far:
+
+**The order is stale.** Written against `acae2c4`; tree is at `c7a1b14`. One
+commit separates them, and it is the pre-order regression fix required by the
+protocol's global check. That is a genuine loop in the protocol worth naming:
+"run the six checks before opening the next order" plus "any failure stops the
+pipeline until it's fixed" means a failing check moves the build and invalidates
+the order about to be opened. Resolution is a re-issue against `c7a1b14`, not a
+change to either rule.
+
+**The headline data-loss finding appears already closed.** The tally's worst
+case reads "continuous typing never triggers the debounce and
+kill/background/route-change all discard the pending save". Those are, mechanism
+for mechanism, the three defects fixed in `c7a1b14`: no flush on teardown, a
+900ms window nothing could survive, and a pure debounce that never wrote during
+continuous typing. Which of the seven data-loss items that maps to cannot be
+determined without the file.
+
+**Not addressed by anything so far: Safari 7-day eviction.** No
+`navigator.storage.persist()` call exists and there is no install guidance. This
+is the most severe item in the tally by blast radius — it loses the entire
+journal rather than a debounce window — and it is untouched.
+
+**The claimed verification scripts are not in this repo.** The carry-forward
+states `verify:deck` and `verify:engine` are "committed and wired as npm
+scripts" with `deck-baseline.json` committed for regression. None of
+`tools/verify-deck.ts`, `tools/verify-engine.ts`, `tools/deck-baseline.json`
+exist here, and `package.json` has no such scripts. Global regression check 1
+remains unrunnable and the deck and engine results cannot be reproduced.
+
+**Two findings verified independently, before the order arrives.**
+
+- `INT-W1`, the threads window. Confirmed. `WINDOW_DAYS = 30`, `cutoff = today
+  − 30`, filter `isoDate >= cutoffStr && isoDate <= today` — inclusive at both
+  ends, so 31 distinct days are admitted. Two valid fixes: `cutoff = today −
+  (WINDOW_DAYS − 1)`, or filter with `> cutoffStr`. Held for the order, which
+  gets to say which.
+- The 9 near-duplicate question pairs. An independent count at Jaccard ≥ 0.6
+  over all 468 questions also returns exactly **9 pairs**, which corroborates
+  the method. The composition differs: my pairs implicate `M06`, `swords-10`
+  and `pentacles-page`, which the tally does not name, while the tally names
+  `M02`, `M13`, `M15`, `M21` and `wands-03`, which my threshold does not catch.
+  Three pairs sit at Jaccard 1.0 and are the clearest: "What are you waiting
+  for?" (M19), "Who are you waiting for?" (M08) and "Who is waiting for it?"
+  (swords-01). The Editor needs the pair list, not the card list.
