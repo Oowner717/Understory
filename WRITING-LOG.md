@@ -694,3 +694,123 @@ drafting.
 Final state, whole corpus: voice-lint 0 errors and 0 warnings across all 78
 cards, `lint:batch` clean on both status groups, sameness under threshold,
 fuzzer clean across 500 readings, bundle 123 KB gzipped.
+
+## §5 end-state checks — run for the first time, 2026-07-29
+
+All 78 cards exist, so the work order's three end-state checks can finally
+run. Artifacts are committed: `drafts/GATE5-blind-rerank.txt` and
+`drafts/DECK-READTHROUGH.txt`.
+
+### Check 1 — blind re-rank
+
+Ten reading lines from batch 1 mixed with ten from batch 6, unlabelled,
+ranked before the key was read. Result, best first:
+
+`11 15 13 4 1 8 16 10 6 17 19 9 12 18 3 2 5 14 20 7`
+
+Mean rank, batch 1: **10.2**. Batch 6: **10.8**. On a twenty-item scale
+that is indistinguishable, which is the result the check exists to find.
+Six batches and five months of drafting did not degrade or improve the
+line quality measurably.
+
+Three things the reveal showed that the ranking alone did not.
+
+**The top two are both author-selected specimen text.** Rank 1 is cups-04,
+the Gate 1 four-of-cups specimen. Rank 2 is M16, the Voice G lines. The
+calibration material still outranks everything drafted against it, which is
+either a compliment to the selection or a ceiling on the corpus, and it is
+worth the author knowing.
+
+**The bottom two are low by design.** Rank 19 is cups-05, the deck's
+heaviest grief card, and rank 20 is M14, whose conceit is that the method
+is boring. Both are flat because the voice requires them to be. A ranking
+metric run without that caveat would push exactly the two cards that must
+not sparkle.
+
+**This was not a genuinely blind test.** I wrote both sets and recognised
+several on sight, the specimens especially. A real blind re-rank needs a
+reader who did not write the lines. The result is worth something as a
+consistency check and very little as a quality judgement, and the honest
+version of the finding is "no detectable drift", not "the corpus is good".
+
+### Check 2 — full-deck read-through
+
+All 78 slot-0 lines read in deck order as one continuous document.
+
+**Structural drift, opening moves.** Measured across all 234 upright lines
+against the VOICE.md §7 targets:
+
+| Move | Target | Actual |
+| --- | --- | --- |
+| Image | ~40% | 40% |
+| Observation | ~25% | 26% |
+| Contrast | ~20% | 12% |
+| Address | ~15% | 22% |
+
+Image and observation are on target. Contrast is eight points under and
+address eight points over, so the deck leans on second-person opening more
+than the spec intends and on the turn less. That is a real finding and a
+modest one.
+
+It is also the eighth time a checker here has been cruder than the prose.
+A first classifier read only the first sentence and reported contrast at
+**3%**, because in this voice a contrast opening usually lands across two
+sentences: "Sending it changes two lives. Not sending it changes one." The
+corrected classifier reads the first two. The 3% figure would have sent me
+rewriting 40 cards to fix a measurement error.
+
+**Six cards use one opening move in all three slots**: wands-04, wands-05,
+cups-02, cups-06, pentacles-01, pentacles-06. All batch 1 and 3. The spec
+asks for three angles, not three fixed costumes, and on those six the
+angles share a costume.
+
+**No duplicate closing sentences** across the 78 slot-0 lines.
+
+**One duplicate question in 468.** "Where did you stop?" appeared on both
+swords-queen and M01. M01's is now "When did ready become stopped?"
+
+**Question openers across all 468:** What 189, Who 65, Which 54, Where 45,
+When 29, How 28, Whose 21, What's 5, plus two or-shaped. What or Which is
+53 percent against the 70 percent ceiling.
+
+### Check 3 — fifteen-line random spot-check
+
+Fifteen lines drawn at random from the 468 and read closely. It found the
+defect class that per-card review structurally cannot see.
+
+**Questions referencing something absent from their own reading line.** The
+composer pairs `readingLines[i]` with `questions[i]`. cups-01 slot 2 asked
+"Where did it come from, if not the advert?" and the advert appears only in
+slot 0, so a reader holding slot 2 is asked about a prop they were never
+shown. Reviewing the card, you have all three slots in front of you and the
+reference resolves, which is exactly why seven batches of review missed it.
+
+Five are real on a careful read:
+
+| Card | Question | Orphan |
+| --- | --- | --- |
+| cups-01 u2 | Where did it come from, if not the advert? | advert is in slot 0 only |
+| cups-03 r1 | Who used to hold the thread? | no thread in the line |
+| pentacles-03 u1 | Who has seen the work lately? | the nod, not the work, is slot 1's subject |
+| pentacles-09 u1 | Who taught you the Saturdays? | no Saturdays in the line |
+| M05 r1 | Who set the four o'clock? | four o'clock is in slot 0 |
+
+**M05 is batch 7 and unaccepted, so it is fixed**, now "Who would know
+why?". The other four are accepted copy, and questions are the part of this
+corpus the author has edited by hand most often, so they are left alone and
+listed here for a decision. Each is a one-line change.
+
+The check is now in `lint:batch` as a printed observation rather than a
+gate, because at usable precision it flags 36 of 468 and only 5 survive
+reading. "The delay" for a late train, "the point" for an argument's
+substance, "the moment you said it" as an adverbial. A gate with an 86
+percent false-positive rate teaches people to ignore the tool.
+
+### Status after the checks
+
+The checks are on the record and the corpus is clean, but **nothing moves
+to `final` yet**. Batch 7 is `drafted` and awaiting accept, and the ship
+gate holds while any card is `placeholder` or `drafted`. On accept, the
+remaining decisions are the four orphaned questions above, the two
+short-beat misses on cups-05 and cups-06, and the six single-costume cards.
+None of those blocks a playtest.

@@ -190,6 +190,43 @@ if (echoWorst.length) {
   for (const t of echoWorst) console.log(`    ${t}`)
 }
 
+/* Orphaned definite reference — soft observation, printed and not enforced.
+ *
+ * The composer pairs readingLines[i] with questions[i], so a question saying
+ * "the advert" when the advert appears only in slot 0 asks the reader about a
+ * prop they were never shown. Per-card review cannot see this, because
+ * reviewing a card you have all three slots in front of you and the reference
+ * resolves. The full-deck read-through in batch 7 found five.
+ *
+ * Deliberately soft. A first version of this check flagged 49 of 468
+ * questions and the great majority were synonyms and morphology, "delay" for
+ * a late train, "bolt" for a bolted door, "sincerity" for sincere. Stem
+ * matching cuts most of that and will not cut all of it, so the output is for
+ * a human to read rather than a gate to fail. That is the eighth time a
+ * checker here has been cruder than the prose it judges.
+ */
+const stem = (w: string) => w.slice(0, 4)
+const QSTOP = new Set('the a an and or is are was were be to in on at it its this that you your what which who whose where when how did do does have has had not no for with from any some there they them then than so as by'.split(' '))
+const orphans: string[] = []
+for (const m of batch as any[]) {
+  const pairs: [string, string, string][] = [
+    ...m.readingLines.map((l: string, i: number) => [l, m.questions[i], `u${i}`] as [string, string, string]),
+    ...m.reversed.readingLines.map((l: string, i: number) => [l, m.reversed.questions[i], `r${i}`] as [string, string, string]),
+  ]
+  for (const [line, q, slot] of pairs) {
+    const stems = new Set(words(line).map(stem))
+    for (const match of q.toLowerCase().matchAll(/\bthe ([a-z']+)\b/g)) {
+      const w = match[1]!
+      if (QSTOP.has(w) || w.length < 4) continue
+      if (!stems.has(stem(w))) orphans.push(`${m.cardId} ${slot}  "the ${w}"  ${q}`)
+    }
+  }
+}
+if (orphans.length) {
+  console.log(`\n  definite references with no anchor in their own line (read these, ${orphans.length}):`)
+  for (const o of orphans) console.log(`    ${o}`)
+}
+
 const failed = checks.filter((c) => !c.ok && c.hard)
 console.log(`\nbatch-budget: ${failed.length} budget(s) breached`)
 process.exit(failed.length > 0 ? 1 : 0)
